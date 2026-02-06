@@ -1,6 +1,8 @@
-# KiCad_Master Joca i Miodrag
-Prototip organizacije
+# MOOG_PRODIGY_PROJECT
 
+## 📁 Prototip organizacije
+
+```text
 MOOG_PRODIGY_PROJECT/
 │
 ├── schematics/
@@ -28,7 +30,7 @@ MOOG_PRODIGY_PROJECT/
 │   ├── footprints/
 │   └── 3d_models/
 │
-├── bom/  (build of materials - spisak ukljucenih komponenti)
+├── bom/   (Bill of Materials – spisak uključenih komponenti)
 │   ├── bom.csv
 │   └── bom.xlsx
 │
@@ -42,29 +44,32 @@ MOOG_PRODIGY_PROJECT/
 │   ├── spice/
 │   └── signal_integrity/
 │
-├──────────────────────────────────────────────────────────────────
-│
+└── README.md
+```
+
+---
+
+## 📐 PCB Design Rules (EU Baseline)
+
+```text
 PCB Design Rules
 │
 ├── Track Width
 │   ├── Signal (Single-Width)
-│   │   └── 0.20 mm   (default, EU safe)
+│   │   └── 0.20 mm (default, EU safe)
 │   │
 │   └── Power (Power-Width)
-│       ├── 0.50 mm   (≤ 1 A)
-│       ├── 1.00 mm   (2–3 A, 1 oz Cu)
+│       ├── 0.50 mm (≤ 1 A)
+│       ├── 1.00 mm (2–3 A, 1 oz Cu)
 │       └── Polygon Pour (high current)
 │
 ├── Clearance
 │   ├── Signal ↔ Signal
 │   │   └── 0.20 mm
-│   │
 │   ├── Signal ↔ Power
 │   │   └── 0.20 mm
-│   │
 │   ├── Power ↔ Power
 │   │   └── 0.20 mm
-│   │
 │   └── High Voltage
 │       ├── 230 VAC → ≥ 3.0 mm
 │       └── 400 VDC → 4–6 mm (creepage)
@@ -72,33 +77,28 @@ PCB Design Rules
 ├── Vias
 │   ├── Via Drill
 │   │   └── 0.30 mm
-│   │
 │   ├── Via Diameter
 │   │   └── 0.60 mm
-│   │
 │   └── Annular Ring
 │       └── 0.15 mm
 │
 ├── Pads (THT)
 │   ├── Rule
 │   │   └── Pad = Drill + 0.6 mm
-│   │
 │   └── Example
 │       └── 0.8 mm drill → 1.4 mm pad
 │
 ├── Copper
 │   ├── Standard
 │   │   └── 1 oz (35 µm)
-│   │
 │   └── Power Boards
 │       └── 2 oz (70 µm)
 │
 └── Solder Mask & Silk
     ├── Mask Expansion
     │   └── 0.05 – 0.10 mm
-    │
     ├── Min Silk Width
     │   └── 0.15 mm
-    │
     └── Min Text Height
         └── 1.0 mm
+```
