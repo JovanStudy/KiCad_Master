@@ -397,7 +397,7 @@
 			)
 		)
 		(symbol "Vcc_reference_1_1"
-			(pin power_in line
+			(pin power_out line
 				(at 0 -1.27 90)
 				(length 2.54)
 				(name ""

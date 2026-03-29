@@ -311,7 +311,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Vcc_reference"
+	(symbol "Vcc_novi"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -358,7 +358,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Vcc_reference_0_1"
+		(symbol "Vcc_novi_0_1"
 			(polyline
 				(pts
 					(xy -0.762 1.27) (xy 0 2.54)
@@ -396,8 +396,8 @@
 				)
 			)
 		)
-		(symbol "Vcc_reference_1_1"
-			(pin power_in line
+		(symbol "Vcc_novi_1_1"
+			(pin power_out line
 				(at 0 -1.27 90)
 				(length 2.54)
 				(name ""
