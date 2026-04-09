@@ -241,7 +241,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Amplifier_Operational:ADA4099-2xRM"
+		(symbol "Amplifier_Operational:OPA134"
 			(pin_names
 				(offset 0.127)
 			)
@@ -249,7 +249,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 2.54 6.35 0)
+				(at 1.27 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -257,8 +257,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "ADA4099-2xRM"
-				(at 2.54 3.81 0)
+			(property "Value" "OPA134"
+				(at 1.27 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -266,8 +266,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-				(at 2.54 0 0)
+			(property "Footprint" ""
+				(at 1.27 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -275,8 +275,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4099-1_ada4099-2.pdf"
-				(at 6.35 3.81 0)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa134.pdf"
+				(at 1.27 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -284,7 +284,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "3.15..50V supply, 8MHz GBW, Rail-to-Rail input/output, over-the-top dual opamp, MSOP-8"
+			(property "Description" "Single SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -293,15 +293,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "operational amplifier analog-devices high-voltage rrio"
+			(property "ki_keywords" "single opamp"
 				(at 0 0 0)
 				(effects
 					(font
@@ -310,7 +302,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "MSOP*3x3mm*P0.65mm*"
+			(property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9mm*P1.27mm* TO*99*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -319,10 +311,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "ADA4099-2xRM_1_1"
+			(symbol "OPA134_0_1"
 				(polyline
 					(pts
-						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -332,6 +324,8 @@
 						(type background)
 					)
 				)
+			)
+			(symbol "OPA134_1_1"
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -368,17 +362,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -386,24 +380,29 @@
 						)
 					)
 				)
-			)
-			(symbol "ADA4099-2xRM_2_1"
-				(polyline
-					(pts
-						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin no_connect line
+					(at 0 2.54 270)
 					(length 2.54)
-					(name "+"
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -419,16 +418,34 @@
 					)
 				)
 				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "VOS"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+				)
+				(pin input line
+					(at 2.54 -7.62 90)
+					(length 6.35)
+					(name "VOS"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -446,7 +463,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -455,39 +472,711 @@
 					)
 				)
 			)
-			(symbol "ADA4099-2xRM_3_1"
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 3.81)
-					(name "V+"
+			(embedded_fonts no)
+		)
+		(symbol "CA3046:CA3046"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at -67.437 -27.813 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Value" "CA3046"
+				(at -66.802 -31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "CA3046:DIL14"
+				(at 74.93 69.342 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 56.769 40.386 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "IC TRANSISTOR ARRAY 14-DIP"
+				(at 40.386 62.103 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "STMicroelectronics"
+				(at 84.201 54.356 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 47.117 -36.957 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 23.876 -30.988 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CA3046/STMicroelectronics/view-part/?ref=snap"
+				(at 80.645 57.658 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "CA3046"
+				(at -18.161 45.466 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at -18.161 45.466 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/CA3046/STMicroelectronics/view-part/?ref=eda"
+				(at 94.234 75.946 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "CA3046_0_0"
+				(pin bidirectional line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "8"
+					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 3.81)
-					(name "V-"
+			)
+			(symbol "CA3046_0_1"
+				(polyline
+					(pts
+						(xy -7.62 5.08) (xy -5.461 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.461 6.985) (xy -5.461 3.175) (xy -5.461 3.175)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.461 5.715) (xy -3.81 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.461 4.445) (xy -3.556 2.54) (xy -3.556 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.572 3.048) (xy -4.064 3.556) (xy -3.556 2.54) (xy -4.572 3.048) (xy -4.572 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy -3.81 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -68.58) (xy -0.381 -68.58)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -66.675) (xy -0.381 -70.485) (xy -0.381 -70.485)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -67.945) (xy 1.27 -66.04)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -69.596) (xy 1.27 -71.12) (xy 1.27 -71.12)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -70.612) (xy 0.762 -70.104) (xy 1.27 -71.12) (xy 0.254 -70.612) (xy 0.254 -70.612)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 3.81 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 3.048) (xy 4.064 3.556) (xy 3.556 2.54) (xy 4.572 3.048) (xy 4.572 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.461 6.985) (xy 5.461 3.175) (xy 5.461 3.175)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.461 5.715) (xy 3.81 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.461 4.445) (xy 3.556 2.54) (xy 3.556 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 5.461 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.86 -45.72) (xy 25.019 -45.72)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 25.019 -43.815) (xy 25.019 -47.625) (xy 25.019 -47.625)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 25.019 -45.085) (xy 26.67 -43.18)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 25.146 -46.736) (xy 26.67 -48.26) (xy 26.67 -48.26)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 25.654 -47.752) (xy 26.162 -47.244) (xy 26.67 -48.26) (xy 25.654 -47.752) (xy 25.654 -47.752)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 52.07 -67.31) (xy 54.229 -67.31)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 54.229 -65.405) (xy 54.229 -69.215) (xy 54.229 -69.215)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 54.229 -66.675) (xy 55.88 -64.77)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 54.356 -68.326) (xy 55.88 -69.85) (xy 55.88 -69.85)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 54.864 -69.342) (xy 55.372 -68.834) (xy 55.88 -69.85) (xy 54.864 -69.342) (xy 54.864 -69.342)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "CA3046_1_0"
+				(pin bidirectional line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 10.16 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 -68.58 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 1.27 -63.5 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 1.27 -73.66 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 3.81 10.16 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 21.59 -45.72 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 -40.64 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 -50.8 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 50.8 -67.31 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 55.88 -62.23 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 55.88 -72.39 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -3001,7 +3690,7 @@
 		(uuid "0029509f-ce35-4107-9616-047e3bbe9f81")
 	)
 	(junction
-		(at 69.85 162.56)
+		(at 87.63 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04c02e13-20cb-4bb0-b495-f710dc47b7a5")
@@ -3017,12 +3706,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ec826b3-59cc-4844-a321-974f06ffada9")
-	)
-	(junction
-		(at 43.18 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1349e28e-1866-4d1e-a0dd-aed555cb59a3")
 	)
 	(junction
 		(at 241.3 91.44)
@@ -3055,6 +3738,12 @@
 		(uuid "45ef1538-8a8f-472d-9c03-f35a5bdb39e1")
 	)
 	(junction
+		(at 43.18 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "505525ca-d2bd-4008-b46e-9847c5b2bd40")
+	)
+	(junction
 		(at 209.55 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3067,13 +3756,19 @@
 		(uuid "5415b3fa-8d76-4440-b57c-0bbece3d731e")
 	)
 	(junction
+		(at 68.58 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b71e140-42d1-4748-a703-1ff8dfa47940")
+	)
+	(junction
 		(at 260.35 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d9d2be9-307a-4208-8f63-a938f925ec4b")
 	)
 	(junction
-		(at 39.37 135.89)
+		(at 55.88 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f006aea-55ef-4ead-bb48-ba847e2cf946")
@@ -3103,12 +3798,6 @@
 		(uuid "69d6d32b-8869-4661-8be1-e40be288e134")
 	)
 	(junction
-		(at 50.8 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f57be33-8bed-441c-a38d-2fd88abfb190")
-	)
-	(junction
 		(at 220.98 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3131,12 +3820,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d288f41-3f64-4507-9ac6-e5863ade36be")
-	)
-	(junction
-		(at 54.61 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "869ade42-d0a4-4c29-85f9-c7a96e8e4735")
 	)
 	(junction
 		(at 82.55 64.77)
@@ -3163,7 +3846,7 @@
 		(uuid "944394bf-68cf-4216-876a-c4242327c3c9")
 	)
 	(junction
-		(at 82.55 162.56)
+		(at 100.33 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95926e10-d52b-4f6c-ba9f-7a8c8d64ad4a")
@@ -3211,7 +3894,7 @@
 		(uuid "b37d3b0d-11a3-40cb-a927-47626889b531")
 	)
 	(junction
-		(at 63.5 130.81)
+		(at 81.28 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b52a7be3-1842-42ea-a870-89ebefc5da13")
@@ -3259,7 +3942,7 @@
 		(uuid "d73b1943-ddd4-41f3-acd3-5409d5041b7e")
 	)
 	(junction
-		(at 82.55 172.72)
+		(at 100.33 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df3b6377-4304-4876-8ae2-0c0355ea113f")
@@ -3301,6 +3984,10 @@
 		(uuid "ff907552-e020-4790-b15a-27541f07243c")
 	)
 	(no_connect
+		(at 81.28 168.91)
+		(uuid "02b04ebf-8bf2-4060-a1cf-7b0e5d88623c")
+	)
+	(no_connect
 		(at 269.24 162.56)
 		(uuid "040b48e7-f1ce-4bab-8db3-468040c1cf23")
 	)
@@ -3309,19 +3996,27 @@
 		(uuid "0f0ff20c-7ebb-49f6-9f97-2e0d09c6cf1c")
 	)
 	(no_connect
+		(at 96.52 85.09)
+		(uuid "10780467-93ab-41c9-a4f4-a414dcc8e4b6")
+	)
+	(no_connect
 		(at 269.24 149.86)
 		(uuid "191841ef-bccd-4cc9-8396-bd8f1c00448e")
+	)
+	(no_connect
+		(at 93.98 85.09)
+		(uuid "38ecf68c-2fa3-4f6f-b2bb-0f9d5d8226c3")
 	)
 	(no_connect
 		(at 269.24 142.24)
 		(uuid "4779d3a6-2b49-4685-b320-3b38d7c24a44")
 	)
 	(no_connect
-		(at 63.5 118.11)
+		(at 81.28 116.84)
 		(uuid "655f3aa0-e2dc-4088-b8c1-ba28570769ed")
 	)
 	(no_connect
-		(at 38.1 140.97)
+		(at 55.88 139.7)
 		(uuid "745987ba-20bc-4924-8021-41418a3cb455")
 	)
 	(no_connect
@@ -3333,12 +4028,16 @@
 		(uuid "95b5e541-d9e6-4c9a-aeee-caa4b3f0ae3a")
 	)
 	(no_connect
-		(at 55.88 123.19)
+		(at 76.2 121.92)
 		(uuid "aa939644-c08d-4ef7-bbb1-5bcc9552126c")
 	)
 	(no_connect
 		(at 72.39 36.83)
 		(uuid "b28a7256-a465-4eb4-81e5-b60c36be528b")
+	)
+	(no_connect
+		(at 78.74 168.91)
+		(uuid "ceeb679a-2400-4362-ad83-7533293c60f5")
 	)
 	(no_connect
 		(at 233.68 152.4)
@@ -3360,7 +4059,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 162.56) (xy 72.39 162.56)
+			(xy 87.63 161.29) (xy 90.17 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3410,13 +4109,23 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 172.72) (xy 82.55 172.72)
+			(xy 110.49 171.45) (xy 100.33 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "089248a9-88cc-4e07-93bc-65936dd81ad2")
+	)
+	(wire
+		(pts
+			(xy 64.77 71.12) (xy 68.58 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08f13e77-20fd-4559-ab20-43665ae0ff10")
 	)
 	(wire
 		(pts
@@ -3460,7 +4169,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 171.45) (xy 82.55 172.72)
+			(xy 100.33 170.18) (xy 100.33 171.45)
 		)
 		(stroke
 			(width 0)
@@ -3470,7 +4179,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 172.72) (xy 50.8 172.72)
+			(xy 66.04 179.07) (xy 68.58 179.07)
 		)
 		(stroke
 			(width 0)
@@ -3560,7 +4269,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 162.56) (xy 82.55 163.83)
+			(xy 100.33 161.29) (xy 100.33 162.56)
 		)
 		(stroke
 			(width 0)
@@ -3630,23 +4339,13 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 144.78) (xy 85.09 144.78)
+			(xy 104.14 143.51) (xy 105.41 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "22b55223-4ae9-4981-b909-86251652d382")
-	)
-	(wire
-		(pts
-			(xy 50.8 165.1) (xy 50.8 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22bfd1a7-f747-4f11-a871-a085d56823f0")
 	)
 	(wire
 		(pts
@@ -3740,7 +4439,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 133.35) (xy 39.37 135.89)
+			(xy 55.88 132.08) (xy 55.88 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3760,7 +4459,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 128.27) (xy 63.5 130.81)
+			(xy 81.28 127) (xy 81.28 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3777,16 +4476,6 @@
 			(type default)
 		)
 		(uuid "2ef00b97-a1f2-4121-afdb-b155afdb2b67")
-	)
-	(wire
-		(pts
-			(xy 58.42 66.04) (xy 58.42 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f1242f8-261e-41e9-8857-40d405b84e00")
 	)
 	(wire
 		(pts
@@ -3850,7 +4539,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 144.78) (xy 83.82 147.32)
+			(xy 104.14 143.51) (xy 104.14 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3940,7 +4629,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 130.81) (xy 63.5 133.35)
+			(xy 81.28 129.54) (xy 81.28 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3950,7 +4639,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 172.72) (xy 69.85 172.72)
+			(xy 82.55 179.07) (xy 87.63 179.07)
 		)
 		(stroke
 			(width 0)
@@ -4027,16 +4716,6 @@
 			(type default)
 		)
 		(uuid "42a2c9b0-f37f-434c-bcf4-75c60acfae81")
-	)
-	(wire
-		(pts
-			(xy 54.61 78.74) (xy 58.42 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4447d966-70f8-4863-823e-96f6dbed237a")
 	)
 	(wire
 		(pts
@@ -4150,7 +4829,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 160.02) (xy 50.8 135.89)
+			(xy 68.58 158.75) (xy 68.58 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4180,7 +4859,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 162.56) (xy 82.55 162.56)
+			(xy 97.79 161.29) (xy 100.33 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4260,7 +4939,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 172.72) (xy 57.15 172.72)
+			(xy 68.58 179.07) (xy 74.93 179.07)
 		)
 		(stroke
 			(width 0)
@@ -4307,6 +4986,16 @@
 			(type default)
 		)
 		(uuid "659cc8e8-5f00-4d9b-8679-df571234c375")
+	)
+	(wire
+		(pts
+			(xy 68.58 163.83) (xy 68.58 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65ae0663-e0b1-4d01-af2a-2171640d6a7e")
 	)
 	(wire
 		(pts
@@ -4490,7 +5179,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 172.72) (xy 69.85 162.56)
+			(xy 87.63 179.07) (xy 87.63 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4590,7 +5279,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 64.77) (xy 82.55 64.77)
+			(xy 58.42 66.04) (xy 82.55 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4640,16 +5329,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 71.12) (xy 68.58 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "918d4ff7-0de3-4e98-b9bf-852f85f0b6f5")
-	)
-	(wire
-		(pts
 			(xy 100.33 77.47) (xy 105.41 77.47)
 		)
 		(stroke
@@ -4670,7 +5349,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 135.89) (xy 39.37 135.89)
+			(xy 49.53 134.62) (xy 55.88 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4730,7 +5409,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 162.56) (xy 85.09 162.56)
+			(xy 100.33 161.29) (xy 102.87 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4800,16 +5479,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 78.74) (xy 54.61 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abf0efc9-2a96-4c3a-b335-f579a8e35213")
-	)
-	(wire
-		(pts
 			(xy 100.33 71.12) (xy 113.03 71.12)
 		)
 		(stroke
@@ -4830,7 +5499,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 92.71) (xy 54.61 78.74)
+			(xy 54.61 78.74) (xy 54.61 92.71)
 		)
 		(stroke
 			(width 0)
@@ -4910,7 +5579,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 160.02) (xy 53.34 160.02)
+			(xy 68.58 158.75) (xy 71.12 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4920,7 +5589,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 135.89) (xy 50.8 135.89)
+			(xy 55.88 134.62) (xy 68.58 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5000,16 +5669,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 78.74) (xy 58.42 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0e655fb-47d5-4ea5-9cb9-fbb14e2759e1")
-	)
-	(wire
-		(pts
 			(xy 143.51 153.67) (xy 152.4 153.67)
 		)
 		(stroke
@@ -5020,7 +5679,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 162.56) (xy 69.85 162.56)
+			(xy 86.36 161.29) (xy 87.63 161.29)
 		)
 		(stroke
 			(width 0)
@@ -5060,6 +5719,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 66.04) (xy 82.55 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8011bda-d418-4495-9f2e-6cb9ef4dd9e9")
+	)
+	(wire
+		(pts
 			(xy 190.5 43.18) (xy 193.04 43.18)
 		)
 		(stroke
@@ -5070,7 +5739,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 165.1) (xy 50.8 165.1)
+			(xy 71.12 163.83) (xy 68.58 163.83)
 		)
 		(stroke
 			(width 0)
@@ -5120,7 +5789,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 130.81) (xy 78.74 130.81)
+			(xy 92.71 129.54) (xy 96.52 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5140,7 +5809,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 130.81) (xy 78.74 135.89)
+			(xy 96.52 129.54) (xy 96.52 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5270,6 +5939,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 71.12) (xy 44.45 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e55bbe88-37d0-4ff5-b1bf-9ba73375f959")
+	)
+	(wire
+		(pts
 			(xy 153.67 113.03) (xy 162.56 113.03)
 		)
 		(stroke
@@ -5287,6 +5966,16 @@
 			(type default)
 		)
 		(uuid "e70f0401-ee8d-4ae9-b297-9804651ebd65")
+	)
+	(wire
+		(pts
+			(xy 49.53 144.78) (xy 50.8 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e77a55c6-a628-49b1-95d4-0f5b0476b5ae")
 	)
 	(wire
 		(pts
@@ -5310,7 +5999,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 167.64) (xy 92.71 172.72)
+			(xy 110.49 166.37) (xy 110.49 171.45)
 		)
 		(stroke
 			(width 0)
@@ -5340,17 +6029,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 76.2) (xy 50.8 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e94c15ee-f3e8-42d6-aa1d-208cc616109a")
-	)
-	(wire
-		(pts
-			(xy 30.48 135.89) (xy 30.48 146.05)
+			(xy 49.53 134.62) (xy 49.53 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5540,7 +6219,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 130.81) (xy 67.31 130.81)
+			(xy 81.28 129.54) (xy 85.09 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5721,8 +6400,75 @@
 		)
 	)
 	(symbol
+		(lib_id "power:napajanje")
+		(at 76.2 171.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03ca7f72-8e6d-42a1-af9d-f19a942254df")
+		(property "Reference" "Vcc__minus_22"
+			(at 73.66 173.3551 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "-12V"
+			(at 71.374 173.228 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "c3ca20c2-6ede-4850-a859-e31fc7a8e540")
+		)
+		(instances
+			(project "moog_prodigy_project"
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
+					(reference "Vcc__minus_22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 39.37 129.54 0)
+		(at 55.88 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5730,7 +6476,7 @@
 		(dnp no)
 		(uuid "0aa7fa67-9ca1-4a27-857d-b4cf30cb112e")
 		(property "Reference" "R33"
-			(at 42.418 128.778 0)
+			(at 58.928 127.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5739,7 +6485,7 @@
 			)
 		)
 		(property "Value" "100KΩ"
-			(at 41.148 130.81 0)
+			(at 57.658 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5748,7 +6494,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 37.592 129.54 90)
+			(at 54.102 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5757,7 +6503,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 129.54 0)
+			(at 55.88 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5766,7 +6512,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 39.37 129.54 0)
+			(at 55.88 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5790,73 +6536,6 @@
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
 					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:napajanje")
-		(at 99.06 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0c9757c4-532f-4ec7-a9b1-ceb3ade47851")
-		(property "Reference" "Vcc__plus_17"
-			(at 101.6 80.6449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 102.87 80.264 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 99.06 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "ff8f10fb-10c6-4d13-97d9-185d6bad040c")
-		)
-		(instances
-			(project "moog_prodigy_project"
-				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
-					(reference "Vcc__plus_17")
 					(unit 1)
 				)
 			)
@@ -6596,106 +7275,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BC107")
-		(at 35.56 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1d880534-1579-425e-8a93-1925fc26e095")
-		(property "Reference" "Q12"
-			(at 31.242 149.606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC107"
-			(at 40.132 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-18-3"
-			(at 40.64 147.955 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.b-kainka.de/Daten/Transistor/BC108.pdf"
-			(at 35.56 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 50V Vce, Low Noise General Purpose NPN Transistor, TO-18"
-			(at 35.56 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 35.56 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 35.56 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cb9e45d4-4885-47c4-87ef-bcb33a6a6fda")
-		)
-		(pin "1"
-			(uuid "9fb85e05-e6c7-4c47-8e55-4e1cc4a21cba")
-		)
-		(pin "3"
-			(uuid "8b153d4b-9e86-4e00-8b4d-a86d03f3a198")
-		)
-		(instances
-			(project "Left_side_pt2"
-				(path "/d7ecab91-fc93-47c1-809d-3a7b4e998ed7"
-					(reference "Q12")
-					(unit 1)
-				)
-			)
-			(project "moog_prodigy_project"
-				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
-					(reference "Q12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 234.95 102.87 90)
 		(unit 1)
@@ -6769,6 +7348,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:napajanje")
+		(at 99.06 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2582fcdd-85d5-465e-88c0-715a144ebdae")
+		(property "Reference" "Vcc__plus_31"
+			(at 96.52 104.7751 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 92.964 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "03131b5c-1056-4f40-a268-881946c17ce4")
+		)
+		(instances
+			(project "moog_prodigy_project"
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
+					(reference "Vcc__plus_31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 273.05 99.06 0)
 		(unit 1)
@@ -6834,107 +7480,6 @@
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
 					(reference "#PWR0108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BC107")
-		(at 60.96 71.12 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2eaf7fa6-d531-4079-bd15-5325734fdff4")
-		(property "Reference" "Q8"
-			(at 57.658 76.962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC107"
-			(at 56.388 74.168 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-18-3"
-			(at 55.88 73.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.b-kainka.de/Daten/Transistor/BC108.pdf"
-			(at 60.96 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 50V Vce, Low Noise General Purpose NPN Transistor, TO-18"
-			(at 60.96 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 60.96 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 60.96 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7295a334-5e93-4ead-afb2-7f7da16523e3")
-		)
-		(pin "1"
-			(uuid "adc2124c-50a5-427e-ad57-50978c38ac82")
-		)
-		(pin "3"
-			(uuid "609d9888-e5a2-48b2-857a-9967927c1376")
-		)
-		(instances
-			(project "Left_side_pt2"
-				(path "/d7ecab91-fc93-47c1-809d-3a7b4e998ed7"
-					(reference "Q8")
-					(unit 1)
-				)
-			)
-			(project "moog_prodigy_project"
-				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
-					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -7013,7 +7558,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 76.2 162.56 90)
+		(at 93.98 161.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7021,7 +7566,7 @@
 		(dnp no)
 		(uuid "347d5705-8ac9-4f5d-9b47-2e3e9da49e3e")
 		(property "Reference" "R37"
-			(at 76.2 157.988 90)
+			(at 93.98 156.718 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7029,7 +7574,7 @@
 			)
 		)
 		(property "Value" "22K"
-			(at 76.2 160.02 90)
+			(at 93.98 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7037,7 +7582,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 164.338 90)
+			(at 93.98 163.068 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7046,7 +7591,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 162.56 0)
+			(at 93.98 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7055,7 +7600,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 76.2 162.56 0)
+			(at 93.98 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7473,7 +8018,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 71.12 130.81 270)
+		(at 88.9 129.54 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7481,7 +8026,7 @@
 		(dnp no)
 		(uuid "3f47ad6a-6fed-4b33-b7d3-c91605515a4e")
 		(property "Reference" "R31"
-			(at 73.152 127 90)
+			(at 90.932 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7490,7 +8035,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 72.644 128.778 90)
+			(at 90.424 127.508 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7499,7 +8044,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 129.032 90)
+			(at 88.9 127.762 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7508,7 +8053,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 130.81 0)
+			(at 88.9 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7517,7 +8062,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 71.12 130.81 0)
+			(at 88.9 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7833,7 +8378,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 60.96 172.72 90)
+		(at 78.74 179.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7841,7 +8386,7 @@
 		(dnp no)
 		(uuid "4eebd555-f7ef-4267-afae-9eff2b14942d")
 		(property "Reference" "C4"
-			(at 60.706 167.64 90)
+			(at 78.486 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7849,7 +8394,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 61.214 169.418 90)
+			(at 78.994 175.768 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7857,7 +8402,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 171.7548 0)
+			(at 82.55 178.1048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7866,7 +8411,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 172.72 0)
+			(at 78.74 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7875,7 +8420,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 60.96 172.72 0)
+			(at 78.74 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7906,7 +8451,7 @@
 	)
 	(symbol
 		(lib_id "power:napajanje")
-		(at 39.37 123.19 0)
+		(at 55.88 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7914,7 +8459,7 @@
 		(dnp no)
 		(uuid "4f3b04c1-efb9-4d85-9f2a-e99878e31651")
 		(property "Reference" "Vcc__plus_22"
-			(at 41.91 121.2849 0)
+			(at 58.42 120.0149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7924,7 +8469,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 41.656 120.904 0)
+			(at 58.166 119.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7933,7 +8478,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 123.19 0)
+			(at 55.88 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7942,7 +8487,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 123.19 0)
+			(at 55.88 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7951,7 +8496,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 123.19 0)
+			(at 55.88 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8190,7 +8735,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 44.45 180.34 0)
+		(at 62.23 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8198,7 +8743,7 @@
 		(dnp no)
 		(uuid "54356b63-9489-4e07-976c-b51201d50051")
 		(property "Reference" "R36"
-			(at 46.99 179.832 0)
+			(at 64.77 186.182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8207,7 +8752,7 @@
 			)
 		)
 		(property "Value" "3K"
-			(at 47.244 181.864 0)
+			(at 65.024 188.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8216,7 +8761,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 42.672 180.34 90)
+			(at 60.452 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8225,7 +8770,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 180.34 0)
+			(at 62.23 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8234,7 +8779,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 44.45 180.34 0)
+			(at 62.23 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8853,7 +9398,7 @@
 	)
 	(symbol
 		(lib_id "power:napajanje")
-		(at 92.71 137.16 0)
+		(at 110.49 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8861,7 +9406,7 @@
 		(dnp no)
 		(uuid "6ffe8ad5-6493-429f-8157-e70cddf8b289")
 		(property "Reference" "Vcc__plus_23"
-			(at 95.25 135.2549 0)
+			(at 113.03 133.9849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8871,7 +9416,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 94.996 134.874 0)
+			(at 112.776 133.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8880,7 +9425,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 137.16 0)
+			(at 110.49 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8889,7 +9434,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 137.16 0)
+			(at 110.49 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8898,7 +9443,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.71 137.16 0)
+			(at 110.49 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8913,6 +9458,73 @@
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
 					(reference "Vcc__plus_23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:napajanje")
+		(at 76.2 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7178d38f-2a24-4b1c-91a1-4ead7056758f")
+		(property "Reference" "Vcc__plus_30"
+			(at 78.74 149.2249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 82.296 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "edb0fdc5-60db-45f4-b9c6-0dbd6fc38660")
+		)
+		(instances
+			(project "moog_prodigy_project"
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
+					(reference "Vcc__plus_30")
 					(unit 1)
 				)
 			)
@@ -9084,7 +9696,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 44.45 172.72 0)
+		(at 62.23 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9092,7 +9704,7 @@
 		(dnp no)
 		(uuid "795c1091-1b70-465c-9053-a52528173967")
 		(property "Reference" "R35"
-			(at 42.418 171.958 0)
+			(at 60.198 178.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9101,7 +9713,7 @@
 			)
 		)
 		(property "Value" "500"
-			(at 42.418 173.736 0)
+			(at 60.198 180.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9110,7 +9722,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 172.72 0)
+			(at 62.23 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9119,7 +9731,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 172.72 0)
+			(at 62.23 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9128,7 +9740,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 44.45 172.72 0)
+			(at 62.23 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9371,7 +9983,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.74 135.89 0)
+		(at 96.52 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9380,7 +9992,7 @@
 		(fields_autoplaced yes)
 		(uuid "86a163e1-7056-43dd-86b5-2f009bac2501")
 		(property "Reference" "#PWR015"
-			(at 78.74 142.24 0)
+			(at 96.52 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9389,7 +10001,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 140.97 0)
+			(at 96.52 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9397,7 +10009,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 135.89 0)
+			(at 96.52 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9406,7 +10018,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 135.89 0)
+			(at 96.52 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9415,7 +10027,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 135.89 0)
+			(at 96.52 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9436,102 +10048,6 @@
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:AD8001AR")
-		(at 96.52 92.71 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "893092f4-3bce-4763-b16f-2f8b4f6577ce")
-		(property "Reference" "U8"
-			(at 100.33 84.074 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "AD8001AR"
-			(at 89.154 85.344 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 99.06 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ad8001.pdf"
-			(at 92.71 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Current Feedback Amplifier, 800 MHz, 50mW, SOIC-8"
-			(at 96.52 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ee81abc-1a9c-4ec0-bca2-908f3ab7ce03")
-		)
-		(pin "3"
-			(uuid "d58f5ed5-8c5e-4368-8484-109ea72172ca")
-		)
-		(pin "7"
-			(uuid "cf04fc70-6afe-49c9-9cfe-8f20fed9c8ec")
-		)
-		(pin "2"
-			(uuid "ce2d4127-c6ac-48e2-b124-2d8d4429c059")
-		)
-		(pin "4"
-			(uuid "fe528939-c5df-4ccf-88fc-393b305d34bd")
-		)
-		(pin "6"
-			(uuid "ec38692d-c3a2-44e3-af22-6873acdb27f7")
-		)
-		(pin "5"
-			(uuid "6c0dcaed-b2b3-497a-8509-9787f4b9cbfa")
-		)
-		(pin "8"
-			(uuid "ecd14c2c-0bfa-4e30-ab28-ae96608a9d4b")
-		)
-		(instances
-			(project "Left_side_pt2"
-				(path "/d7ecab91-fc93-47c1-809d-3a7b4e998ed7"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-			(project "moog_prodigy_project"
-				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
-					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -9705,6 +10221,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:napajanje")
+		(at 99.06 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9acc3e37-093d-480c-9ed9-d1ca5a6c6ae8")
+		(property "Reference" "Vcc__minus_23"
+			(at 101.6 80.6449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "-12V"
+			(at 103.886 80.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "1680a934-dd4a-4174-9d87-0baeb0dea13d")
+		)
+		(instances
+			(project "moog_prodigy_project"
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
+					(reference "Vcc__minus_23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 278.13 115.57 180)
 		(unit 1)
@@ -9781,7 +10364,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 92.71 153.67 180)
+		(at 110.49 152.4 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9789,7 +10372,7 @@
 		(dnp no)
 		(uuid "a239b9bb-6613-48df-9c99-99648047e424")
 		(property "Reference" "R39"
-			(at 94.488 152.9081 0)
+			(at 112.268 151.6381 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9798,7 +10381,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 94.488 154.94 0)
+			(at 112.268 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9807,7 +10390,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 94.488 153.67 90)
+			(at 112.268 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9816,7 +10399,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 153.67 0)
+			(at 110.49 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9825,7 +10408,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 92.71 153.67 0)
+			(at 110.49 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9856,7 +10439,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 63.5 137.16 180)
+		(at 81.28 135.89 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9864,7 +10447,7 @@
 		(dnp no)
 		(uuid "a2e6729b-c3c2-4d69-a146-d08c68585463")
 		(property "Reference" "R32"
-			(at 65.278 136.398 0)
+			(at 83.058 135.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9873,7 +10456,7 @@
 			)
 		)
 		(property "Value" "12KΩ"
-			(at 64.77 138.1759 0)
+			(at 82.55 136.9059 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9882,7 +10465,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 65.278 137.16 90)
+			(at 83.058 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9891,7 +10474,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 137.16 0)
+			(at 81.28 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9900,7 +10483,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 63.5 137.16 0)
+			(at 81.28 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10158,7 +10741,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 147.32 0)
+		(at 104.14 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10167,7 +10750,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa90dbcb-0f7e-48ec-a1ea-2b79828b9f74")
 		(property "Reference" "#PWR013"
-			(at 83.82 153.67 0)
+			(at 104.14 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10176,7 +10759,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 152.4 0)
+			(at 104.14 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10184,7 +10767,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 147.32 0)
+			(at 104.14 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10193,7 +10776,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 147.32 0)
+			(at 104.14 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10202,7 +10785,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 147.32 0)
+			(at 104.14 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10681,6 +11264,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:OPA134")
+		(at 78.74 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0d20d7d-1ee5-4df3-b6a9-e151bf093838")
+		(property "Reference" "U4B"
+			(at 82.296 158.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA134"
+			(at 82.042 156.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa134.pdf"
+			(at 80.01 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 78.74 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "0a9d25ae-d61c-4eed-9f00-7963656331a4")
+		)
+		(pin "3"
+			(uuid "1e224247-7027-4d49-9fff-0ef493e742dc")
+		)
+		(pin "4"
+			(uuid "b04c4cb0-3fe8-414f-98f8-1c04fb4ecfa9")
+		)
+		(pin "1"
+			(uuid "fb75c28b-7549-4f0a-8f14-dfb1e4f3b48b")
+		)
+		(pin "5"
+			(uuid "da5a9e3f-0182-4d33-a9d0-dbb9a75e42df")
+		)
+		(pin "6"
+			(uuid "f88ce7eb-6051-4d3b-b121-950f87328847")
+		)
+		(pin "8"
+			(uuid "7d81ed87-9320-4d3d-b59a-6207d0118429")
+		)
+		(pin "2"
+			(uuid "82181d2c-f7f9-4828-bd48-ce6747434ff3")
+		)
+		(instances
+			(project "moog_prodigy_project"
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
+					(reference "U4B")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 74.93 54.61 270)
 		(unit 1)
@@ -10971,6 +11639,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:OPA134")
+		(at 96.52 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c60daf97-2133-4bc6-958c-35718ea6b1b4")
+		(property "Reference" "U2B1"
+			(at 92.964 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA134"
+			(at 93.218 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa134.pdf"
+			(at 95.25 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 96.52 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "e7f539f0-2ad5-4180-a9f9-d83f41615dab")
+		)
+		(pin "3"
+			(uuid "2797dd2f-9749-4ac5-929e-4cd8594e3f70")
+		)
+		(pin "4"
+			(uuid "9a0de1b7-0b24-4285-9ad2-e3eff50fda98")
+		)
+		(pin "1"
+			(uuid "158472b2-a5ba-4bd8-a10a-95ccfb70e867")
+		)
+		(pin "5"
+			(uuid "1d1c9a9f-585a-4f2e-b853-f7f504d62090")
+		)
+		(pin "6"
+			(uuid "9b2b84ab-1dc4-439a-85d2-61e912d70225")
+		)
+		(pin "8"
+			(uuid "7d987792-3219-436a-9e0e-34948b531f3a")
+		)
+		(pin "2"
+			(uuid "eff50d19-15d4-49cc-a92a-96d5a56adc3d")
+		)
+		(instances
+			(project "moog_prodigy_project"
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
+					(reference "U2B1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:napajanje")
 		(at 21.59 88.9 180)
 		(unit 1)
@@ -11183,7 +11936,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 184.15 0)
+		(at 62.23 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11192,7 +11945,7 @@
 		(fields_autoplaced yes)
 		(uuid "c80fa4ea-28dd-4447-b36d-1299534c621f")
 		(property "Reference" "#PWR08"
-			(at 44.45 190.5 0)
+			(at 62.23 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11201,7 +11954,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 189.23 0)
+			(at 62.23 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11209,7 +11962,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 184.15 0)
+			(at 62.23 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11218,7 +11971,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 184.15 0)
+			(at 62.23 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11227,7 +11980,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 184.15 0)
+			(at 62.23 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11328,7 +12081,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 44.45 165.1 0)
+		(at 62.23 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11336,7 +12089,7 @@
 		(dnp no)
 		(uuid "ceabbee3-b27d-4356-a913-eedd773fffb7")
 		(property "Reference" "R34"
-			(at 39.116 164.084 0)
+			(at 56.896 170.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11345,7 +12098,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 37.846 166.116 0)
+			(at 55.626 172.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11354,7 +12107,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 42.672 165.1 90)
+			(at 60.452 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11363,7 +12116,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 165.1 0)
+			(at 62.23 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11372,7 +12125,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 44.45 165.1 0)
+			(at 62.23 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11547,7 +12300,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 82.55 167.64 180)
+		(at 100.33 166.37 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11555,7 +12308,7 @@
 		(dnp no)
 		(uuid "d0fc3d5e-7568-4d29-a633-07493c175e5a")
 		(property "Reference" "R38"
-			(at 84.582 167.132 0)
+			(at 102.362 165.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11564,7 +12317,7 @@
 			)
 		)
 		(property "Value" "15K"
-			(at 84.582 169.164 0)
+			(at 102.362 167.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11573,7 +12326,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 84.328 167.64 90)
+			(at 102.108 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11582,7 +12335,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 167.64 0)
+			(at 100.33 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11591,7 +12344,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 82.55 167.64 0)
+			(at 100.33 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11622,7 +12375,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 38.1 151.13 0)
+		(at 55.88 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11630,7 +12383,7 @@
 		(dnp no)
 		(uuid "d6f8791b-e103-4027-8b39-4fe356e35bbc")
 		(property "Reference" "#PWR011"
-			(at 38.1 157.48 0)
+			(at 55.88 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11639,7 +12392,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 155.448 0)
+			(at 55.88 154.178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11647,7 +12400,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 151.13 0)
+			(at 55.88 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11656,7 +12409,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 151.13 0)
+			(at 55.88 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11665,7 +12418,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 151.13 0)
+			(at 55.88 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11765,106 +12518,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BC107")
-		(at 90.17 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dab2aa5c-691f-4480-942d-9b6f4a968d87")
-		(property "Reference" "Q10"
-			(at 93.472 148.082 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC107"
-			(at 95.25 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-18-3"
-			(at 95.25 146.685 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.b-kainka.de/Daten/Transistor/BC108.pdf"
-			(at 90.17 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 50V Vce, Low Noise General Purpose NPN Transistor, TO-18"
-			(at 90.17 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 90.17 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 90.17 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "627375c7-7c44-48e5-a5ff-56054fdebc28")
-		)
-		(pin "1"
-			(uuid "d2b7ff09-4b77-443f-9913-9c1bfc398784")
-		)
-		(pin "3"
-			(uuid "886f187c-3f41-4b6b-9b3b-a5fa97130a95")
-		)
-		(instances
-			(project "Left_side_pt2"
-				(path "/d7ecab91-fc93-47c1-809d-3a7b4e998ed7"
-					(reference "Q10")
-					(unit 1)
-				)
-			)
-			(project "moog_prodigy_project"
-				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
-					(reference "Q10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_BJT:BC549")
 		(at 218.44 109.22 0)
 		(unit 1)
@@ -11958,100 +12611,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:ADA4099-2xRM")
-		(at 60.96 162.56 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ddfdaf49-c499-46bf-b111-4bbf1e349332")
-		(property "Reference" "U4"
-			(at 60.96 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADA4099-2xRM"
-			(at 60.96 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-			(at 63.5 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ada4099-1_ada4099-2.pdf"
-			(at 67.31 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3.15..50V supply, 8MHz GBW, Rail-to-Rail input/output, over-the-top dual opamp, MSOP-8"
-			(at 60.96 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "c41b18a4-3365-43e8-b022-38b7d7a5a90f")
-		)
-		(pin "4"
-			(uuid "e811c97a-636f-49f4-90d3-10348c411e0d")
-		)
-		(pin "6"
-			(uuid "27d9937e-9e02-40bb-8eb9-6e66de42752e")
-		)
-		(pin "2"
-			(uuid "59198820-e860-4fc1-855f-6ccc3e2b9275")
-		)
-		(pin "3"
-			(uuid "cd383f22-7682-4460-9110-f3a38573f46e")
-		)
-		(pin "1"
-			(uuid "5be05290-8386-4c27-9437-0c06cff59c9c")
-		)
-		(pin "5"
-			(uuid "894b3134-a58b-4b91-806b-04bf56d6132e")
-		)
-		(pin "8"
-			(uuid "e1044fe3-303a-46fd-81a0-d5f0e8d6d340")
-		)
-		(instances
-			(project "Left_side_pt2"
-				(path "/d7ecab91-fc93-47c1-809d-3a7b4e998ed7"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-			(project "moog_prodigy_project"
-				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
-					(reference "U4")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:napajanje")
-		(at 44.45 158.75 0)
+		(at 62.23 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12059,7 +12620,7 @@
 		(dnp no)
 		(uuid "e09e9445-7505-4ce0-848c-03e9afaf5577")
 		(property "Reference" "Vcc__plus_21"
-			(at 46.99 156.8449 0)
+			(at 64.77 163.1949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12069,7 +12630,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 46.736 156.464 0)
+			(at 64.516 162.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12078,7 +12639,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 158.75 0)
+			(at 62.23 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12087,7 +12648,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 158.75 0)
+			(at 62.23 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12096,7 +12657,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 158.75 0)
+			(at 62.23 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12352,7 +12913,7 @@
 	)
 	(symbol
 		(lib_id "power:napajanje")
-		(at 63.5 143.51 180)
+		(at 81.28 142.24 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12360,7 +12921,7 @@
 		(dnp no)
 		(uuid "e37ad16c-0187-4dcc-8960-b808f9e365ed")
 		(property "Reference" "Vcc__minus_10"
-			(at 60.96 145.4151 0)
+			(at 78.74 144.1451 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12370,7 +12931,7 @@
 			)
 		)
 		(property "Value" "-12V"
-			(at 60.706 145.796 0)
+			(at 78.486 144.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12379,7 +12940,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 143.51 0)
+			(at 81.28 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12388,7 +12949,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 143.51 0)
+			(at 81.28 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12397,7 +12958,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 143.51 0)
+			(at 81.28 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12412,106 +12973,6 @@
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
 					(reference "Vcc__minus_10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BC107")
-		(at 48.26 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e462e699-ab87-4eb0-a55a-86ba06cf9027")
-		(property "Reference" "Q7"
-			(at 51.308 67.564 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC107"
-			(at 51.562 76.962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-18-3"
-			(at 53.34 73.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.b-kainka.de/Daten/Transistor/BC108.pdf"
-			(at 48.26 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 50V Vce, Low Noise General Purpose NPN Transistor, TO-18"
-			(at 48.26 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 48.26 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 48.26 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7c3b1ebe-1eaa-4988-9bc2-a805a5cec511")
-		)
-		(pin "1"
-			(uuid "b56ba13d-e0e7-4084-8192-7d215ae7b818")
-		)
-		(pin "3"
-			(uuid "edf55b31-3c49-48bc-a3f8-638d874d7ef1")
-		)
-		(instances
-			(project "Left_side_pt2"
-				(path "/d7ecab91-fc93-47c1-809d-3a7b4e998ed7"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-			(project "moog_prodigy_project"
-				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
-					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -12663,7 +13124,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:BC107")
-		(at 90.17 162.56 0)
+		(at 107.95 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12671,7 +13132,7 @@
 		(dnp no)
 		(uuid "e75dd22c-58ad-4e8c-8ba5-d16dd1c1e4f3")
 		(property "Reference" "Q11"
-			(at 93.726 159.258 0)
+			(at 111.506 157.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12680,7 +13141,7 @@
 			)
 		)
 		(property "Value" "BC107"
-			(at 95.25 163.8299 0)
+			(at 113.03 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12690,7 +13151,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-18-3"
-			(at 95.25 164.465 0)
+			(at 113.03 163.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12701,7 +13162,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.b-kainka.de/Daten/Transistor/BC108.pdf"
-			(at 90.17 162.56 0)
+			(at 107.95 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12711,7 +13172,7 @@
 			)
 		)
 		(property "Description" "0.1A Ic, 50V Vce, Low Noise General Purpose NPN Transistor, TO-18"
-			(at 90.17 162.56 0)
+			(at 107.95 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12720,7 +13181,7 @@
 			)
 		)
 		(property "Sim.Device" "NPN"
-			(at 90.17 162.56 0)
+			(at 107.95 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12729,7 +13190,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 90.17 162.56 0)
+			(at 107.95 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12763,7 +13224,7 @@
 	)
 	(symbol
 		(lib_id "power:napajanje")
-		(at 82.55 175.26 180)
+		(at 100.33 173.99 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12771,7 +13232,7 @@
 		(dnp no)
 		(uuid "e7c41f70-1bbc-4cfe-87f1-53d9f0bf5b95")
 		(property "Reference" "Vcc__minus_11"
-			(at 80.01 177.1651 0)
+			(at 97.79 175.8951 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12781,7 +13242,7 @@
 			)
 		)
 		(property "Value" "-12V"
-			(at 79.756 177.546 0)
+			(at 97.536 176.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12790,7 +13251,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 175.26 0)
+			(at 100.33 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12799,7 +13260,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 175.26 0)
+			(at 100.33 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12808,7 +13269,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 175.26 0)
+			(at 100.33 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12993,73 +13454,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:napajanje")
-		(at 99.06 102.87 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ef422ac2-ebad-4037-9269-d3364588ba18")
-		(property "Reference" "Vcc__minus_9"
-			(at 96.52 104.7751 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "-12V"
-			(at 96.266 105.156 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 99.06 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "9dfb346d-29e6-4a47-978f-dc9f21125d29")
-		)
-		(instances
-			(project "moog_prodigy_project"
-				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
-					(reference "Vcc__minus_9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 68.58 78.74 180)
 		(unit 1)
@@ -13129,106 +13523,6 @@
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
 					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BC107")
-		(at 60.96 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f0e08b01-c8db-42b2-b967-6dbf6e36215e")
-		(property "Reference" "Q9"
-			(at 57.658 126.492 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC107"
-			(at 66.04 124.4599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-18-3"
-			(at 66.04 125.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.b-kainka.de/Daten/Transistor/BC108.pdf"
-			(at 60.96 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 50V Vce, Low Noise General Purpose NPN Transistor, TO-18"
-			(at 60.96 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 60.96 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 60.96 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a5959bf3-7e92-40d4-a548-6e631214d101")
-		)
-		(pin "1"
-			(uuid "d70e3d6f-c759-4405-87d5-2a208841a194")
-		)
-		(pin "3"
-			(uuid "4ad31c73-c33a-47ae-aaf9-e4a490ad08f5")
-		)
-		(instances
-			(project "Left_side_pt2"
-				(path "/d7ecab91-fc93-47c1-809d-3a7b4e998ed7"
-					(reference "Q9")
-					(unit 1)
-				)
-			)
-			(project "moog_prodigy_project"
-				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
-					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -13461,6 +13755,186 @@
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
 					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CA3046:CA3046")
+		(at 54.61 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9382a0a-5a59-4bc1-880d-cdac7aa8ddcd")
+		(property "Reference" "Q2"
+			(at -12.827 104.013 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "CA3046"
+			(at -12.192 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "CA3046:DIL14"
+			(at 129.54 6.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.379 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC TRANSISTOR ARRAY 14-DIP"
+			(at 94.996 14.097 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "STMicroelectronics"
+			(at 138.811 21.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 101.727 113.157 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 78.486 107.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CA3046/STMicroelectronics/view-part/?ref=snap"
+			(at 135.255 18.542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "CA3046"
+			(at 36.449 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 36.449 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CA3046/STMicroelectronics/view-part/?ref=eda"
+			(at 148.844 0.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "780209a9-853d-470e-b12a-ed9a1872f32e")
+		)
+		(pin "13"
+			(uuid "a377d3f0-c720-4662-a753-46f2c999b0aa")
+		)
+		(pin "9"
+			(uuid "43d78f84-30ed-4f37-b87d-7e24164a048a")
+		)
+		(pin "3"
+			(uuid "fca0784d-8f12-4b3e-93fb-fa75b8d4f27d")
+		)
+		(pin "5"
+			(uuid "ed627e6a-984d-4434-9c3b-3b7ce6d35f40")
+		)
+		(pin "9"
+			(uuid "b921c19b-5487-410f-abc6-baac99b6b858")
+		)
+		(pin "11"
+			(uuid "529e83a3-04d1-44b2-8411-94c8f3e96de1")
+		)
+		(pin "4"
+			(uuid "c51863c2-aca8-4b6c-af9d-4ace9247683b")
+		)
+		(pin "9"
+			(uuid "2f27990d-a173-4b1c-952e-21623e29b160")
+		)
+		(pin "1"
+			(uuid "af76f039-a090-4e89-8843-082c12f8808b")
+		)
+		(pin "2"
+			(uuid "67a33ad8-aaea-43da-b56c-c8f6f674cfc5")
+		)
+		(pin "12"
+			(uuid "299b3eb5-a180-4f2a-ad8e-391aef6cf764")
+		)
+		(pin "11"
+			(uuid "6b16e98f-e60d-46f4-a364-5e0a054dbecc")
+		)
+		(pin "9"
+			(uuid "59fbcad1-993b-463d-94bb-58c980edb0d2")
+		)
+		(instances
+			(project ""
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
