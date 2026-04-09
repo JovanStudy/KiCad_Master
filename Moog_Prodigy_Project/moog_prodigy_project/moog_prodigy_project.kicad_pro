@@ -296,7 +296,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 99,
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -420,6 +420,30 @@
     [
       "637e5716-797a-4ca1-a297-395d18ce9ef7",
       "Right_side"
+    ],
+    [
+      "7ef59875-328c-471e-b3d6-b5f70153aef4",
+      "voltage_source"
+    ],
+    [
+      "a29914f9-6a06-4b90-adb2-bc722325336c",
+      "dual_timer"
+    ],
+    [
+      "9c0f401e-06bc-4d0c-82ad-0cccca7cf286",
+      "vca_attack"
+    ],
+    [
+      "0f2c4fd4-8813-4265-a924-3fec3b70176e",
+      "3046"
+    ],
+    [
+      "807e9887-0e34-45d9-96c8-fd3b8e6e2e6d",
+      "ledder"
+    ],
+    [
+      "cf592eca-4ef2-47c3-a3f1-b1bbf117ebfd",
+      "4007"
     ]
   ],
   "text_variables": {}
