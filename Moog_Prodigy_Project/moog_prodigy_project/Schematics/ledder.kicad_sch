@@ -4478,28 +4478,6 @@
 			)
 		)
 	)
-	(global_label "OUTPUT_2"
-		(shape output)
-		(at 232.41 132.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7279ba07-770d-4677-899a-5aed511a5086")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.769 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "node_7"
 		(shape input)
 		(at 133.35 64.77 270)
@@ -4606,6 +4584,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "THRESHOLD_1"
+		(shape input)
+		(at 232.41 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d10db5b5-445b-4c76-abe9-d7b7b183b278")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.458 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
