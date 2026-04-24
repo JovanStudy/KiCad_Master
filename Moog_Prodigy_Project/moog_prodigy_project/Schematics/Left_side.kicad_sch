@@ -8113,6 +8113,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 71.12) (xy 110.49 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e28f449-9078-4aac-8bd6-6045ef899731")
+	)
+	(wire
+		(pts
 			(xy 44.45 142.24) (xy 58.42 142.24)
 		)
 		(stroke
@@ -8900,6 +8910,16 @@
 			(type default)
 		)
 		(uuid "e74a98d1-22e3-47d5-a174-c17fcefd81b7")
+	)
+	(wire
+		(pts
+			(xy 110.49 71.12) (xy 110.49 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7f11569-9ca3-4c63-99a2-459e62f44089")
 	)
 	(wire
 		(pts
@@ -16947,7 +16967,7 @@
 	)
 	(symbol
 		(lib_id "Power_supply:Vcc_reference")
-		(at 110.49 73.66 0)
+		(at 113.03 72.39 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16955,7 +16975,7 @@
 		(dnp no)
 		(uuid "fbc84151-f436-460f-bf63-be0e4b2859e8")
 		(property "Reference" "U62"
-			(at 106.68 73.0251 0)
+			(at 116.84 73.0249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16965,7 +16985,7 @@
 			)
 		)
 		(property "Value" "-12V"
-			(at 110.236 71.374 0)
+			(at 113.284 74.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16974,7 +16994,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 73.66 0)
+			(at 113.03 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16983,7 +17003,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 73.66 0)
+			(at 113.03 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16992,7 +17012,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 73.66 0)
+			(at 113.03 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
