@@ -160,6 +160,2202 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "4007_Novi_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -2.286 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "4007_Novi_1_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.397) (xy 2.286 1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.397) (xy 2.286 -1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.905) (xy 2.286 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.556 -0.381) (xy 3.556 0.381) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "4007_Novi_1_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4007_Novi_1_2_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4007_Novi_1_3_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4007_Novi_1_4_1"
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -6.35) (xy 2.286 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -8.636) (xy 0 -10.16) (xy 0 -9.906)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -5.334) (xy 2.286 -9.144)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -7.366) (xy 5.08 -7.366)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -8.636) (xy 0 -8.636)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.366) (xy 3.302 -7.112)
+					)
+					(stroke
+						(width 0.3302)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.366) (xy 3.302 -7.62)
+					)
+					(stroke
+						(width 0.3302)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -7.112) (xy 3.302 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -7.112) (xy 3.302 -7.62)
+					)
+					(stroke
+						(width 0.3302)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -7.366) (xy 3.302 -7.366)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.08 -7.366)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 -3.81 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4007_Novi_1_5_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "4007_Novi_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -2.286 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "4007_Novi_2_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.397) (xy 2.286 1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.397) (xy 2.286 -1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.905) (xy 2.286 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.556 -0.381) (xy 3.556 0.381) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "4007_Novi_2_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4007_Novi_2_2_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4007_Novi_2_3_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4007_Novi_2_4_1"
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -6.35) (xy 2.286 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -8.636) (xy 0 -10.16) (xy 0 -9.906)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -5.334) (xy 2.286 -9.144)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -7.366) (xy 5.08 -7.366)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -8.636) (xy 0 -8.636)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.366) (xy 3.302 -7.112)
+					)
+					(stroke
+						(width 0.3302)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.366) (xy 3.302 -7.62)
+					)
+					(stroke
+						(width 0.3302)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -7.112) (xy 3.302 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -7.112) (xy 3.302 -7.62)
+					)
+					(stroke
+						(width 0.3302)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -7.366) (xy 3.302 -7.366)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.08 -7.366)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 -3.81 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4007_Novi_2_5_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "4007_Novi_3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -2.286 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "4007_Novi_3_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.397) (xy 2.286 1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.397) (xy 2.286 -1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.905) (xy 2.286 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.556 -0.381) (xy 3.556 0.381) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "4007_Novi_3_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4007_Novi_3_2_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4007_Novi_3_3_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4007_Novi_3_4_1"
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -6.35) (xy 2.286 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -8.636) (xy 0 -10.16) (xy 0 -9.906)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -5.334) (xy 2.286 -9.144)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -7.366) (xy 5.08 -7.366)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -8.636) (xy 0 -8.636)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.366) (xy 3.302 -7.112)
+					)
+					(stroke
+						(width 0.3302)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.366) (xy 3.302 -7.62)
+					)
+					(stroke
+						(width 0.3302)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -7.112) (xy 3.302 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -7.112) (xy 3.302 -7.62)
+					)
+					(stroke
+						(width 0.3302)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -7.366) (xy 3.302 -7.366)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.08 -7.366)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 -3.81 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4007_Novi_3_5_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "4007_Novi_4"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -2.286 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "4007_Novi_4_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.397) (xy 2.286 1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.397) (xy 2.286 -1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.905) (xy 2.286 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.556 -0.381) (xy 3.556 0.381) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "4007_Novi_4_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4007_Novi_4_2_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4007_Novi_4_3_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4007_Novi_4_4_1"
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -6.35) (xy 2.286 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -8.636) (xy 0 -10.16) (xy 0 -9.906)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -5.334) (xy 2.286 -9.144)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -7.366) (xy 5.08 -7.366)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -8.636) (xy 0 -8.636)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.366) (xy 3.302 -7.112)
+					)
+					(stroke
+						(width 0.3302)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.366) (xy 3.302 -7.62)
+					)
+					(stroke
+						(width 0.3302)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -7.112) (xy 3.302 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -7.112) (xy 3.302 -7.62)
+					)
+					(stroke
+						(width 0.3302)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -7.366) (xy 3.302 -7.366)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.08 -7.366)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 -3.81 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4007_Novi_4_5_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Amplifier_Operational:AD8001AR"
 			(pin_names
 				(offset 0.127)
@@ -2813,53 +5009,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:BF244A"
-			(pin_names
-				(hide yes)
-			)
+		(symbol "Transistor_FET:4007_Novi"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+			(property "Reference" "U"
+				(at -2.286 0.254 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "BF244A"
-				(at 5.08 0 0)
+			(property "Value" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/BF244x.pdf"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "50mA Id, 30V Vgs, N-Channel FET Transistor, TO-92"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2868,7 +5038,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "N-Channel FET Transistor Low Voltage"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2877,7 +5047,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2886,10 +5056,66 @@
 					(hide yes)
 				)
 			)
-			(symbol "BF244A_0_1"
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "4007_Novi_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy -1.016 0.381) (xy -1.016 -0.381) (xy 0 0)
+						(xy 0 2.54) (xy 0 1.397) (xy 2.286 1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.397) (xy 2.286 -1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.905) (xy 2.286 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.556 -0.381) (xy 3.556 0.381) (xy 2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -2899,89 +5125,12 @@
 						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.397) (xy 0.254 1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 -1.397) (xy 0.254 -1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
-			(symbol "BF244A_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
+			(symbol "4007_Novi_1_1"
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at 0 5.08 270)
 					(length 2.54)
-					(name "D"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2997,9 +5146,27 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 0 -5.08 90)
 					(length 2.54)
-					(name "S"
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3007,6 +5174,380 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4007_Novi_2_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4007_Novi_3_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4007_Novi_4_1"
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -6.35) (xy 2.286 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -8.636) (xy 0 -10.16) (xy 0 -9.906)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -5.334) (xy 2.286 -9.144)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -7.366) (xy 5.08 -7.366)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -8.636) (xy 0 -8.636)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.366) (xy 3.302 -7.112)
+					)
+					(stroke
+						(width 0.3302)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.366) (xy 3.302 -7.62)
+					)
+					(stroke
+						(width 0.3302)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -7.112) (xy 3.302 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -7.112) (xy 3.302 -7.62)
+					)
+					(stroke
+						(width 0.3302)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -7.366) (xy 3.302 -7.366)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.08 -7.366)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 -3.81 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4007_Novi_5_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3437,6 +5978,12 @@
 		(uuid "9ba9c639-be9b-470e-8747-d656adc3f168")
 	)
 	(junction
+		(at 129.54 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a20430bd-58a4-42bb-bfe7-880cb148e231")
+	)
+	(junction
 		(at 153.67 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3519,6 +6066,14 @@
 		(uuid "089fe439-50ac-4581-a214-4c334d50770a")
 	)
 	(no_connect
+		(at 147.32 68.58)
+		(uuid "0f6f0e22-a675-466c-b7d8-f226f7223d6c")
+	)
+	(no_connect
+		(at 134.62 74.93)
+		(uuid "2627c159-d20f-4081-a014-c110200a0a3d")
+	)
+	(no_connect
 		(at 179.07 129.54)
 		(uuid "2681034c-4132-4285-83b7-6e07785fb6ad")
 	)
@@ -3531,8 +6086,24 @@
 		(uuid "7116fdd5-0afc-42ff-94dc-13c3985a2388")
 	)
 	(no_connect
+		(at 124.46 74.93)
+		(uuid "8dd35c42-e83b-48c1-91ce-829380f099a1")
+	)
+	(no_connect
+		(at 149.86 77.47)
+		(uuid "93ad9d4a-c3c0-448a-8489-b7a25d767818")
+	)
+	(no_connect
 		(at 146.05 57.15)
 		(uuid "9a9f5938-6b47-4750-bcae-13232797a83d")
+	)
+	(no_connect
+		(at 147.32 86.36)
+		(uuid "ad61f053-a684-4bca-abe0-06d001367183")
+	)
+	(no_connect
+		(at 139.7 77.47)
+		(uuid "b8870aea-557d-439f-95c0-3b0d19a7e4c8")
 	)
 	(no_connect
 		(at 67.31 125.73)
@@ -4194,7 +6765,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 67.31) (xy 208.28 67.31)
+			(xy 113.03 67.31) (xy 129.54 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4544,6 +7115,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 67.31) (xy 208.28 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99d0a87f-11d0-4c88-bf1f-4813c27d32f3")
+	)
+	(wire
+		(pts
 			(xy 148.59 106.68) (xy 146.05 106.68)
 		)
 		(stroke
@@ -4674,7 +7255,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 121.92) (xy 77.47 121.92)
+			(xy 74.93 121.92) (xy 78.74 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5482,88 +8063,15 @@
 			(uuid "f25f8d0b-7400-414c-8a58-7dd96b274484")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "U74")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BF244A")
-		(at 102.87 58.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "058900d3-f441-4b19-befa-3885a0908cc2")
-		(property "Reference" "UI4B?"
-			(at 96.774 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4007"
-			(at 96.774 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 104.775 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/BF244x.pdf"
-			(at 106.68 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50mA Id, 30V Vgs, N-Channel FET Transistor, TO-92"
-			(at 102.87 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "81170549-48f0-4429-9c02-48a25077f2a0")
-		)
-		(pin "3"
-			(uuid "2155f8f8-fb55-455e-bda3-74c5e4f60e32")
-		)
-		(pin "1"
-			(uuid "12f1c9aa-d838-44b1-b6dc-10e10aedf632")
-		)
-		(instances
-			(project "Left_side_pt3"
-				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
-					(reference "UI4B")
-					(unit 1)
-				)
-			)
-			(project "moog_prodigy_project"
-				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
-					(reference "UI4B?")
 					(unit 1)
 				)
 			)
@@ -5630,6 +8138,12 @@
 			(uuid "ea2f3ed5-548f-47fa-bc9d-6dc30ee550fd")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "R103")
@@ -5773,6 +8287,12 @@
 			(uuid "2edc6e9d-cfd2-4e00-8f0b-8a8cb71a3872")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "U38")
@@ -5838,6 +8358,12 @@
 			(uuid "616f54bc-e99e-4f11-bafa-1e15cc00e05b")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "#PWR025")
@@ -5903,6 +8429,12 @@
 			(uuid "de6bc696-d401-4537-b734-e30e90d070a3")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "#PWR019")
@@ -6119,6 +8651,12 @@
 			(uuid "c20b7489-ca4a-4114-8633-42b7f939a086")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "R99")
@@ -6186,6 +8724,12 @@
 			(uuid "4acbf7b7-2f94-4347-985c-eb992daae918")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "R84")
@@ -6564,6 +9108,12 @@
 			(uuid "d3597e64-5aad-4d57-8dfe-c4e1d49a7ed2")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "U34")
@@ -6631,6 +9181,12 @@
 			(uuid "b2b3141c-9a2e-4380-b2fa-b12672816688")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "R83")
@@ -6919,6 +9475,12 @@
 			(uuid "0f472146-e70b-4e44-a586-fee6d02a040e")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "J3")
@@ -6986,6 +9548,12 @@
 			(uuid "4b96766a-f10c-4a62-aba1-b9e84e2c14a2")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "U71")
@@ -7183,6 +9751,12 @@
 			(uuid "5cdbec49-6e67-4c9b-a6a1-157df244ae3f")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "J4")
@@ -7250,6 +9824,12 @@
 			(uuid "97b243aa-8c78-4b68-b75c-9257e21ff493")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "U70")
@@ -7319,6 +9899,12 @@
 			(uuid "1c795eaf-d604-4c98-ad5b-53d83eec2b68")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "R104")
@@ -7386,6 +9972,12 @@
 			(uuid "10d86ab2-3164-4160-9402-559f282d6725")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "R81")
@@ -7453,6 +10045,12 @@
 			(uuid "76a66efd-3ba3-4f45-ba7e-c62e0902e46c")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "U39")
@@ -7600,82 +10198,6 @@
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "#PWR0111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BF244A")
-		(at 69.85 130.81 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "58d28d8d-de95-40ab-a49a-3ad0851a48ec")
-		(property "Reference" "U14C"
-			(at 72.898 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BF244A"
-			(at 64.77 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 64.77 128.905 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/BF244x.pdf"
-			(at 64.77 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50mA Id, 30V Vgs, N-Channel FET Transistor, TO-92"
-			(at 69.85 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "570e11f6-8b9e-46f5-aed8-55c448f1d5b9")
-		)
-		(pin "3"
-			(uuid "af39203c-07b4-4271-9fc6-435bed37c6c7")
-		)
-		(pin "1"
-			(uuid "5128ec2d-67af-4723-a9eb-6c4903ee0854")
-		)
-		(instances
-			(project "moog_prodigy_project"
-				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
-					(reference "U14C")
 					(unit 1)
 				)
 			)
@@ -7833,6 +10355,116 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:4007_Novi")
+		(at 102.87 55.88 270)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5dc5e0ac-3507-4513-b4a2-3bd3c53f0815")
+		(property "Reference" "UI4"
+			(at 102.87 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4007"
+			(at 102.87 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "b1e405c9-340c-477a-9cbf-57c971af6c1d")
+		)
+		(pin "8"
+			(uuid "c81b3442-4e9b-4cfb-918a-648c95bf8807")
+		)
+		(pin ""
+			(uuid "9f936f47-e019-49e2-adea-66bc02f4a95c")
+		)
+		(pin "2"
+			(uuid "9dcafcff-1ff5-4a2a-8186-dcdc377b4fdb")
+		)
+		(pin "3"
+			(uuid "45634db3-06b4-4735-ad5e-b90d06b5ed94")
+		)
+		(pin "5"
+			(uuid "d6c4a5f2-89a6-4bec-9b28-866c23c93adf")
+		)
+		(pin "1"
+			(uuid "eaba10a0-aafd-40be-b678-f320624042d5")
+		)
+		(pin "3"
+			(uuid "26181016-5b28-4773-ae38-e10644604462")
+		)
+		(pin "4"
+			(uuid "243c3fa5-842f-46a1-b738-6918c7141298")
+		)
+		(pin "7"
+			(uuid "0c5d3142-de8c-43d7-a18b-fd30a4a1b81b")
+		)
+		(pin ""
+			(uuid "a142859c-b519-420c-b51d-f3726f860350")
+		)
+		(pin ""
+			(uuid "20e9cb74-992d-489c-ad99-7d091632c406")
+		)
+		(pin ""
+			(uuid "023607e2-9ad4-4657-872e-85f9066041a5")
+		)
+		(pin "14"
+			(uuid "ad1af269-dbe1-4677-b29e-d47e39abff07")
+		)
+		(pin "13"
+			(uuid "bb19c399-c07e-456c-be11-0e1afee8c896")
+		)
+		(pin "6"
+			(uuid "b4f90b2c-6560-4aa6-b2d1-994266edbc5b")
+		)
+		(instances
+			(project ""
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
+					(reference "UI4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:napajanje")
 		(at 125.73 123.19 180)
 		(unit 1)
@@ -7983,10 +10615,128 @@
 			(uuid "ff3e797f-769d-43d8-9813-b7cf0ef5ad75")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "CR?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "CR2")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "4007_Novi_3")
+		(lib_id "Transistor_FET:4007_Novi")
+		(at 67.31 130.81 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64f4f28f-5b3f-437b-ac19-6152cbdbc9f2")
+		(property "Reference" "UI4"
+			(at 66.04 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4007"
+			(at 66.802 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "f88971fd-02dd-4ffa-8f68-ed36dfcd0cc5")
+		)
+		(pin "2"
+			(uuid "0fc9abad-f55e-4161-b28b-ea1379e0fb1d")
+		)
+		(pin "7"
+			(uuid "2256cc71-da4f-48ee-a910-58b83454cf26")
+		)
+		(pin "9"
+			(uuid "5266bf0e-58ba-4f84-8bd5-bf73f3e98f49")
+		)
+		(pin "11"
+			(uuid "796f67ce-b04e-4c3a-8b93-0cf330082d5d")
+		)
+		(pin "1"
+			(uuid "d27ab05a-d6f6-45db-82b0-e4aa852be66f")
+		)
+		(pin "3"
+			(uuid "b51a3d03-a928-4f3e-b640-013e271761f1")
+		)
+		(pin "4"
+			(uuid "a872ef5b-aaa2-4e3c-9c88-93d73bb81657")
+		)
+		(pin "3"
+			(uuid "ac0b0550-d24a-4737-be88-0f8c1bc8c531")
+		)
+		(pin "8"
+			(uuid "5d7bc635-fd56-4a1b-9411-d1f286407388")
+		)
+		(pin "6"
+			(uuid "441d4dd9-f537-4a37-a442-0f48ef0e0dd0")
+		)
+		(pin "10"
+			(uuid "269330a2-5f87-4f14-bdf4-c2967e8d7108")
+		)
+		(pin "6"
+			(uuid "4eb64d9a-b6c8-4e4c-9da3-ed26251adb1b")
+		)
+		(pin "13"
+			(uuid "a85bf742-fe3b-4db5-b96b-4af254778c78")
+		)
+		(pin "12"
+			(uuid "677e15c2-3d8f-4c06-8315-418af962556c")
+		)
+		(pin "14"
+			(uuid "03472758-c8a9-45f1-9139-7a008c8c0304")
+		)
+		(instances
+			(project ""
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
+					(reference "UI4")
+					(unit 3)
 				)
 			)
 		)
@@ -8050,6 +10800,12 @@
 			(uuid "7dd7f525-14e2-4dff-8b4e-fd7a557bf674")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "Vcc__minus_?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "Vcc__minus_1")
@@ -8192,9 +10948,126 @@
 			(uuid "80293c24-df36-4c33-9c0f-651d4b9e772b")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "R100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "4007_Novi_1")
+		(lib_id "Transistor_FET:4007_Novi")
+		(at 129.54 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a26b2d2-aada-4eb4-b608-4a65e24c5ab6")
+		(property "Reference" "UI4"
+			(at 129.54 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4007"
+			(at 129.54 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "004d7403-e784-4a64-80f0-fe915696dc62")
+		)
+		(pin "2"
+			(uuid "a016222c-b21b-4cc7-9d88-daf5237b926f")
+		)
+		(pin "5"
+			(uuid "c3c24418-9f84-47d1-88a5-25162070a694")
+		)
+		(pin "7"
+			(uuid "2e71ccfa-8958-4a29-8e4a-7fd76db479f2")
+		)
+		(pin "6"
+			(uuid "8d3a4faa-2357-4e48-b1c1-98fec9a8db60")
+		)
+		(pin "11"
+			(uuid "c27564fa-80d7-457d-8514-262499b6fdd8")
+		)
+		(pin "3"
+			(uuid "e48c84a9-6f7a-43c9-be6c-19a2ec9200ba")
+		)
+		(pin "3"
+			(uuid "9c3876b4-0e3e-417c-b846-9c0bff2254e1")
+		)
+		(pin "4"
+			(uuid "81bb58a5-87cd-4cc0-b888-3c86e7887cca")
+		)
+		(pin "10"
+			(uuid "eb8913a1-886e-4f22-aa4d-544f69baaca4")
+		)
+		(pin "8"
+			(uuid "11286a7a-ef33-4587-8cdb-034f4e37dfeb")
+		)
+		(pin "13"
+			(uuid "2d0c287f-e883-42e3-94fa-cb1a3b99df25")
+		)
+		(pin "1"
+			(uuid "ce1db191-ea87-43ca-b4ca-96de72392022")
+		)
+		(pin "12"
+			(uuid "530653c2-0493-4d04-a71b-99fbc93b5349")
+		)
+		(pin "14"
+			(uuid "484ea313-0b7b-47b7-a691-a1f5056e7eda")
+		)
+		(pin "6"
+			(uuid "af367c50-1205-4213-919b-2b0a0f439763")
+		)
+		(instances
+			(project ""
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
+					(reference "UI4")
 					(unit 1)
 				)
 			)
@@ -8282,6 +11155,12 @@
 			(uuid "261d0f6e-4b55-416f-8234-07c1642930c9")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "U67")
@@ -8349,6 +11228,12 @@
 			(uuid "764b254c-22eb-49ac-890c-5c79219f47d2")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "C24")
@@ -8416,6 +11301,12 @@
 			(uuid "984b57fc-c61c-4c5e-8f1b-fb74e448d7c5")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "U72")
@@ -8483,6 +11374,12 @@
 			(uuid "51c43c41-9a35-4e73-8973-9e024e40b96e")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "U40")
@@ -8554,6 +11451,12 @@
 			(uuid "228f2042-28ff-4ac3-a931-484c92492763")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "SW9")
@@ -8772,10 +11675,129 @@
 			(uuid "f2f044cb-ffff-4295-aa64-ec41ad924da6")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "R101")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "4007_Novi_4")
+		(lib_id "Transistor_FET:4007_Novi")
+		(at 85.09 121.92 180)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86de04fe-589b-4b17-a465-7b41d1348b7b")
+		(property "Reference" "UI4"
+			(at 86.36 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4007"
+			(at 86.36 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "04dd9b57-2e7f-48db-a114-e5be86afeaca")
+		)
+		(pin "8"
+			(uuid "11b25a71-2cfa-4569-9c67-2742fb84c6ab")
+		)
+		(pin "3"
+			(uuid "ab0cb2ad-8fb4-4cd0-8012-9abafbd8153a")
+		)
+		(pin "3"
+			(uuid "2c07427c-bee7-4566-a8d2-f6441b926196")
+		)
+		(pin "6"
+			(uuid "2a90b931-3a66-4223-9bac-4c62212371f9")
+		)
+		(pin "9"
+			(uuid "7caa147d-12af-4ba6-a33f-381f8e82f4e9")
+		)
+		(pin "12"
+			(uuid "784c9310-693f-41dd-8800-e764e435e554")
+		)
+		(pin "1"
+			(uuid "f105f9e1-d90b-4057-b250-52df562eb3e5")
+		)
+		(pin "2"
+			(uuid "bf33a80b-d656-4067-afe8-7ca8635fbeae")
+		)
+		(pin "13"
+			(uuid "b6131207-d031-4f3e-8d6c-e0adbb59381e")
+		)
+		(pin "14"
+			(uuid "fbb7a9a9-2478-4786-be29-6f09052273ed")
+		)
+		(pin "4"
+			(uuid "faf40203-0391-48e7-b91c-3a6dabdf5f4e")
+		)
+		(pin "7"
+			(uuid "617832e9-e97d-40ab-a783-d2aad666bf15")
+		)
+		(pin "11"
+			(uuid "f84bbf4c-4aa0-4396-8ae3-e0f38060b700")
+		)
+		(pin "6"
+			(uuid "a35cd29b-2ca1-4dd9-b2b4-6e42e8ea0e2e")
+		)
+		(pin "10"
+			(uuid "9ac62dba-40eb-4790-b8a6-e59454015f9e")
+		)
+		(instances
+			(project ""
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
+					(reference "UI4")
+					(unit 5)
 				)
 			)
 		)
@@ -8908,6 +11930,12 @@
 			(uuid "d0b49fb7-e40e-4b6c-832b-e54d67f2976f")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "#PWR0109")
@@ -8993,6 +12021,12 @@
 			(uuid "62f9e97b-9786-4062-8e2d-0111815a0413")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "U2B?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "U2B2")
@@ -9190,6 +12224,12 @@
 			(uuid "13e2b11b-e64a-44f7-937c-1f9e72fd87aa")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "J2")
@@ -9222,6 +12262,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -9276,10 +12317,127 @@
 			(uuid "d8ea9ec0-8ca6-409e-9abc-ecec7b4e8ec4")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "U13")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "4007_Novi_2")
+		(lib_id "Transistor_FET:4007_Novi")
+		(at 147.32 81.28 180)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a60eb13-32a2-4e9b-9564-3bfe3074fd8d")
+		(property "Reference" "UI4"
+			(at 151.13 72.5168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4007"
+			(at 151.13 75.0568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "3be28c8f-48bf-4ce1-8617-0d22328699ad")
+		)
+		(pin "10"
+			(uuid "f5113dea-916f-4d9a-a278-62e6e4a9a2b2")
+		)
+		(pin "2"
+			(uuid "db7c1e98-f758-4d2a-a84e-bb38826fe26d")
+		)
+		(pin "3"
+			(uuid "099cddfd-66fe-4605-9aab-f0bcbc10a18e")
+		)
+		(pin "6"
+			(uuid "d7fe4e0f-284b-4429-a7bb-21ab024ea26a")
+		)
+		(pin "11"
+			(uuid "7afff6d8-9ac6-4ca6-9552-648f6568ef93")
+		)
+		(pin "8"
+			(uuid "62583ae2-bdd8-4611-aace-ab4c078d189e")
+		)
+		(pin "3"
+			(uuid "62843bde-0253-40cf-8d3c-c2564deca0a2")
+		)
+		(pin "14"
+			(uuid "9f5b4e19-2771-4e09-88fe-bccee7f3a537")
+		)
+		(pin "7"
+			(uuid "5c5d98d1-4a08-4010-bfad-d7e597511f16")
+		)
+		(pin "13"
+			(uuid "a434b2e4-763a-42ca-8c35-df74c1ac4824")
+		)
+		(pin "1"
+			(uuid "bed784b1-ac7a-4b49-9f13-266ddc4cb0b6")
+		)
+		(pin "6"
+			(uuid "f94e01b2-2b44-4a17-b735-af9cbf8bc4c4")
+		)
+		(pin "4"
+			(uuid "98267c3b-98fd-40b3-8b01-bbafe1711146")
+		)
+		(pin "9"
+			(uuid "c2bb9633-9f28-43e6-8423-97a4476d94b3")
+		)
+		(pin "5"
+			(uuid "b0f39517-4c9f-43d1-ba7f-611ee6f51cc6")
+		)
+		(instances
+			(project ""
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
+					(reference "UI4")
+					(unit 4)
 				)
 			)
 		)
@@ -9528,96 +12686,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:NE5532")
-		(at 44.45 121.92 180)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d3302b9-542a-493b-b3b7-3974eb2ecd4a")
-		(property "Reference" "U2"
-			(at 48.26 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Value" "NE5532"
-			(at 48.26 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 44.45 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 44.45 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "98f1577a-2f87-4409-8545-5c2752708329")
-		)
-		(pin "2"
-			(uuid "358588e6-f1c1-4a59-88f0-facbf8dae6a4")
-		)
-		(pin "3"
-			(uuid "2e606e6d-f348-431f-8ef6-df784c019dc3")
-		)
-		(pin "5"
-			(uuid "9175cf17-d922-42c9-8bca-8584b8b563a3")
-		)
-		(pin "6"
-			(uuid "d28c0f9d-0e73-4163-95a0-bcfa7cdbce2d")
-		)
-		(pin "7"
-			(uuid "653d0f8f-6a32-456e-a25f-0ebb49ae8761")
-		)
-		(pin "8"
-			(uuid "c9642f49-cc51-4614-9d1f-8e3fa0e926ab")
-		)
-		(pin "4"
-			(uuid "1b349a40-1296-409d-9be7-1b0359c132d5")
-		)
-		(instances
-			(project "moog_prodigy_project"
-				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
-					(reference "U2")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:napajanje")
 		(at 143.51 59.69 180)
 		(unit 1)
@@ -9676,6 +12744,12 @@
 			(uuid "0aa91713-803f-4e9f-92c3-7d9e3ed377df")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "Vcc__minus_?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "Vcc__minus_9")
@@ -9764,6 +12838,12 @@
 			(uuid "c6d3c817-edbd-4b00-aae1-e4ecec582334")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "U13")
@@ -9961,6 +13041,12 @@
 			(uuid "1d5d126b-94ff-4f2c-a39d-62692efdad02")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "J5")
@@ -10028,6 +13114,12 @@
 			(uuid "97138c18-f69e-47b8-965d-2d9ee5860294")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "C22")
@@ -10100,6 +13192,12 @@
 			(uuid "b8184237-614e-45fc-84b4-ed699c030361")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "R29")
@@ -10167,6 +13265,12 @@
 			(uuid "5917d03b-948b-4268-8063-47682568b4a2")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "U37")
@@ -10322,6 +13426,12 @@
 			(uuid "c6d284b0-f3e1-439e-b6b3-85966d0e5f50")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "U36")
@@ -10537,6 +13647,12 @@
 			(uuid "db625705-9eac-4a31-96a6-0899c305be36")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "Vcc__minus_?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "Vcc__minus_2")
@@ -10604,6 +13720,12 @@
 			(uuid "36fc7950-21af-454e-b946-fc35f997f133")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "R105")
@@ -10669,6 +13791,12 @@
 			(uuid "885b2fc2-7ac6-439f-bf37-429043f3843a")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "#PWR020")
@@ -10978,6 +14106,12 @@
 			(uuid "8b5f6989-4e9c-4274-b4db-4b4130f01078")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "U73")
@@ -11250,6 +14384,12 @@
 			(uuid "960b62cd-6039-4f34-8bab-7dd2456096b4")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "J1")
@@ -11317,6 +14457,12 @@
 			(uuid "3dd26823-45a4-4e3d-82fa-94953a01fb01")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "R81")
@@ -11462,6 +14608,12 @@
 			(uuid "18c13dc7-a8be-4250-b474-ab0067ecb9be")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "Vcc__minus_?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "Vcc__minus_15")
@@ -11602,6 +14754,12 @@
 			(uuid "da2c9894-cbe0-4215-9ecf-ef76b362d1ad")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "R102")
@@ -11669,6 +14827,12 @@
 			(uuid "b104121a-8c94-402c-8834-2308ca03ab92")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "U35")
@@ -11741,6 +14905,12 @@
 			(uuid "17803c23-75fd-4c0e-a483-d6d31483f913")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "R98")
@@ -11808,10 +14978,104 @@
 			(uuid "6c5c3aa9-1d6a-473e-8947-71e5d1272e5f")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "U68")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 49.53 121.92 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e492592f-c9c9-4058-8dc4-ab00758dadc6")
+		(property "Reference" "U2"
+			(at 48.26 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "NE5532"
+			(at 36.576 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 49.53 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 49.53 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f671ab54-3707-43f0-b7bd-2f22278e6848")
+		)
+		(pin "4"
+			(uuid "08c24677-0054-4252-b202-e8c414f8bd3d")
+		)
+		(pin "6"
+			(uuid "f6f79c18-35c7-4169-aef7-a03117f6665d")
+		)
+		(pin "5"
+			(uuid "81734ab6-b211-4677-818e-92c157597bff")
+		)
+		(pin "8"
+			(uuid "d7fc31a6-5ec7-4ad5-ae27-cb0104c0d958")
+		)
+		(pin "3"
+			(uuid "e67a8c59-0d8d-42d8-ba54-dc327f323bb9")
+		)
+		(pin "7"
+			(uuid "0a5e987b-a6b0-4c67-8e4c-2469946a899e")
+		)
+		(pin "1"
+			(uuid "c8b80097-dde4-43b5-822e-3d29d628a2af")
+		)
+		(instances
+			(project ""
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
+					(reference "U2")
+					(unit 3)
 				)
 			)
 		)
@@ -11894,6 +15158,12 @@
 			(uuid "d8ea9ec0-8ca6-409e-9abc-ecec7b4e8ec5")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "U13")
@@ -11961,6 +15231,12 @@
 			(uuid "59c1a647-fa0c-42e5-beeb-c9967fdb4ec3")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "U69")
@@ -12026,84 +15302,15 @@
 			(uuid "f8107243-36dd-49f4-9806-ca4d87eb2060")
 		)
 		(instances
-			(project "moog_prodigy_project"
-				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
-					(reference "#PWR026")
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BF244A")
-		(at 82.55 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f8cd44ae-76e2-4910-9659-bf6d6fac660f")
-		(property "Reference" "U14E?"
-			(at 87.63 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4007"
-			(at 87.63 122.682 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 87.63 123.825 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/BF244x.pdf"
-			(at 87.63 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50mA Id, 30V Vgs, N-Channel FET Transistor, TO-92"
-			(at 82.55 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "db4ee0f7-c1dc-4026-804d-c700f340548d")
-		)
-		(pin "1"
-			(uuid "84c714ee-8cd4-4dce-924c-446669eaaae8")
-		)
-		(pin "3"
-			(uuid "9c1706c1-b4f1-4961-9a76-40ccdd4c36e3")
-		)
-		(instances
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
-					(reference "U14E?")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -12186,6 +15393,12 @@
 			(uuid "44a51262-c9be-4f71-af74-f083d51d5df5")
 		)
 		(instances
+			(project "Left_side_pt3"
+				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "U1")
