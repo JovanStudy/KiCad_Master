@@ -7065,53 +7065,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:BF244A"
-			(pin_names
-				(hide yes)
-			)
+		(symbol "Transistor_FET:BF256C"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+			(property "Reference" "U"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "BF244A"
-				(at 5.08 0 0)
+			(property "Value" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/BF244x.pdf"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "50mA Id, 30V Vgs, N-Channel FET Transistor, TO-92"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -7120,7 +7094,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "N-Channel FET Transistor Low Voltage"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -7129,7 +7103,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -7138,10 +7112,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "BF244A_0_1"
+			(symbol "BF256C_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy -1.016 0.381) (xy -1.016 -0.381) (xy 0 0)
+						(xy 2.54 2.54) (xy 1.524 2.921) (xy 1.524 2.159) (xy 2.54 2.54)
 					)
 					(stroke
 						(width 0)
@@ -7153,7 +7127,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
+						(xy 2.794 4.445) (xy 2.794 0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -7165,30 +7139,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.397) (xy 0.254 1.397)
+						(xy 2.794 2.54) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -7200,7 +7151,19 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.54) (xy 2.54 -1.397) (xy 0.254 -1.397)
+						(xy 5.08 5.08) (xy 5.08 3.937) (xy 2.794 3.937)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.08 1.143) (xy 2.794 1.143)
 					)
 					(stroke
 						(width 0)
@@ -7211,9 +7174,9 @@
 					)
 				)
 			)
-			(symbol "BF244A_1_1"
+			(symbol "BF256C_1_1"
 				(pin input line
-					(at -5.08 0 0)
+					(at -2.54 2.54 0)
 					(length 2.54)
 					(name "G"
 						(effects
@@ -7231,7 +7194,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at 5.08 7.62 270)
 					(length 2.54)
 					(name "D"
 						(effects
@@ -7249,7 +7212,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 5.08 -2.54 90)
 					(length 2.54)
 					(name "S"
 						(effects
@@ -10885,6 +10848,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:BF256C")
+		(at 176.53 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "143a56f0-c433-48c7-8cfd-deb5719a4790")
+		(property "Reference" "Q16"
+			(at 175.514 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 170.18 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BF256C:TO92127P478H483-3"
+			(at 176.53 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "beced4e5-296b-4353-9b55-f2febbdc4853")
+		)
+		(pin "1"
+			(uuid "41c92a2d-f494-495f-a15d-dd6eb5a3f3a4")
+		)
+		(pin "2"
+			(uuid "cc013331-449e-40cd-8b83-234f29105793")
+		)
+		(instances
+			(project "moog_prodigy_project"
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
+					(reference "Q16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 87.63 67.31 270)
 		(unit 1)
@@ -11190,87 +11226,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BF244A")
-		(at 124.46 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1bf940ea-9ff2-4bb3-9e13-96ed5be69a6e")
-		(property "Reference" "Q13"
-			(at 127.508 27.686 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BF244A"
-			(at 115.824 32.004 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 129.54 32.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/BF244x.pdf"
-			(at 129.54 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50mA Id, 30V Vgs, N-Channel FET Transistor, TO-92"
-			(at 124.46 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "47bf0974-6fd3-4cc0-b57d-9e1b6ab53118")
-		)
-		(pin "1"
-			(uuid "0867db0e-beca-4489-9710-668228ebe62d")
-		)
-		(pin "3"
-			(uuid "3247b708-bddb-4daf-847f-1fbd3ddc7535")
-		)
-		(instances
-			(project ""
-				(path "/d7ecab91-fc93-47c1-809d-3a7b4e998ed7"
-					(reference "Q13")
-					(unit 1)
-				)
-			)
-			(project "moog_prodigy_project"
-				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
-					(reference "Q13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
 		(at 161.29 39.37 0)
 		(unit 1)
@@ -11350,6 +11305,79 @@
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BF256C")
+		(at 121.92 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21bf67ae-c9e8-4b17-8d9d-a448a0f91a16")
+		(property "Reference" "Q13"
+			(at 120.142 33.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 128.27 29.2101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "BF256C:TO92127P478H483-3"
+			(at 121.92 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a00c0d07-f691-41c0-9744-901db93c3094")
+		)
+		(pin "1"
+			(uuid "a7940763-4c51-4da5-b8f3-2fb67c283e88")
+		)
+		(pin "2"
+			(uuid "d555dbec-ecfb-4036-88da-6345d44229ec")
+		)
+		(instances
+			(project "moog_prodigy_project"
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
+					(reference "Q13")
 					(unit 1)
 				)
 			)
@@ -19259,87 +19287,6 @@
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
 					(reference "U45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BF244A")
-		(at 173.99 60.96 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fce09cc3-1c54-433d-a0a4-785b29355fc5")
-		(property "Reference" "Q16"
-			(at 175.768 56.896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BF244A"
-			(at 179.578 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 168.91 59.055 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/BF244x.pdf"
-			(at 168.91 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50mA Id, 30V Vgs, N-Channel FET Transistor, TO-92"
-			(at 173.99 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fedb0963-a7ef-43e7-afa5-90d7978f3a6a")
-		)
-		(pin "1"
-			(uuid "e5c671fd-216c-47bc-8cb1-c5491bf3f6cf")
-		)
-		(pin "3"
-			(uuid "104cc358-bbf6-46bd-814e-3618807812ab")
-		)
-		(instances
-			(project "Left_side_pt2"
-				(path "/d7ecab91-fc93-47c1-809d-3a7b4e998ed7"
-					(reference "Q16")
-					(unit 1)
-				)
-			)
-			(project "moog_prodigy_project"
-				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
-					(reference "Q16")
 					(unit 1)
 				)
 			)
