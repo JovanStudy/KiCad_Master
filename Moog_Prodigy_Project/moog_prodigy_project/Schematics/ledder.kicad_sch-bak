@@ -2701,6 +2701,10 @@
 		(at 187.96 72.39)
 		(uuid "c59fdb75-4693-4d35-acbd-ade865fa2e14")
 	)
+	(no_connect
+		(at 260.35 68.58)
+		(uuid "fb379b3e-da72-4e8f-9a57-ddc50297ba15")
+	)
 	(wire
 		(pts
 			(xy 72.39 100.33) (xy 72.39 96.52)
@@ -3460,16 +3464,6 @@
 			(type default)
 		)
 		(uuid "7746abe5-7de2-482d-b621-631147850180")
-	)
-	(wire
-		(pts
-			(xy 215.9 59.69) (xy 215.9 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78cd5210-55da-41ba-934e-a7ca804394e1")
 	)
 	(wire
 		(pts
@@ -4737,93 +4731,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:NE5532")
-		(at 260.35 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "095105ee-62f5-4432-a574-d761202dd949")
-		(property "Reference" "U100"
-			(at 262.89 53.594 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LT1469"
-			(at 262.89 56.134 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 260.35 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 260.35 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 260.35 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "fee8c88a-530b-47ef-9f81-b886f7e9606e")
-		)
-		(pin "8"
-			(uuid "d8350a59-3d8e-4792-9a11-f84bc05f6419")
-		)
-		(pin "3"
-			(uuid "0b324a24-b3a7-45e7-a8f7-fad96209c064")
-		)
-		(pin "1"
-			(uuid "fde099f9-8c26-4cde-97fd-2f0f49b10765")
-		)
-		(pin "5"
-			(uuid "c5ee4884-d292-4d99-b245-7bfe02bf936c")
-		)
-		(pin "4"
-			(uuid "e4dabba9-a899-4d6c-8ff9-8dd4e45c0a51")
-		)
-		(pin "2"
-			(uuid "64596128-c05f-4def-b026-c65de4b0a635")
-		)
-		(pin "7"
-			(uuid "daf07fc9-cbea-4aa0-966e-30f4edea518a")
-		)
-		(instances
-			(project "moog_prodigy_project"
-				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/637e5716-797a-4ca1-a297-395d18ce9ef7/0f2c4fd4-8813-4265-a924-3fec3b70176e"
-					(reference "U100")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 121.92 134.62 0)
 		(unit 1)
@@ -5579,7 +5486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "LT1469"
+		(property "Value" "NE5532"
 			(at 95.25 136.652 90)
 			(effects
 				(font
@@ -5667,7 +5574,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC327"
+		(property "Value" "BC556"
 			(at 224.79 125.7299 0)
 			(effects
 				(font
@@ -6055,7 +5962,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 215.9 59.69 0)
+		(at 215.9 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6064,7 +5971,7 @@
 		(fields_autoplaced yes)
 		(uuid "438bdc44-8228-4ca2-b298-4cbddc3ed4fe")
 		(property "Reference" "#PWR0113"
-			(at 215.9 63.5 0)
+			(at 215.9 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6073,7 +5980,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 215.9 54.61 0)
+			(at 215.9 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6081,7 +5988,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 59.69 0)
+			(at 215.9 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6090,7 +5997,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 59.69 0)
+			(at 215.9 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6099,7 +6006,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 215.9 59.69 0)
+			(at 215.9 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7895,9 +7802,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "c4ae6d39-1631-4732-b942-df5c36fdd409")
 		(property "Reference" "U100"
-			(at 107.442 124.206 90)
+			(at 130.81 118.1099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7905,8 +7813,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LT1469"
-			(at 107.442 126.746 90)
+		(property "Value" "NE5532"
+			(at 130.81 120.6499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7970,6 +7878,93 @@
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/637e5716-797a-4ca1-a297-395d18ce9ef7/0f2c4fd4-8813-4265-a924-3fec3b70176e"
 					(reference "U100")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 260.35 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8fdc684-7887-424b-ab5e-822497a29459")
+		(property "Reference" "U100"
+			(at 262.89 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NE5532"
+			(at 262.89 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 260.35 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 260.35 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "fee8c88a-530b-47ef-9f81-b886f7e9606e")
+		)
+		(pin "8"
+			(uuid "d8350a59-3d8e-4792-9a11-f84bc05f6419")
+		)
+		(pin "3"
+			(uuid "959281b7-565e-4d97-a7ef-23e00fcb1307")
+		)
+		(pin "1"
+			(uuid "f1b50fa8-76f5-4911-9725-35651d60d69e")
+		)
+		(pin "5"
+			(uuid "c5ee4884-d292-4d99-b245-7bfe02bf936c")
+		)
+		(pin "4"
+			(uuid "e4dabba9-a899-4d6c-8ff9-8dd4e45c0a51")
+		)
+		(pin "2"
+			(uuid "eb8c81e2-7d5a-402b-a6a8-70fda0f69fd4")
+		)
+		(pin "7"
+			(uuid "daf07fc9-cbea-4aa0-966e-30f4edea518a")
+		)
+		(instances
+			(project "moog_prodigy_project"
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/637e5716-797a-4ca1-a297-395d18ce9ef7/0f2c4fd4-8813-4265-a924-3fec3b70176e"
+					(reference "U100")
+					(unit 1)
 				)
 			)
 		)
