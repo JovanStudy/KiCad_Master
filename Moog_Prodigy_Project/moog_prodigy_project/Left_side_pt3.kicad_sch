@@ -9314,7 +9314,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CT3151-2:CALTEST_CT3151-2"
+		(property "Footprint" "Connector:Banana_Cliff_FCR7350B_S16N-PC_Horizontal"
 			(at 54.61 26.67 0)
 			(effects
 				(font
@@ -9590,7 +9590,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CT3151-2:CALTEST_CT3151-2"
+		(property "Footprint" "Connector:Banana_Cliff_FCR7350B_S16N-PC_Horizontal"
 			(at 83.82 26.67 0)
 			(effects
 				(font
@@ -12063,7 +12063,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CT3151-2:CALTEST_CT3151-2"
+		(property "Footprint" "Connector:Banana_Cliff_FCR7350B_S16N-PC_Horizontal"
 			(at 45.72 26.67 0)
 			(effects
 				(font
@@ -12880,7 +12880,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CT3151-2:CALTEST_CT3151-2"
+		(property "Footprint" "Connector:Banana_Cliff_FCR7350B_S16N-PC_Horizontal"
 			(at 66.04 26.67 0)
 			(effects
 				(font
@@ -14223,7 +14223,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CT3151-2:CALTEST_CT3151-2"
+		(property "Footprint" "Connector:Banana_Cliff_FCR7350B_S16N-PC_Horizontal"
 			(at 30.48 26.67 0)
 			(effects
 				(font

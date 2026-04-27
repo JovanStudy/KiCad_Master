@@ -12363,7 +12363,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CA3046:DIL14"
 			(at 45.72 67.31 0)
 			(effects
 				(font
