@@ -11234,7 +11234,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2169c1b6-c39a-4d06-9f2c-744a922ae28b")
-		(property "Reference" "U1"
+		(property "Reference" "U8"
 			(at 163.576 35.814 0)
 			(effects
 				(font
@@ -11304,7 +11304,7 @@
 		(instances
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
-					(reference "U1")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -12347,7 +12347,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f81a1b9-2db6-4f18-af3d-9ee67d4c8c2f")
-		(property "Reference" "UI1"
+		(property "Reference" "UI3"
 			(at 45.466 66.548 0)
 			(effects
 				(font
@@ -12524,7 +12524,80 @@
 		(instances
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
-					(reference "UI1")
+					(reference "UI3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 160.02 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "446ea8f7-b3cb-44a9-8317-8c610e75b416")
+		(property "Reference" "C16"
+			(at 155.448 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10n"
+			(at 155.448 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 159.0548 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 160.02 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "04920f33-9028-43f3-9f27-5f3754db3a7c")
+		)
+		(pin "1"
+			(uuid "62b3e92e-e706-46cc-b84d-89759a0bc64b")
+		)
+		(instances
+			(project "Left_side_pt2"
+				(path "/d7ecab91-fc93-47c1-809d-3a7b4e998ed7"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+			(project "moog_prodigy_project"
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -13466,77 +13539,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 166.37 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "60938068-a720-416e-bbf4-f62ec69c9f21")
-		(property "Reference" "#PWR0105"
-			(at 166.37 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 166.37 122.428 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db37cd59-562d-4d3d-a5bf-cf6f82c70415")
-		)
-		(instances
-			(project "Left_side_pt2"
-				(path "/d7ecab91-fc93-47c1-809d-3a7b4e998ed7"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-			(project "moog_prodigy_project"
-				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
-					(reference "#PWR0105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 213.36 87.63 90)
 		(unit 1)
@@ -14237,79 +14239,6 @@
 			(project ""
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
 					(reference "R76")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 160.02 109.22 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8ba5c7d2-c938-432b-848a-d1ae3f0f188e")
-		(property "Reference" "C16"
-			(at 155.448 107.696 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10n"
-			(at 155.448 109.728 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 159.0548 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 160.02 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "04920f33-9028-43f3-9f27-5f3754db3a7c")
-		)
-		(pin "1"
-			(uuid "62b3e92e-e706-46cc-b84d-89759a0bc64b")
-		)
-		(instances
-			(project "Left_side_pt2"
-				(path "/d7ecab91-fc93-47c1-809d-3a7b4e998ed7"
-					(reference "C16")
-					(unit 1)
-				)
-			)
-			(project "moog_prodigy_project"
-				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
-					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -16212,79 +16141,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 160.02 119.38 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bc2a748e-ac12-49e7-aff7-4c93d5ef6ed6")
-		(property "Reference" "C17"
-			(at 156.464 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10n"
-			(at 156.464 117.094 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 159.0548 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 160.02 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "25ed97b2-f8af-4e15-a54a-4342e3308204")
-		)
-		(pin "1"
-			(uuid "afb57034-3e8a-47d7-8815-09781558917f")
-		)
-		(instances
-			(project "Left_side_pt2"
-				(path "/d7ecab91-fc93-47c1-809d-3a7b4e998ed7"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-			(project "moog_prodigy_project"
-				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power_supply:Vcc_reference")
 		(at 106.68 29.21 180)
 		(unit 1)
@@ -16360,7 +16216,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0d20d7d-1ee5-4df3-b6a9-e151bf093838")
-		(property "Reference" "U4B"
+		(property "Reference" "U4B1"
 			(at 73.406 154.432 0)
 			(effects
 				(font
@@ -16430,7 +16286,7 @@
 		(instances
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
-					(reference "U4B")
+					(reference "U4B1")
 					(unit 1)
 				)
 			)
@@ -17569,6 +17425,77 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 166.37 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d387f701-3e93-4a9c-a83a-d169bbc8c9ef")
+		(property "Reference" "#PWR0105"
+			(at 166.37 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db37cd59-562d-4d3d-a5bf-cf6f82c70415")
+		)
+		(instances
+			(project "Left_side_pt2"
+				(path "/d7ecab91-fc93-47c1-809d-3a7b4e998ed7"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+			(project "moog_prodigy_project"
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power_supply:Vcc_reference")
 		(at 19.05 60.96 180)
 		(unit 1)
@@ -17881,7 +17808,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc34d364-49a7-4188-adeb-840672673a54")
-		(property "Reference" "LED"
+		(property "Reference" "LED1"
 			(at 151.13 168.656 0)
 			(effects
 				(font
@@ -17934,7 +17861,7 @@
 		(instances
 			(project ""
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
-					(reference "LED")
+					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -18921,6 +18848,79 @@
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
 					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 160.02 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3276031-b8c5-4164-9125-382eb0e0b119")
+		(property "Reference" "C17"
+			(at 156.464 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10n"
+			(at 156.464 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 159.0548 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 160.02 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "25ed97b2-f8af-4e15-a54a-4342e3308204")
+		)
+		(pin "1"
+			(uuid "afb57034-3e8a-47d7-8815-09781558917f")
+		)
+		(instances
+			(project "Left_side_pt2"
+				(path "/d7ecab91-fc93-47c1-809d-3a7b4e998ed7"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+			(project "moog_prodigy_project"
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/4ed67b3d-2561-481b-964c-8f7d9fc9a038"
+					(reference "C17")
 					(unit 1)
 				)
 			)

@@ -10111,7 +10111,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28355247-9065-428f-9950-5e83f26b459d")
-		(property "Reference" "U2A"
+		(property "Reference" "U2A1"
 			(at 100.838 83.82 0)
 			(effects
 				(font
@@ -10181,7 +10181,7 @@
 		(instances
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/2ede1db1-77b0-45c3-aa08-ac2fbfd2e808"
-					(reference "U2A")
+					(reference "U2A1")
 					(unit 1)
 				)
 			)
@@ -14207,7 +14207,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99d5334b-bea3-4c2e-9ccb-bc2b8e255cee")
-		(property "Reference" "U2B"
+		(property "Reference" "U2B3"
 			(at 72.136 123.952 0)
 			(effects
 				(font
@@ -14277,7 +14277,7 @@
 		(instances
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/2ede1db1-77b0-45c3-aa08-ac2fbfd2e808"
-					(reference "U2B")
+					(reference "U2B3")
 					(unit 1)
 				)
 			)
@@ -15657,7 +15657,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3590c23-cc74-4bdf-b061-a8c0357c0dfd")
-		(property "Reference" "U1"
+		(property "Reference" "U6"
 			(at 251.714 135.636 0)
 			(effects
 				(font
@@ -15867,7 +15867,7 @@
 		(instances
 			(project ""
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/2ede1db1-77b0-45c3-aa08-ac2fbfd2e808"
-					(reference "U1")
+					(reference "U6")
 					(unit 2)
 				)
 			)
@@ -16683,7 +16683,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f8aca81e-ec2f-46db-aa6e-8a5c46b15aa2")
-		(property "Reference" "UI"
+		(property "Reference" "UI2"
 			(at 51.816 60.198 0)
 			(effects
 				(font
@@ -16860,7 +16860,7 @@
 		(instances
 			(project ""
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/2ede1db1-77b0-45c3-aa08-ac2fbfd2e808"
-					(reference "UI")
+					(reference "UI2")
 					(unit 1)
 				)
 			)
