@@ -3342,258 +3342,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Comparator:MCP6562"
-			(pin_names
-				(offset 0.127)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 3.81 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MCP6562"
-				(at 6.35 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6561-1R-1U-2-4-1.8V-Low-Power-Push-Pull-Output-Comparator-DS20002139E.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual 1.8V Low-Power Push-Pull Output Comparator, SOIC-8/MSOP-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cmp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* MSOP*3x3mm*P0.65mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MCP6562_1_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "MCP6562_2_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "MCP6562_3_1"
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -6080,6 +5828,10 @@
 		(uuid "7116fdd5-0afc-42ff-94dc-13c3985a2388")
 	)
 	(no_connect
+		(at 77.47 80.01)
+		(uuid "8bf9a239-9bba-4deb-9b18-ab427a8c0e5b")
+	)
+	(no_connect
 		(at 124.46 74.93)
 		(uuid "8dd35c42-e83b-48c1-91ce-829380f099a1")
 	)
@@ -6102,6 +5854,10 @@
 	(no_connect
 		(at 67.31 125.73)
 		(uuid "c84bf7bf-6bf9-4101-a4a4-e44e97ec98b3")
+	)
+	(no_connect
+		(at 80.01 80.01)
+		(uuid "d2874cf9-9ea9-4f22-ada1-67d9405a87de")
 	)
 	(no_connect
 		(at 148.59 57.15)
@@ -8709,97 +8465,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Comparator:MCP6562")
-		(at 77.47 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1fe7f11c-9373-47b3-a252-8b1b83d1a9a3")
-		(property "Reference" "U12B1"
-			(at 68.58 71.882 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP6562"
-			(at 81.788 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6561-1R-1U-2-4-1.8V-Low-Power-Push-Pull-Output-Comparator-DS20002139E.pdf"
-			(at 77.47 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual 1.8V Low-Power Push-Pull Output Comparator, SOIC-8/MSOP-8"
-			(at 77.47 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "17502f2c-3f16-40ac-aec4-ba0238409e6a")
-		)
-		(pin "2"
-			(uuid "06441bcb-4e8e-4a4a-9735-c8cbc69a7dbe")
-		)
-		(pin "5"
-			(uuid "eb9587ce-980f-4d50-a43b-2dae263ea0d7")
-		)
-		(pin "3"
-			(uuid "6927fb8b-4357-4437-9069-775fff22d1af")
-		)
-		(pin "7"
-			(uuid "ed987cd3-85fd-49e4-9d76-5e83c6fb4ced")
-		)
-		(pin "4"
-			(uuid "3ec0a67c-c96a-4a35-b7bc-bdf69c0c645e")
-		)
-		(pin "6"
-			(uuid "10e0236b-61f2-4d03-affd-6029ac5ba2f3")
-		)
-		(pin "1"
-			(uuid "68e0883d-9465-4c82-a04f-2d3718dedbe2")
-		)
-		(instances
-			(project "Left_side_pt3"
-				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-			(project "moog_prodigy_project"
-				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
-					(reference "U12B1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 111.76 121.92 90)
 		(unit 1)
@@ -8942,6 +8607,73 @@
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:napajanje")
+		(at 74.93 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "299b9edb-f8f8-419c-a3ef-4cd6091fc694")
+		(property "Reference" "U67"
+			(at 72.39 84.4551 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "-12V"
+			(at 71.882 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "77d28780-74fe-4ba3-bb85-86ec71b2da12")
+		)
+		(instances
+			(project "moog_prodigy_project"
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
+					(reference "U67")
 					(unit 1)
 				)
 			)
@@ -10417,7 +10149,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MC14007UBDG:SOIC127P600X175-14N"
 			(at 102.87 55.88 0)
 			(effects
 				(font
@@ -10761,7 +10493,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MC14007UBDG:SOIC127P600X175-14N"
 			(at 67.31 130.81 0)
 			(effects
 				(font
@@ -10841,79 +10573,6 @@
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "UI4")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:napajanje")
-		(at 74.93 82.55 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "652a05cf-88c0-44bb-af6f-5d2837a5674c")
-		(property "Reference" "U76"
-			(at 72.39 84.4551 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "-12V"
-			(at 72.136 84.836 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 74.93 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "7dd7f525-14e2-4dff-8b4e-fd7a557bf674")
-		)
-		(instances
-			(project "Left_side_pt3"
-				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
-					(reference "Vcc__minus_?")
-					(unit 1)
-				)
-			)
-			(project "moog_prodigy_project"
-				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
-					(reference "U76")
-					(unit 1)
 				)
 			)
 		)
@@ -11093,7 +10752,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MC14007UBDG:SOIC127P600X175-14N"
 			(at 129.54 74.93 0)
 			(effects
 				(font
@@ -11173,102 +10832,6 @@
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "UI4")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Comparator:MCP6562")
-		(at 77.47 72.39 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b13c101-19df-423e-bd7b-b3b05bba9d65")
-		(property "Reference" "U67"
-			(at 76.2 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "MCP6562"
-			(at 76.2 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6561-1R-1U-2-4-1.8V-Low-Power-Push-Pull-Output-Comparator-DS20002139E.pdf"
-			(at 77.47 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual 1.8V Low-Power Push-Pull Output Comparator, SOIC-8/MSOP-8"
-			(at 77.47 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "9570a7fe-cd0d-4aa1-84e2-e371647273e4")
-		)
-		(pin "6"
-			(uuid "bba36de3-e9ec-4bb7-82f9-ed57a9db172f")
-		)
-		(pin "2"
-			(uuid "5ca32f6e-3280-4974-81a7-a5fd4a402e03")
-		)
-		(pin "3"
-			(uuid "5eb1bd4e-da50-4fdf-8a40-63fcdffb8c6c")
-		)
-		(pin "5"
-			(uuid "fa394493-89ba-43b9-be16-92d627944bda")
-		)
-		(pin "1"
-			(uuid "f48068d3-274d-4a2e-8583-9203ff6213e4")
-		)
-		(pin "4"
-			(uuid "229c897b-2a12-43f7-b4a6-f7db8c7cd84c")
-		)
-		(pin "8"
-			(uuid "261d0f6e-4b55-416f-8234-07c1642930c9")
-		)
-		(instances
-			(project "Left_side_pt3"
-				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
-					(reference "U67")
-					(unit 3)
 				)
 			)
 		)
@@ -11414,6 +10977,91 @@
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "U72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA134")
+		(at 77.47 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7aaf77b9-8835-4a8d-9fe5-6065f0debde1")
+		(property "Reference" "UI2B1"
+			(at 81.026 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA134"
+			(at 67.818 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "OPA134PA:DIP794W45P254L959H508Q8"
+			(at 78.74 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa134.pdf"
+			(at 78.74 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 77.47 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "b533464d-43cb-4a41-b548-31a851f9ad2e")
+		)
+		(pin "3"
+			(uuid "78ebdaa8-db9b-4862-b2e5-4c9472e6f27f")
+		)
+		(pin "4"
+			(uuid "bfcd7c81-00cb-4385-bec8-bf615b2146cd")
+		)
+		(pin "1"
+			(uuid "703090fa-9886-44fc-91bd-10ff17f72561")
+		)
+		(pin "5"
+			(uuid "bf7b832e-d58f-43f2-9870-6c7afea6571c")
+		)
+		(pin "6"
+			(uuid "c282d2b0-a926-44b7-9eea-e58252b75c00")
+		)
+		(pin "8"
+			(uuid "c36d89b5-4c74-42a6-aa10-a0b0ddd9dcfb")
+		)
+		(pin "2"
+			(uuid "abc0a18e-b1ca-4f00-bcaa-9a2cfc9b28a5")
+		)
+		(instances
+			(project "moog_prodigy_project"
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
+					(reference "UI2B1")
 					(unit 1)
 				)
 			)
@@ -11822,7 +11470,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MC14007UBDG:SOIC127P600X175-14N"
 			(at 85.09 121.92 0)
 			(effects
 				(font
@@ -12116,6 +11764,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_supply:Vcc_reference")
+		(at 74.93 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e7a08b9-9f88-4a7c-b9d8-b981379ca7e4")
+		(property "Reference" "U1"
+			(at 77.47 60.3249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 72.136 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "41231ffc-13a4-4d6f-b3cc-7ba3acb9dace")
+		)
+		(instances
+			(project "moog_prodigy_project"
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:OPA134")
 		(at 146.05 49.53 0)
 		(unit 1)
@@ -12124,7 +11839,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8fbaddd9-b16d-4abe-8c6d-229930099626")
-		(property "Reference" "U2B2"
+		(property "Reference" "UI2A1"
 			(at 149.606 46.482 0)
 			(effects
 				(font
@@ -12140,7 +11855,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "OPA134PA:DIP794W45P254L959H508Q8"
 			(at 147.32 48.26 0)
 			(effects
 				(font
@@ -12200,7 +11915,7 @@
 			)
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
-					(reference "U2B2")
+					(reference "UI2A1")
 					(unit 1)
 				)
 			)
@@ -12529,7 +12244,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MC14007UBDG:SOIC127P600X175-14N"
 			(at 147.32 81.28 0)
 			(effects
 				(font
@@ -15086,79 +14801,6 @@
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
 					(reference "R98")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_supply:Vcc_reference")
-		(at 74.93 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e3de3125-8309-4369-a1bd-3f2cb3dddfde")
-		(property "Reference" "U68"
-			(at 77.47 60.3249 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 72.136 59.944 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 74.93 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "6c5c3aa9-1d6a-473e-8947-71e5d1272e5f")
-		)
-		(instances
-			(project "Left_side_pt3"
-				(path "/343ddba2-b026-4ef9-a147-54e93368af4b"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-			(project "moog_prodigy_project"
-				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/f302d475-225e-4675-be00-98df85c2f847"
-					(reference "U68")
 					(unit 1)
 				)
 			)

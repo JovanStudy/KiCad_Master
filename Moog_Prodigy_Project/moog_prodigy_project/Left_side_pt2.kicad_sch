@@ -11932,7 +11932,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
+		(property "Footprint" "L101011ML04Q_1x1:SW_L101011ML04Q"
 			(at 215.9 63.5 0)
 			(effects
 				(font
@@ -16630,7 +16630,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "OPA134PA:DIP794W45P254L959H508Q8"
 			(at 81.28 156.21 0)
 			(effects
 				(font
@@ -16863,7 +16863,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "OPA134PA:DIP794W45P254L959H508Q8"
 			(at 96.52 90.17 0)
 			(effects
 				(font
@@ -18411,7 +18411,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
+		(property "Footprint" "L101011ML04Q_1x1:SW_L101011ML04Q"
 			(at 227.33 134.62 0)
 			(effects
 				(font
