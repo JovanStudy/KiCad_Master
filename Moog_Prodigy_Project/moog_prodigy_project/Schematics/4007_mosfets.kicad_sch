@@ -2562,7 +2562,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA9-V10_Vertical"
 			(at 273.05 78.74 0)
 			(effects
 				(font
@@ -2764,7 +2764,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 183.388 148.59 90)
 			(effects
 				(font
@@ -3094,7 +3094,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA9-V10_Vertical"
 			(at 204.47 142.24 0)
 			(effects
 				(font
@@ -3166,7 +3166,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 191.77 140.462 90)
 			(effects
 				(font
@@ -3235,7 +3235,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 260.35 76.962 90)
 			(effects
 				(font
@@ -3304,7 +3304,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 222.758 66.04 90)
 			(effects
 				(font
@@ -3373,7 +3373,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 239.268 85.09 90)
 			(effects
 				(font
@@ -3572,7 +3572,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 134.62 91.948 90)
 			(effects
 				(font
@@ -3706,7 +3706,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 251.968 85.09 90)
 			(effects
 				(font
@@ -3775,7 +3775,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 170.688 148.59 90)
 			(effects
 				(font
@@ -3835,7 +3835,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC556"
+		(property "Value" "BC327"
 			(at 218.44 77.4701 0)
 			(effects
 				(font
@@ -3937,7 +3937,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 97.79 100.838 90)
 			(effects
 				(font
@@ -4072,7 +4072,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA9-V10_Vertical"
 			(at 121.92 96.52 0)
 			(effects
 				(font
@@ -4135,7 +4135,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC556"
+		(property "Value" "BC327"
 			(at 149.86 140.9701 0)
 			(effects
 				(font
@@ -4372,7 +4372,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 212.09 28.448 90)
 			(effects
 				(font
@@ -4507,7 +4507,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA9-V10_Vertical"
 			(at 199.39 33.02 0)
 			(effects
 				(font
@@ -4578,7 +4578,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 165.1 107.95 0)
 			(effects
 				(font
@@ -4923,7 +4923,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 242.57 44.45 0)
 			(effects
 				(font
@@ -5353,7 +5353,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 154.178 129.54 90)
 			(effects
 				(font
@@ -5422,7 +5422,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 175.26 37.338 90)
 			(effects
 				(font
