@@ -2,12 +2,12 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "db469bdb-b6c3-4a16-9199-d4e6b8d556e8")
+	(uuid "f3ca2147-0eec-4f15-8e7f-7717698f176d")
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 34.29 27.94)
-		(size 59.69 25.4)
+		(at 25.4 24.13)
+		(size 49.53 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -20,9 +20,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "2ede1db1-77b0-45c3-aa08-ac2fbfd2e808")
-		(property "Sheetname" "Left_side"
-			(at 34.29 27.2284 0)
+		(uuid "7ef59875-328c-471e-b3d6-b5f70153aef4")
+		(property "Sheetname" "voltage_source"
+			(at 25.4 23.4184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30,8 +30,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Schematics/Left_side.kicad_sch"
-			(at 34.29 53.9246 0)
+		(property "Sheetfile" "voltage_source.kicad_sch"
+			(at 25.4 37.4146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,15 +41,15 @@
 		)
 		(instances
 			(project "moog_prodigy_project"
-				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8"
-					(page "3")
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/637e5716-797a-4ca1-a297-395d18ce9ef7"
+					(page "4")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 34.29 66.04)
-		(size 59.69 25.4)
+		(at 25.4 45.72)
+		(size 50.165 14.605)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -62,9 +62,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "637e5716-797a-4ca1-a297-395d18ce9ef7")
-		(property "Sheetname" "Right_side"
-			(at 34.29 65.3284 0)
+		(uuid "a29914f9-6a06-4b90-adb2-bc722325336c")
+		(property "Sheetname" "dual_timer"
+			(at 25.4 45.0084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72,8 +72,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Schematics/Right_side.kicad_sch"
-			(at 34.29 92.0246 0)
+		(property "Sheetfile" "dual_timer.kicad_sch"
+			(at 25.4 60.9096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -83,16 +83,10 @@
 		)
 		(instances
 			(project "moog_prodigy_project"
-				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8"
-					(page "3")
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/637e5716-797a-4ca1-a297-395d18ce9ef7"
+					(page "5")
 				)
 			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )
