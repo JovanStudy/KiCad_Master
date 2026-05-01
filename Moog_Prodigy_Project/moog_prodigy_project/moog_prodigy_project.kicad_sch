@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 34.29 27.94)
+		(at 162.56 29.21)
 		(size 59.69 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20,9 +20,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "2ede1db1-77b0-45c3-aa08-ac2fbfd2e808")
-		(property "Sheetname" "Left_side"
-			(at 34.29 27.2284 0)
+		(uuid "0831e821-0b52-4263-8fa0-a60bfb135571")
+		(property "Sheetname" "3046"
+			(at 162.56 28.4984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30,8 +30,134 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Schematics/Left_side.kicad_sch"
-			(at 34.29 53.9246 0)
+		(property "Sheetfile" "ledder.kicad_sch"
+			(at 162.56 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "moog_prodigy_project"
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 96.52 64.77)
+		(size 59.69 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3db0e499-9ab2-4148-8bd3-6413362a052c")
+		(property "Sheetname" "dual_timer"
+			(at 96.52 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dual_timer.kicad_sch"
+			(at 96.52 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "moog_prodigy_project"
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 96.52 29.21)
+		(size 59.69 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "632a0a15-d2db-46b0-8553-670bc8b18225")
+		(property "Sheetname" "voltage_source"
+			(at 96.52 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "voltage_source.kicad_sch"
+			(at 96.52 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "moog_prodigy_project"
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 64.77)
+		(size 59.69 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6469524d-0b29-4838-a829-8042159f097c")
+		(property "Sheetname" "Left_side_pt2"
+			(at 30.48 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Left_side_pt2.kicad_sch"
+			(at 30.48 90.7546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,7 +174,7 @@
 		)
 	)
 	(sheet
-		(at 34.29 66.04)
+		(at 30.48 29.21)
 		(size 59.69 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -62,9 +188,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "637e5716-797a-4ca1-a297-395d18ce9ef7")
-		(property "Sheetname" "Right_side"
-			(at 34.29 65.3284 0)
+		(uuid "6ca03b6b-5ad1-455d-b55d-f800979e8812")
+		(property "Sheetname" "Left_side"
+			(at 30.48 28.4984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72,8 +198,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Schematics/Right_side.kicad_sch"
-			(at 34.29 92.0246 0)
+		(property "Sheetfile" "Schematics/Left_side.kicad_sch"
+			(at 30.48 55.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -84,7 +210,175 @@
 		(instances
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8"
-					(page "3")
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 163.195 64.77)
+		(size 59.055 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7779039f-2550-4574-83e1-53c9a906a73d")
+		(property "Sheetname" "ledder"
+			(at 163.195 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ledder_transistors.kicad_sch"
+			(at 163.195 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "moog_prodigy_project"
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 102.87)
+		(size 59.69 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e17106b4-4b3e-4539-a6cd-812d9801e405")
+		(property "Sheetname" "Left_side_pt3"
+			(at 30.48 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Left_side_pt3.kicad_sch"
+			(at 30.48 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "moog_prodigy_project"
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 162.56 102.87)
+		(size 59.69 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e87f9916-2112-448f-9f59-6551b8229296")
+		(property "Sheetname" "4007"
+			(at 162.56 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "4007_mosfets.kicad_sch"
+			(at 162.56 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "moog_prodigy_project"
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 96.52 102.87)
+		(size 59.69 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f72090f0-21a5-4951-9fe6-dcdfafa76d53")
+		(property "Sheetname" "vca_attack"
+			(at 96.52 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "vca_attack.kicad_sch"
+			(at 96.52 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "moog_prodigy_project"
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8"
+					(page "9")
 				)
 			)
 		)
