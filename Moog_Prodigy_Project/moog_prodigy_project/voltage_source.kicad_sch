@@ -1145,23 +1145,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "T"
-				(at 0 6.35 0)
+			(property "Reference" "T1"
+				(at -0.0254 -7.4168 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Transformer_1P_1S"
-				(at 0 -7.62 0)
+			(property "Value" "230 VAC/ 15VAC 1.5A 22W"
+				(at 0.2794 -9.4996 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Transformer_THT:Transformer_NF_ETAL_P3324"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1179,13 +1179,12 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Transformer, single primary, single secondary"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "transformer coil magnet"
@@ -1444,7 +1443,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1462,7 +1461,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1480,7 +1479,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4004,7 +4003,7 @@
 		(pin "1"
 			(uuid "0155d854-6b27-43c1-aca7-8036f8576e0a")
 		)
-		(pin "2"
+		(pin "6"
 			(uuid "8c17418b-effb-4f5a-8855-adf4d6e907f4")
 		)
 		(pin "3"
@@ -4761,7 +4760,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Horizontal"
+		(property "Footprint" "471016264143_dupli_prekidac:471016264143_2_00-3_00_"
 			(at 54.61 49.53 0)
 			(effects
 				(font
@@ -5298,7 +5297,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 			(at 33.02 52.07 0)
 			(effects
 				(font
