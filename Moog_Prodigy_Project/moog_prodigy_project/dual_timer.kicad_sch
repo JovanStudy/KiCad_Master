@@ -1462,7 +1462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0afebe76-6b0e-4c77-b486-e65aac802723")
-		(property "Reference" "R78"
+		(property "Reference" "R126"
 			(at 189.23 49.5299 0)
 			(effects
 				(font
@@ -1516,7 +1516,7 @@
 		(instances
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/3db0e499-9ab2-4148-8bd3-6413362a052c"
-					(reference "R78")
+					(reference "R126")
 					(unit 1)
 				)
 			)
@@ -1532,7 +1532,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38c4f8de-3ad0-455a-9404-f7a713316389")
-		(property "Reference" "CP105"
+		(property "Reference" "CP5"
 			(at 204.216 56.896 0)
 			(effects
 				(font
@@ -1593,7 +1593,7 @@
 		(instances
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/3db0e499-9ab2-4148-8bd3-6413362a052c"
-					(reference "CP105")
+					(reference "CP5")
 					(unit 1)
 				)
 			)
@@ -1610,7 +1610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb02e6a2-4fdd-4291-82c6-889a8a79705c")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR0153"
 			(at 195.58 69.85 0)
 			(effects
 				(font
@@ -1659,7 +1659,7 @@
 		(instances
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/3db0e499-9ab2-4148-8bd3-6413362a052c"
-					(reference "#PWR029")
+					(reference "#PWR0153")
 					(unit 1)
 				)
 			)
@@ -1675,7 +1675,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "daaa5cbf-fab2-421e-ba85-c10c67e905a8")
-		(property "Reference" "U77"
+		(property "Reference" "U20"
 			(at 160.02 53.34 0)
 			(effects
 				(font
@@ -1894,7 +1894,7 @@
 		(instances
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/3db0e499-9ab2-4148-8bd3-6413362a052c"
-					(reference "U77")
+					(reference "U20")
 					(unit 1)
 				)
 			)
@@ -1910,7 +1910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9d25e53-a3ce-4e81-97d3-5534fdc57e2a")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR0152"
 			(at 186.69 48.26 0)
 			(effects
 				(font
@@ -1959,7 +1959,7 @@
 		(instances
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/3db0e499-9ab2-4148-8bd3-6413362a052c"
-					(reference "#PWR028")
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
@@ -1975,7 +1975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa4f3078-16b3-49a6-af53-aca088875a6b")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR0151"
 			(at 180.34 106.68 0)
 			(effects
 				(font
@@ -2024,7 +2024,7 @@
 		(instances
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/3db0e499-9ab2-4148-8bd3-6413362a052c"
-					(reference "#PWR027")
+					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
