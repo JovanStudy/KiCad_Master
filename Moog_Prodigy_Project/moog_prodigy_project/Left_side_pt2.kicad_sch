@@ -12073,7 +12073,7 @@
 				)
 			)
 		)
-		(property "Value" "AD8066ARM"
+		(property "Value" "NE5532"
 			(at 178.562 104.902 0)
 			(effects
 				(font
@@ -12081,7 +12081,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
+		(property "Footprint" "NE5532AP:DIP794W45P254L1016H508Q8"
 			(at 189.23 105.41 0)
 			(effects
 				(font

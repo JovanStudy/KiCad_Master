@@ -10776,15 +10776,15 @@
 				)
 			)
 		)
-		(property "Value" "AD8066ARM"
-			(at 188.214 104.648 0)
+		(property "Value" "NE5532"
+			(at 184.912 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "AD8066ARM:SOP65P490X110-8N"
+		(property "Footprint" "NE5532AP:DIP794W45P254L1016H508Q8"
 			(at 194.31 111.76 0)
 			(effects
 				(font
