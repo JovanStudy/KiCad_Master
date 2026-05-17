@@ -8780,7 +8780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "BF256C:TO92127P478H483-3"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 			(at 184.15 58.42 0)
 			(effects
 				(font
@@ -9271,7 +9271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "BF256C:TO92127P478H483-3"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 			(at 129.54 33.02 0)
 			(effects
 				(font

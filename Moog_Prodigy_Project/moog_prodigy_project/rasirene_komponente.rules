@@ -1,0 +1,118 @@
+
+(rules PCB rasirene_komponente.dsn
+  (snap_angle 
+    fortyfive_degree
+  )
+  (rule
+    (width 200.0)
+    (clearance 200.0)
+    (clearance 100.0 (type smd_to_turn_gap))
+    (clearance 50.0 (type smd))
+    (clearance 200.0 (type "kicad_default"))
+  )
+  (padstack "Via[0-1]_600:300_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_600:300_um" "Via[0-1]_600:300_um" default
+  )
+  (via 
+    "Via[0-1]_600:300_um-kicad_default" "Via[0-1]_600:300_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_600:300_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_600:300_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "Net-(SW1-E)" "Net-(U4B1--)" "Flag_ka_U6A" "Net-(C10-Pad1)" "Net-(C12-Pad1)" "Net-(C20-Pad1)" "Net-(C20-Pad2)" "Net-(J2-Pin_1)"
+    "Net-(J1-Pin_1)" "Net-(C23-Pad1)" "Net-(SW9-A)" "node_7" "node_6" "node_4" "node_5" RESET
+    "enter_CP102" "node_1" "Net-(CR1-K)" "Ulaz_na_diodnu_zastitu" "Net-(T1-AA)" "Net-(T1-SB)" "Net-(J3-Pin_1)" "SIGNAL_OUT"
+    "Net-(U4B1-+)" "Net-(Q11-C)" "Net-(Q15-E)" "Net-(Q15-B)" "Net-(Q17-E)" "node_3" "node_2" "node_10"
+    "node_13" "Net-(SW1-C)" "Net-(SW1-A)" "Net-(R4-Pad1)" "Diodna zastita izlaz iz R86" "Net-(R13-Pad2)" "to_VCA{slash}VCF" "Net-(R46-Pad2)"
+    "Net-(SW5-F)" "Net-(SW5-D)" "Net-(R79-Pad2)" "Flag_ka_R93" "Net-(C1-Pad2)" "Flag_ka_R94" ON "Net-(U2B1--)"
+    "Net-(C4-Pad1)" "Net-(U3A-+)" "Net-(C6-Pad1)" "Net-(Q2-D)" "Net-(Q2-S)" "Net-(C8-Pad2)" "Net-(U3B-+)" "Net-(C10-Pad2)"
+    "Net-(C11-Pad2)" "Net-(SW3-E)" "Net-(U6A-+)" "Net-(Q5-D)" "Net-(Q5-S)" "THRESHOLD_1" "Net-(Q6-G)" "Net-(C18-Pad2)"
+    "Net-(U6B-+)" "Net-(SW6-A)" "Net-(U11B--)" "FILTER_KYBD_CONTROL" "Net-(U11A-+)" "Net-(C27-Pad2)" "Net-(U15A-+)" "node_11"
+    "Net-(Q14-E)" "node_8" "Net-(Q18-E)" "Net-(C31-Pad1)" "Net-(C32-Pad1)" "Net-(D1-+)" "Net-(D1--)" "Net-(CP1-Pad1)"
+    "Net-(CP2-Pad1)" "Net-(CP2-Pad2)" "Net-(U18-+)" "Net-(U19-+)" "Net-(U20-VCC)" "Net-(D1-Pad3)" "THRESHOLD_2" "node_12"
+    "node_9" "Net-(F1-Pad1)" "Net-(J5-Pin_1)" "Net-(Q1-C)" "Net-(SW1-G)" "Net-(Q1-B)" "unconnected-(SW2-H-Pad8)" "Net-(Q3-E)"
+    "Net-(Q3-C)" "unconnected-(SW5-H-Pad8)" "unconnected-(SW5-E-Pad5)" "Net-(SW5-B)" "Net-(Q3-B)" FULL "1{slash}2" OFF
+    "Net-(Q4-C)" "Net-(Q4-B)" "Net-(Q5-G)" "Net-(Q7-B)" "Net-(Q7-C)" "Net-(Q7-E)" "OSC_MOD_SWITCH" "VCA_ATTACK_PIN_12"
+    "VCF_ATTACK_PIN_12" "unconnected-(U2A1-VOS-Pad8)" "unconnected-(U2A1-NC-Pad5)" "unconnected-(U2A1-VOS-Pad1)" "unconnected-(U2B1-NC-Pad5)" "unconnected-(U2B1-VOS-Pad8)" "unconnected-(U2B1-VOS-Pad1)" "Net-(Q8-E)"
+    "Net-(Q9-Pad14)" "Net-(Q9-Pad3)" "unconnected-(U4B1-VOS-Pad8)" "unconnected-(U4B1-NC-Pad5)" "unconnected-(U4B1-VOS-Pad1)" "Net-(Q9-Pad4)" "Net-(Q10-Pad10)" "Net-(Q10-Pad3)"
+    TRIGGER "unconnected-(Q10-Pad4)" "OUTPUT_1" "OUTPUT_2" "unconnected-(Q10-Pad5)" "Net-(Q10-Pad2)" "Net-(Q10-Pad13)" "Net-(Q11-E)"
+    "Net-(Q12-B)" "Net-(Q13-B)" "unconnected-(UI4-Pad11)" "unconnected-(UI4A-S-Pad1)" "unconnected-(UI4-Pad12)" "unconnected-(UI4-Pad9)" "unconnected-(UI4-Pad10)" "unconnected-(UI4A-D-Pad2)"
+    "unconnected-(UI4-Pad8)" "Net-(Q14-B)" "Net-(Q16-B)" "Net-(R1-Pad1)" "Net-(R3-Pad2)" "Net-(U2B1-+)" "Net-(R24-Pad2)" "Net-(U3B--)"
+    "Net-(SW2-F)" "Net-(SW2-D)" "Net-(R32-Pad2)" "Net-(R34-Pad1)" "Net-(R35-Pad2)" "Net-(R38-Pad2)" "Net-(R39-Pad1)" "Net-(SW3-C)"
+    "Net-(SW3-A)" "Net-(R51-Pad2)" "Net-(R56-Pad2)" "Net-(R58-Pad2)" "Net-(U6B--)" "Net-(UI3B--)" "unconnected-(R69-Pad3)" "Net-(R69-Pad1)"
+    "Net-(U9A-+)" "Net-(R71-Pad1)" "Net-(R73-Pad1)" "Net-(R77-Pad1)" "Net-(R78-Pad2)" "Net-(SW6-C)" "Net-(U9B--)" "Net-(SW7-F)"
+    "Net-(UI3A--)" "Net-(R85-Pad1)" "Net-(R86-Pad2)" "Net-(SW7-G)" "Net-(SW7-E)" "Net-(UI3A-+)" "Net-(R90-Pad2)" "Net-(R100-Pad2)"
+    "Net-(U15B-+)" "Net-(U15B--)" "Net-(R104-Pad1)" "Net-(U16-+)" "Net-(U16--)" "Net-(R107-Pad1)" "Net-(U16-~{SHDN})" "Net-(U15A--)"
+    "Net-(R113-Pad2)" "Net-(SW10-A)" "Net-(R120-Pad1)" "Net-(R125-Pad1)" "Net-(R125_1-Pad2)" "Net-(R126_1-Pad1)" "Net-(SW11-B)" "Net-(R132-Pad1)"
+    "Net-(R133-Pad1)" "Net-(R135-Pad1)" "Net-(R137-Pad1)" "Net-(R137-Pad2)" "Net-(R138-Pad1)" "Net-(R140-Pad1)" "Net-(SW2-B)" "Net-(RV9-Pad2)"
+    "Net-(RV25-Pad3)" "Net-(RV26-Pad3)" "unconnected-(SW2-E-Pad5)" "unconnected-(SW3-G-Pad7)" "unconnected-(SW3-H-Pad8)" "Net-(SW6-B)" "unconnected-(SW7-H-Pad8)" "unconnected-(SW8-C-Pad3)"
+    "unconnected-(SW8-C-Pad6)" "unconnected-(SW11-A-Pad1)" "/voltage_source/N" "Net-(T1-AB)" "/voltage_source/L" "unconnected-(U2B2-NC-Pad5)" "unconnected-(U2B2-VOS-Pad8)" "unconnected-(U2B2-VOS-Pad1)"
+    "unconnected-(U18-~{SHDN}-Pad5)" "unconnected-(U19-~{SHDN}-Pad5)" "unconnected-(U20-2DISCH-Pad13)" "unconnected-(U20-1DISCH-Pad1)" "unconnected-(U20-2CONT-Pad11)" "unconnected-(U20-1CONT-Pad3)" "unconnected-(U21-Pad11)" "unconnected-(U21-Pad13)"
+    "unconnected-(U23-Pad11)" "unconnected-(U23-Pad13)" "/Left_side_pt2/ANODA" "Net-(CA3046-Pad1)" "unconnected-(CA3046-Pad14)" "Net-(CA3046-Pad4)" "Net-(CA3046-Pad7)" "Net-(CA3046-Pad13)"
+    "Net-(CA3046-Pad2)" "unconnected-(CA3046-Pad12)" "Net-(CA3046-Pad3)" "unconnected-(CA3046-Pad11)" "Net-(CA3046_2-Pad4)" "unconnected-(CA3046_2-Pad11)" "unconnected-(CA3046_2-Pad14)" "Net-(CA3046_2-Pad1)"
+    "Net-(CA3046_2-Pad7)" "Net-(CA3046_2-Pad13)" "Net-(CA3046_2-Pad2)" "unconnected-(CA3046_2-Pad12)"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class class1
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 500.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class class2
+    +12V "-12V"
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 1000.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class class3
+    GND
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 2000.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
