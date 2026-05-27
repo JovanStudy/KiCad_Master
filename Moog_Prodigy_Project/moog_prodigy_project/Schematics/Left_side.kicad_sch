@@ -4,6 +4,15 @@
 	(generator_version "9.0")
 	(uuid "b20d20c1-fb9a-437e-afd1-f39969236937")
 	(paper "A4")
+	(title_block
+		(title "Prvi segment leve strane šeme")
+		(date "27.05.2026")
+		(rev "Marjan Urekar")
+		(comment 1 "Fakultet tehničkih nauka")
+		(comment 2 "Univerzitet u Novom Sadu")
+		(comment 3 "Merno-Informacioni sistemi")
+		(comment 4 "Jovan Mastelica E1 105/2023")
+	)
 	(lib_symbols
 		(symbol "+12V_4"
 			(power)
@@ -134,25 +143,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 2.54 3.175 0)
+			(property "Reference" "U4"
+				(at 3.81 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" "AD8066ARM"
-				(at 2.54 -5.08 0)
+			(property "Value" "NE5532"
+				(at -9.398 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "AD8066ARM:SOP65P490X110-8N"
+			(property "Footprint" "NE5532AP:DIP794W45P254L1016H508Q8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -273,30 +280,6 @@
 			(symbol "AD8066ARM_1_0"
 				(polyline
 					(pts
-						(xy -5.08 5.08) (xy -5.08 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -4.445 2.54) (xy -3.175 2.54)
 					)
 					(stroke
@@ -325,18 +308,6 @@
 					)
 					(stroke
 						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.4064)
 						(type default)
 					)
 					(fill
@@ -449,6 +420,20 @@
 								(size 1.016 1.016)
 							)
 						)
+					)
+				)
+			)
+			(symbol "AD8066ARM_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -1077,7 +1062,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q6"
+			(property "Reference" "Q1"
 				(at -3.048 3.048 0)
 				(effects
 					(font
@@ -1234,7 +1219,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1252,7 +1237,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1270,7 +1255,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1285,23 +1270,24 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -18.796 13.716 0)
+			(property "Reference" "CA3046"
+				(at -18.288 12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "CA3046"
+				(at -18.542 14.732 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "CA3046:DIL14"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1732,7 +1718,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number ""
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1750,7 +1736,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number ""
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1768,7 +1754,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number ""
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1786,7 +1772,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number ""
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1804,7 +1790,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number ""
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1822,7 +1808,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number ""
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1840,7 +1826,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number ""
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1858,7 +1844,7 @@
 							)
 						)
 					)
-					(number "14"
+					(number ""
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1876,7 +1862,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number ""
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1896,7 +1882,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1914,7 +1900,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1932,7 +1918,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1950,7 +1936,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1968,7 +1954,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2406,6 +2392,170 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Potentiometer_Trim"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer_Trim"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Trim-potentiometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable trimpot trimmer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_Trim_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.762) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_Trim_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LM393BIPWR:LM393BIPWR"
 			(pin_names
 				(offset 1.016)
@@ -2413,8 +2563,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U1"
-				(at 7.3913 -12.7 0)
+			(property "Reference" "U5"
+				(at 12.192 -2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2432,7 +2582,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2592,31 +2742,7 @@
 			(symbol "LM393BIPWR_1_0"
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 10.16 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 5.08 0) (xy 4.318 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 5.08 2.54)
 					)
 					(stroke
 						(width 0.2032)
@@ -2640,55 +2766,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -7.62) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -7.62) (xy 10.16 -5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 10.16 0) (xy 10.16 0.762)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 15.24 -2.54)
 					)
 					(stroke
 						(width 0.2032)
@@ -2712,18 +2790,6 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 -5.08) (xy 15.24 -2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 15.24 -2.54) (xy 16.002 -2.54)
 					)
 					(stroke
@@ -2734,8 +2800,8 @@
 						(type none)
 					)
 				)
-				(text "-"
-					(at 5.588 -4.064 0)
+				(text "+"
+					(at 5.334 -1.016 0)
 					(effects
 						(font
 							(size 2.0828 2.0828)
@@ -2743,8 +2809,8 @@
 						(justify left bottom)
 					)
 				)
-				(text "+"
-					(at 5.842 0 0)
+				(text "-"
+					(at 5.334 -5.842 0)
 					(effects
 						(font
 							(size 2.0828 2.0828)
@@ -2843,34 +2909,24 @@
 					)
 				)
 			)
+			(symbol "LM393BIPWR_1_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 15.24 -2.54) (xy 5.08 -7.62) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
 			(symbol "LM393BIPWR_2_0"
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 12.7 -2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 5.08 0) (xy 4.318 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 5.08 2.54)
 					)
 					(stroke
 						(width 0.2032)
@@ -2894,43 +2950,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -7.62) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -7.62) (xy 12.7 -2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -2.54) (xy 13.462 -2.54)
+						(xy 15.367 -2.54) (xy 16.51 -2.54)
 					)
 					(stroke
 						(width 0.2032)
@@ -2942,15 +2962,6 @@
 				)
 				(text "+"
 					(at 5.588 -0.8128 0)
-					(effects
-						(font
-							(size 2.0828 2.0828)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "null"
-					(at 5.588 -1.3208 0)
 					(effects
 						(font
 							(size 2.0828 2.0828)
@@ -3004,7 +3015,7 @@
 					)
 				)
 				(pin output line
-					(at 17.78 -2.54 180)
+					(at 21.59 -2.54 180)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -3022,6 +3033,20 @@
 					)
 				)
 			)
+			(symbol "LM393BIPWR_2_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 15.24 -2.54) (xy 5.08 -7.62) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
 			(embedded_fonts no)
 		)
 		(symbol "LM393BIPWR_1"
@@ -3031,12 +3056,13 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U1"
-				(at 8.89 7.62 0)
+			(property "Reference" "U5"
+				(at 12.192 -2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
 			(property "Value" "Value"
@@ -3049,7 +3075,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3209,31 +3235,7 @@
 			(symbol "LM393BIPWR_1_1_0"
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 10.16 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 5.08 0) (xy 4.318 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 5.08 2.54)
 					)
 					(stroke
 						(width 0.2032)
@@ -3257,55 +3259,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -7.62) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -7.62) (xy 10.16 -5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 10.16 0) (xy 10.16 0.762)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 15.24 -2.54)
 					)
 					(stroke
 						(width 0.2032)
@@ -3329,18 +3283,6 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 -5.08) (xy 15.24 -2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 15.24 -2.54) (xy 16.002 -2.54)
 					)
 					(stroke
@@ -3351,17 +3293,8 @@
 						(type none)
 					)
 				)
-				(text "null"
-					(at 5.588 -1.3208 0)
-					(effects
-						(font
-							(size 2.0828 2.0828)
-						)
-						(justify left bottom)
-					)
-				)
 				(text "+"
-					(at 5.842 -0.8128 0)
+					(at 5.334 -1.016 0)
 					(effects
 						(font
 							(size 2.0828 2.0828)
@@ -3370,7 +3303,7 @@
 					)
 				)
 				(text "-"
-					(at 6.096 -5.6388 0)
+					(at 5.334 -5.842 0)
 					(effects
 						(font
 							(size 2.0828 2.0828)
@@ -3469,34 +3402,24 @@
 					)
 				)
 			)
+			(symbol "LM393BIPWR_1_1_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 15.24 -2.54) (xy 5.08 -7.62) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
 			(symbol "LM393BIPWR_1_2_0"
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 12.7 -2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 5.08 0) (xy 4.318 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 5.08 2.54)
 					)
 					(stroke
 						(width 0.2032)
@@ -3520,43 +3443,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -7.62) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -7.62) (xy 12.7 -2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -2.54) (xy 13.462 -2.54)
+						(xy 15.367 -2.54) (xy 16.51 -2.54)
 					)
 					(stroke
 						(width 0.2032)
@@ -3567,7 +3454,7 @@
 					)
 				)
 				(text "+"
-					(at 5.08 -1.778 0)
+					(at 5.588 -0.8128 0)
 					(effects
 						(font
 							(size 2.0828 2.0828)
@@ -3576,7 +3463,7 @@
 					)
 				)
 				(text "-"
-					(at 5.08 -4.826 0)
+					(at 5.842 -5.8928 0)
 					(effects
 						(font
 							(size 2.0828 2.0828)
@@ -3621,7 +3508,7 @@
 					)
 				)
 				(pin output line
-					(at 17.78 -2.54 180)
+					(at 21.59 -2.54 180)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -3636,6 +3523,20 @@
 								(size 1.016 1.016)
 							)
 						)
+					)
+				)
+			)
+			(symbol "LM393BIPWR_1_2_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 15.24 -2.54) (xy 5.08 -7.62) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -3958,7 +3859,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q15"
+			(property "Reference" "Q3"
 				(at -4.826 3.556 0)
 				(effects
 					(font
@@ -4115,7 +4016,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4133,7 +4034,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4151,7 +4052,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4166,23 +4067,26 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
+			(property "Reference" "Q2"
+				(at 1.016 -0.508 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "~"
+				(at 6.35 3.8099 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4275,14 +4179,14 @@
 				(pin input line
 					(at -2.54 2.54 0)
 					(length 2.54)
-					(name "G"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4293,14 +4197,14 @@
 				(pin passive line
 					(at 5.08 7.62 270)
 					(length 2.54)
-					(name "D"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4311,14 +4215,14 @@
 				(pin passive line
 					(at 5.08 -2.54 90)
 					(length 2.54)
-					(name "S"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4840,6 +4744,12 @@
 		(uuid "d9a3087c-37e6-4634-a833-38173618da4e")
 	)
 	(junction
+		(at 267.97 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00a7d8b0-9662-49ca-9483-9a92d63eeefe")
+	)
+	(junction
 		(at 190.5 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4910,12 +4820,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f6372dc-edc5-4418-a850-c97d80c99efc")
-	)
-	(junction
-		(at 267.97 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a93617f-1a54-42fe-9bc5-e8f08b9ebc28")
 	)
 	(junction
 		(at 91.44 71.12)
@@ -5536,6 +5440,16 @@
 			(type default)
 		)
 		(uuid "262ac354-abad-4b29-b804-59eea7f71f48")
+	)
+	(wire
+		(pts
+			(xy 265.43 146.05) (xy 267.97 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2729a7cb-caf0-44a2-9c68-f93c3ca1b495")
 	)
 	(wire
 		(pts
@@ -6609,16 +6523,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 146.05) (xy 267.97 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aac8a6f1-e81b-4ef8-a43d-a348067ffef5")
-	)
-	(wire
-		(pts
 			(xy 69.85 54.61) (xy 73.66 54.61)
 		)
 		(stroke
@@ -7344,78 +7248,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 25.4 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "04657317-36f7-4561-a17e-e72eff345227")
-		(property "Reference" "RV1"
-			(at 22.86 71.628 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10K"
-			(at 23.368 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical"
-			(at 25.4 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 25.4 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "557d7876-5be9-44c6-b0e7-4a0fc0077f4d")
-		)
-		(pin "3"
-			(uuid "c6004163-7935-4347-9db3-c238022fe27e")
-		)
-		(pin "2"
-			(uuid "adc1abb6-a989-4bde-9b7f-ed8f510c4c37")
-		)
-		(instances
-			(project "moog_prodigy_project"
-				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/6ca03b6b-5ad1-455d-b55d-f800979e8812"
-					(reference "RV1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 229.87 143.51 90)
 		(unit 1)
@@ -7546,76 +7378,6 @@
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/6ca03b6b-5ad1-455d-b55d-f800979e8812"
 					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 83.82 71.12 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "097d3ea7-1520-41d7-b56c-8d31639aa116")
-		(property "Reference" "RV3"
-			(at 83.82 67.056 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "500"
-			(at 84.074 68.834 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical"
-			(at 83.82 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 83.82 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4383d936-55eb-4bf7-a6a8-d385311ee0b9")
-		)
-		(pin "3"
-			(uuid "6daa833c-0a95-4c80-bb58-24dfde4941ab")
-		)
-		(pin "2"
-			(uuid "184cf3f6-9b5d-456a-9742-5c256d0da1e6")
-		)
-		(instances
-			(project "moog_prodigy_project"
-				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/6ca03b6b-5ad1-455d-b55d-f800979e8812"
-					(reference "RV3")
 					(unit 1)
 				)
 			)
@@ -8176,6 +7938,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 176.53 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25c22bca-43cb-44d9-b8a8-39f1c2a58ed0")
+		(property "Reference" "RV4"
+			(at 174.498 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 174.498 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical_HandSoldering"
+			(at 176.53 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trim-potentiometer"
+			(at 176.53 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f710e08c-91a9-479d-87a3-4dd7f767df08")
+		)
+		(pin "3"
+			(uuid "fa6d0d49-67e3-4810-b0c6-c519251292c5")
+		)
+		(pin "2"
+			(uuid "d5c26b7e-01eb-4fb6-ac64-aa9348c1aad8")
+		)
+		(instances
+			(project "moog_prodigy_project"
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/6ca03b6b-5ad1-455d-b55d-f800979e8812"
+					(reference "RV4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:OPA134")
 		(at 109.22 92.71 180)
 		(unit 1)
@@ -8405,13 +8239,13 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
+		(pin ""
 			(uuid "14a57d31-02f5-4126-858e-8bafb6e9bb9e")
 		)
-		(pin "1"
+		(pin ""
 			(uuid "2a0e1557-81ad-4c38-99fa-6ded2bda2d2e")
 		)
-		(pin "3"
+		(pin ""
 			(uuid "735e39ae-8889-47e5-8a11-4b1ba7c3ac41")
 		)
 		(instances
@@ -9077,13 +8911,13 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
+		(pin ""
 			(uuid "6443b820-a0c3-4513-ba94-0e5fa4b59834")
 		)
-		(pin "1"
+		(pin ""
 			(uuid "2df51f50-63af-4181-b75c-1c1ea20b5e30")
 		)
-		(pin "2"
+		(pin ""
 			(uuid "4d7179e0-b807-4c25-a823-40f276c4cb04")
 		)
 		(instances
@@ -9381,6 +9215,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 83.82 71.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45410703-b26c-4809-b3ed-bd5509d398ef")
+		(property "Reference" "RV3"
+			(at 85.598 66.548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "500"
+			(at 85.598 68.326 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical_HandSoldering"
+			(at 83.82 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trim-potentiometer"
+			(at 83.82 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77b596a5-013d-44e8-aaa8-873647dd7df7")
+		)
+		(pin "3"
+			(uuid "f4312eb6-682d-4225-9299-f88c5f429230")
+		)
+		(pin "2"
+			(uuid "b368ae4a-2981-44fc-ba38-1865409b0dc9")
+		)
+		(instances
+			(project "moog_prodigy_project"
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/6ca03b6b-5ad1-455d-b55d-f800979e8812"
+					(reference "RV3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LM393BIPWR:LM393BIPWR")
 		(at 212.09 72.39 0)
 		(mirror y)
@@ -9391,7 +9297,7 @@
 		(dnp no)
 		(uuid "4701c4f0-b28e-4d7f-a298-3bfcd788fa1d")
 		(property "Reference" "U5"
-			(at 199.898 74.676 0)
+			(at 196.088 72.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10769,7 +10675,7 @@
 		(dnp no)
 		(uuid "7559ae27-15a8-4bbf-b184-a401a0b5876e")
 		(property "Reference" "U4"
-			(at 198.12 107.95 0)
+			(at 198.374 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11253,46 +11159,46 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
+		(pin ""
 			(uuid "0734cf95-c3f6-408a-962c-bf0d81cd4ecd")
 		)
-		(pin "4"
+		(pin ""
 			(uuid "a65f17e3-0662-432b-910b-eb4a985d3117")
 		)
-		(pin "8"
+		(pin ""
 			(uuid "58a2bc5d-d7e8-43e5-9b0b-14d2aeba724c")
 		)
-		(pin "11"
+		(pin ""
 			(uuid "b792eb7c-7ada-4b3d-90d1-8f953666ecd5")
 		)
-		(pin "7"
+		(pin ""
 			(uuid "7895d7e0-d71e-4be9-ab68-e6248953ce3b")
 		)
-		(pin "14"
+		(pin ""
 			(uuid "26740e3c-1fdc-4614-8603-d8cfbd23a380")
 		)
-		(pin "13"
+		(pin ""
 			(uuid "ffc44b5a-9f46-4453-a2d9-71489bfdf94d")
 		)
-		(pin "1"
+		(pin ""
 			(uuid "c33ba582-8cac-41b1-8a72-f36ea0f81fbf")
 		)
-		(pin "2"
+		(pin ""
 			(uuid "e7394a44-0c39-4864-9271-683a4d950555")
 		)
-		(pin "10"
+		(pin ""
 			(uuid "fd509dbe-d12e-469d-935e-c1b2a4121609")
 		)
-		(pin "9"
+		(pin ""
 			(uuid "26e23d12-b3a6-4613-99c8-1427beebf64e")
 		)
-		(pin "12"
+		(pin ""
 			(uuid "45306a3f-b733-4627-80c3-5c0986302b9d")
 		)
-		(pin "6"
+		(pin ""
 			(uuid "8b978228-f5e3-454f-9461-bfb42a451567")
 		)
-		(pin "5"
+		(pin ""
 			(uuid "14e83fc3-e851-4a64-a476-bf717b904dfa")
 		)
 		(instances
@@ -11577,7 +11483,7 @@
 		(dnp no)
 		(uuid "8f135ddd-0930-4621-8997-9dc8c1d44384")
 		(property "Reference" "Q3"
-			(at 207.264 108.204 0)
+			(at 209.042 108.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11586,7 +11492,7 @@
 			)
 		)
 		(property "Value" "BC549"
-			(at 204.47 113.792 0)
+			(at 205.486 113.538 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11642,13 +11548,13 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
+		(pin ""
 			(uuid "79ed38df-9a20-4a91-bd1a-e94747264998")
 		)
-		(pin "1"
+		(pin ""
 			(uuid "32d0c746-bcff-4dd1-853c-ebd48e0a60fb")
 		)
-		(pin "3"
+		(pin ""
 			(uuid "0f02794b-45af-4a0d-a584-c6bb364f6fc8")
 		)
 		(instances
@@ -11856,78 +11762,6 @@
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/6ca03b6b-5ad1-455d-b55d-f800979e8812"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 36.83 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "94f7c267-fc34-4e0e-93cc-88bb60e4a6ff")
-		(property "Reference" "RV2"
-			(at 35.052 151.384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "500"
-			(at 35.052 153.416 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical_HandSoldering"
-			(at 36.83 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 36.83 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca56a492-7948-489d-96de-69d5448175ac")
-		)
-		(pin "3"
-			(uuid "154edee8-1cb5-40ed-b59a-38a9b4e45209")
-		)
-		(pin "2"
-			(uuid "5375271d-1280-416c-be15-27f9999c4a83")
-		)
-		(instances
-			(project "moog_prodigy_project"
-				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/6ca03b6b-5ad1-455d-b55d-f800979e8812"
-					(reference "RV2")
 					(unit 1)
 				)
 			)
@@ -12500,7 +12334,7 @@
 			)
 		)
 		(property "Value" "NE5532"
-			(at 244.094 102.87 0)
+			(at 246.126 98.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12765,76 +12599,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 176.53 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b2083eff-93a7-46c1-b0c0-ac9c291d9423")
-		(property "Reference" "RV4"
-			(at 172.212 82.804 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 172.212 84.836 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical_HandSoldering"
-			(at 176.53 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 176.53 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c88d604-e4a2-4cf2-a013-5c2c0dedfe4d")
-		)
-		(pin "3"
-			(uuid "64789d83-9e63-4940-9fc9-f14a6ed780c7")
-		)
-		(pin "2"
-			(uuid "42a3f876-f783-4002-b41b-2496cdcef6d9")
-		)
-		(instances
-			(project "moog_prodigy_project"
-				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/6ca03b6b-5ad1-455d-b55d-f800979e8812"
-					(reference "RV4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "minus12:-12V")
 		(at 161.29 53.34 180)
 		(unit 1)
@@ -13024,6 +12788,78 @@
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/6ca03b6b-5ad1-455d-b55d-f800979e8812"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 36.83 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b87bcb33-6532-4601-a176-aaba79d9becd")
+		(property "Reference" "RV2"
+			(at 34.798 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "500"
+			(at 34.798 153.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical_HandSoldering"
+			(at 36.83 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trim-potentiometer"
+			(at 36.83 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ce866d0-a733-4228-a9e1-f1bf2a4e1502")
+		)
+		(pin "3"
+			(uuid "9d977cd3-c4d7-4ded-af77-739f20571848")
+		)
+		(pin "2"
+			(uuid "dd0e2af2-1cbd-40bd-9368-313c4c7fb762")
+		)
+		(instances
+			(project "moog_prodigy_project"
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/6ca03b6b-5ad1-455d-b55d-f800979e8812"
+					(reference "RV2")
 					(unit 1)
 				)
 			)
@@ -13509,19 +13345,21 @@
 		(dnp no)
 		(uuid "d3590c23-cc74-4bdf-b061-a8c0357c0dfd")
 		(property "Reference" "U5"
-			(at 252.984 145.796 0)
+			(at 256.032 145.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "LT1011CN8"
-			(at 242.824 145.796 0)
+			(at 248.666 146.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
@@ -14337,6 +14175,78 @@
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/6ca03b6b-5ad1-455d-b55d-f800979e8812"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 25.4 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f42aaabc-443c-4c70-bdb4-5c4898dc4122")
+		(property "Reference" "RV1"
+			(at 23.368 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 23.368 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical_HandSoldering"
+			(at 25.4 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trim-potentiometer"
+			(at 25.4 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1cf27e13-7556-4eb4-8803-e1ba2d5b7b9b")
+		)
+		(pin "3"
+			(uuid "3098e662-cfb4-4874-8459-6a9df3291608")
+		)
+		(pin "2"
+			(uuid "5325cb7e-b781-48b0-be8e-fac8fc7f902b")
+		)
+		(instances
+			(project "moog_prodigy_project"
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/6ca03b6b-5ad1-455d-b55d-f800979e8812"
+					(reference "RV1")
 					(unit 1)
 				)
 			)

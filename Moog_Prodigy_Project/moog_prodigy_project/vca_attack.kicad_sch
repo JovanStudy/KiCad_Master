@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "e68178a2-a3a1-4097-9609-e6f1e7787808")
 	(paper "A4")
+	(title_block
+		(rev "Marjan Urekar")
+		(comment 1 "Fakultet tehničkih nauka")
+		(comment 2 "Univerzitet u Novom Sadu")
+		(comment 3 "Merno-Informacioni sistemi")
+	)
 	(lib_symbols
 		(symbol "+12V_1"
 			(power)
@@ -1611,8 +1617,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U106"
-				(at 36.576 0.508 0)
+			(property "Reference" "U22"
+				(at -21.082 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1620,14 +1626,14 @@
 				)
 			)
 			(property "Value" "MC14007UBCP"
-				(at 36.576 -2.032 0)
+				(at -21.082 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2605,7 +2611,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2623,7 +2629,7 @@
 							)
 						)
 					)
-					(number "14"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2641,7 +2647,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2659,7 +2665,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2677,7 +2683,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2695,7 +2701,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2713,7 +2719,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2731,7 +2737,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2749,7 +2755,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2767,7 +2773,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2785,7 +2791,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2803,7 +2809,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2821,7 +2827,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2839,7 +2845,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2854,7 +2860,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U106"
+			(property "Reference" "U23"
 				(at 36.576 0.508 0)
 				(effects
 					(font
@@ -2870,7 +2876,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3848,7 +3854,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3866,7 +3872,7 @@
 							)
 						)
 					)
-					(number "14"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3884,7 +3890,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3902,7 +3908,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3920,7 +3926,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3938,7 +3944,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3956,7 +3962,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3974,7 +3980,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3992,7 +3998,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4010,7 +4016,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4028,7 +4034,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4046,7 +4052,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4064,7 +4070,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4082,7 +4088,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4097,7 +4103,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U105"
+			(property "Reference" "U21"
 				(at 36.576 0.508 0)
 				(effects
 					(font
@@ -4113,7 +4119,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5091,7 +5097,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5109,7 +5115,7 @@
 							)
 						)
 					)
-					(number "14"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5127,7 +5133,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5145,7 +5151,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5163,7 +5169,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5181,7 +5187,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5199,7 +5205,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5217,7 +5223,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5235,7 +5241,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5253,7 +5259,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5271,7 +5277,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5289,7 +5295,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5307,7 +5313,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5325,7 +5331,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7132,46 +7138,46 @@
 				(hide yes)
 			)
 		)
-		(pin "14"
+		(pin ""
 			(uuid "47f3aae8-3d7a-4506-b17a-02ccfa0c167a")
 		)
-		(pin "10"
+		(pin ""
 			(uuid "37fbb03a-742b-44fa-808f-f2e99ea10116")
 		)
-		(pin "6"
+		(pin ""
 			(uuid "2964bd67-05cd-4fed-b611-19b1a1a92958")
 		)
-		(pin "3"
+		(pin ""
 			(uuid "e4607323-3578-4a95-9069-9d2039edf3c0")
 		)
-		(pin "12"
+		(pin ""
 			(uuid "9335a339-4c79-4966-a1ba-e0bbf84a0806")
 		)
-		(pin "8"
+		(pin ""
 			(uuid "80c20fb3-5e5b-425c-93a0-0620526130ca")
 		)
-		(pin "4"
+		(pin ""
 			(uuid "11a0d8a6-e434-4e7f-9a91-8ae10f328a44")
 		)
-		(pin "1"
+		(pin ""
 			(uuid "55db6b61-e1fd-400a-a6b3-a8065c110c97")
 		)
-		(pin "7"
+		(pin ""
 			(uuid "7ce6cb66-b4ef-474c-9e88-dab7eca65f99")
 		)
-		(pin "13"
+		(pin ""
 			(uuid "b88a863f-b031-46c7-9620-7341930b1835")
 		)
-		(pin "2"
+		(pin ""
 			(uuid "eff24100-7729-42d9-af6a-08476b816492")
 		)
-		(pin "11"
+		(pin ""
 			(uuid "cdbff6e4-1d2f-454e-bd9f-23d7c0a644c5")
 		)
-		(pin "9"
+		(pin ""
 			(uuid "7b1f27eb-d338-4cd7-a983-24fbc71678d1")
 		)
-		(pin "5"
+		(pin ""
 			(uuid "4803da1c-86fb-49ab-92f1-bec27d77bd3b")
 		)
 		(instances
@@ -7640,46 +7646,46 @@
 				(hide yes)
 			)
 		)
-		(pin "14"
+		(pin ""
 			(uuid "b29e66fa-2f04-459e-874e-d7f8ddf534ee")
 		)
-		(pin "10"
+		(pin ""
 			(uuid "a84cd037-ec75-4e0b-bad3-fb5e6372326b")
 		)
-		(pin "6"
+		(pin ""
 			(uuid "1d6139dc-ab35-485c-beb2-3ec7483fad56")
 		)
-		(pin "3"
+		(pin ""
 			(uuid "d4f21a8c-87bf-4d06-a08c-96dbecd079c4")
 		)
-		(pin "12"
+		(pin ""
 			(uuid "61b9aec6-4d78-496b-811c-d82c177a381e")
 		)
-		(pin "8"
+		(pin ""
 			(uuid "3f571db2-7155-48ae-ae7f-179855dc9d4f")
 		)
-		(pin "4"
+		(pin ""
 			(uuid "3a847006-f19e-4336-9ec1-37e30eb0f26a")
 		)
-		(pin "1"
+		(pin ""
 			(uuid "f2385897-d2bf-4b09-a30c-f8f4f9fe0d40")
 		)
-		(pin "7"
+		(pin ""
 			(uuid "986c196f-bb85-4643-ab81-b2fa3be3f593")
 		)
-		(pin "13"
+		(pin ""
 			(uuid "c4685763-f579-4b4a-917d-fffd31c1569a")
 		)
-		(pin "2"
+		(pin ""
 			(uuid "4664dbbf-2539-406e-9e0b-12da3b81aead")
 		)
-		(pin "11"
+		(pin ""
 			(uuid "2f8830d2-612c-4f5a-9cba-a718d66c974a")
 		)
-		(pin "9"
+		(pin ""
 			(uuid "a47aca8f-b5dc-4ed4-a3d3-b80c380c4b15")
 		)
-		(pin "5"
+		(pin ""
 			(uuid "bd638f96-69b7-43aa-bff6-de0801cb09d0")
 		)
 		(instances
@@ -8150,46 +8156,46 @@
 				(hide yes)
 			)
 		)
-		(pin "14"
+		(pin ""
 			(uuid "0f3cabc2-d928-4bb9-a0e0-37c273a8fd02")
 		)
-		(pin "10"
+		(pin ""
 			(uuid "bb635ee6-05c9-408d-b9e9-137bda71ed24")
 		)
-		(pin "6"
+		(pin ""
 			(uuid "3aa9a192-2f0b-4a3f-b915-481ce34723d3")
 		)
-		(pin "3"
+		(pin ""
 			(uuid "460128bf-90ac-4d0d-b32e-0429749016fc")
 		)
-		(pin "12"
+		(pin ""
 			(uuid "b2d9a433-e5ec-46b1-9b36-bca4a21f6b18")
 		)
-		(pin "8"
+		(pin ""
 			(uuid "5f566347-0f44-463d-8302-986973dfaf38")
 		)
-		(pin "4"
+		(pin ""
 			(uuid "18c00c32-4bc9-486c-bf08-e1cbd1bce27a")
 		)
-		(pin "1"
+		(pin ""
 			(uuid "e5e960a6-1940-4952-b2fc-3914aa9f01e1")
 		)
-		(pin "7"
+		(pin ""
 			(uuid "31dfcd8d-45c3-4e7d-b351-f1be3cc9281b")
 		)
-		(pin "13"
+		(pin ""
 			(uuid "086b03f3-f134-4eec-afaf-fd725ebc6bf4")
 		)
-		(pin "2"
+		(pin ""
 			(uuid "989abc2d-ae44-4560-be30-9409d66b96d7")
 		)
-		(pin "11"
+		(pin ""
 			(uuid "01743045-1a7a-4451-8366-4cf4a316d2f6")
 		)
-		(pin "9"
+		(pin ""
 			(uuid "544ed68b-8c6b-4486-b90f-e7d63ff805c0")
 		)
-		(pin "5"
+		(pin ""
 			(uuid "28ff3c84-32f3-4dd5-bb06-56e0f4515d5f")
 		)
 		(instances

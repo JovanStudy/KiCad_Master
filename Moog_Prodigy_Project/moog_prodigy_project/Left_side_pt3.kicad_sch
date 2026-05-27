@@ -4,6 +4,15 @@
 	(generator_version "9.0")
 	(uuid "511a0d2a-3f91-4190-88f3-d1984a23bad0")
 	(paper "A4")
+	(title_block
+		(title "Treći segment leve strane šeme")
+		(date "27.05.2026")
+		(rev "Marjan Urekar")
+		(comment 1 "Fakultet tehničkih nauka")
+		(comment 2 "Univerzitet u Novom Sadu")
+		(comment 3 "Merno-Informacioni sistemi")
+		(comment 4 "Jovan Mastelica E1 105/2023")
+	)
 	(lib_symbols
 		(symbol "1N4148_2"
 			(pin_numbers
@@ -164,23 +173,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -2.286 0.254 0)
+			(property "Reference" "UI4"
+				(at -5.08 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "4007"
+				(at -2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 				(at 0 0 0)
 				(effects
 					(font
@@ -281,14 +290,14 @@
 				(pin passive line
 					(at 0 5.08 270)
 					(length 2.54)
-					(name "S"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -299,14 +308,14 @@
 				(pin passive line
 					(at 0 -5.08 90)
 					(length 2.54)
-					(name "D"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -317,14 +326,14 @@
 				(pin input line
 					(at 7.62 0 180)
 					(length 2.54)
-					(name "G"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -344,7 +353,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -362,7 +371,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -380,7 +389,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -400,7 +409,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -418,7 +427,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -436,7 +445,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -588,7 +597,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -606,7 +615,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -624,7 +633,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -642,7 +651,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -662,7 +671,7 @@
 							)
 						)
 					)
-					(number "14"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -680,7 +689,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -698,7 +707,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -713,23 +722,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -2.286 0.254 0)
+			(property "Reference" "UI4"
+				(at -5.08 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "4007"
+				(at -2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 				(at 0 0 0)
 				(effects
 					(font
@@ -830,14 +839,14 @@
 				(pin passive line
 					(at 0 5.08 270)
 					(length 2.54)
-					(name "S"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -848,14 +857,14 @@
 				(pin passive line
 					(at 0 -5.08 90)
 					(length 2.54)
-					(name "D"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -866,14 +875,14 @@
 				(pin input line
 					(at 7.62 0 180)
 					(length 2.54)
-					(name "G"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -893,7 +902,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -911,7 +920,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -929,7 +938,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -949,7 +958,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -967,7 +976,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -985,7 +994,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1137,7 +1146,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1155,7 +1164,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1173,7 +1182,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1191,7 +1200,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1211,7 +1220,7 @@
 							)
 						)
 					)
-					(number "14"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1229,7 +1238,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1247,7 +1256,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1262,23 +1271,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -2.286 0.254 0)
+			(property "Reference" "UI4"
+				(at -5.08 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "4007"
+				(at -2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1379,14 +1388,14 @@
 				(pin passive line
 					(at 0 5.08 270)
 					(length 2.54)
-					(name "S"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1397,14 +1406,14 @@
 				(pin passive line
 					(at 0 -5.08 90)
 					(length 2.54)
-					(name "D"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1415,14 +1424,14 @@
 				(pin input line
 					(at 7.62 0 180)
 					(length 2.54)
-					(name "G"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1442,7 +1451,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1460,7 +1469,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1478,7 +1487,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1498,7 +1507,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1516,7 +1525,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1534,7 +1543,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1686,7 +1695,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1704,7 +1713,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1722,7 +1731,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1740,7 +1749,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1760,7 +1769,7 @@
 							)
 						)
 					)
-					(number "14"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1778,7 +1787,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1796,7 +1805,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1811,23 +1820,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -2.286 0.254 0)
+			(property "Reference" "UI4"
+				(at -5.08 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "4007"
+				(at -2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1928,14 +1937,14 @@
 				(pin passive line
 					(at 0 5.08 270)
 					(length 2.54)
-					(name "S"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1946,14 +1955,14 @@
 				(pin passive line
 					(at 0 -5.08 90)
 					(length 2.54)
-					(name "D"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1964,14 +1973,14 @@
 				(pin input line
 					(at 7.62 0 180)
 					(length 2.54)
-					(name "G"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1991,7 +2000,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2009,7 +2018,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2027,7 +2036,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2047,7 +2056,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2065,7 +2074,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2083,7 +2092,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2235,7 +2244,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2253,7 +2262,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2271,7 +2280,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2289,7 +2298,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2309,7 +2318,7 @@
 							)
 						)
 					)
-					(number "14"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2327,7 +2336,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2345,7 +2354,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3402,6 +3411,170 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Potentiometer_Trim"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer_Trim"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Trim-potentiometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable trimpot trimmer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_Trim_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.762) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_Trim_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:1N4148"
 			(pin_numbers
 				(hide yes)
@@ -4299,23 +4472,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -2.286 0.254 0)
+			(property "Reference" "UI4"
+				(at -5.08 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "4007"
+				(at -2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4416,14 +4589,14 @@
 				(pin passive line
 					(at 0 5.08 270)
 					(length 2.54)
-					(name "S"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4434,14 +4607,14 @@
 				(pin passive line
 					(at 0 -5.08 90)
 					(length 2.54)
-					(name "D"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4452,14 +4625,14 @@
 				(pin input line
 					(at 7.62 0 180)
 					(length 2.54)
-					(name "G"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4479,7 +4652,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4497,7 +4670,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4515,7 +4688,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4535,7 +4708,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4553,7 +4726,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4571,7 +4744,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4797,7 +4970,7 @@
 							)
 						)
 					)
-					(number "14"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4815,7 +4988,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4833,7 +5006,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9552,10 +9725,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5dc5e0ac-3507-4513-b4a2-3bd3c53f0815")
 		(property "Reference" "UI4"
-			(at 104.14 46.99 90)
+			(at 104.14 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9563,7 +9735,7 @@
 			)
 		)
 		(property "Value" "4007"
-			(at 104.14 49.53 90)
+			(at 104.14 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9597,34 +9769,34 @@
 				(hide yes)
 			)
 		)
-		(pin "6"
+		(pin ""
 			(uuid "b1e405c9-340c-477a-9cbf-57c971af6c1d")
 		)
-		(pin "8"
+		(pin ""
 			(uuid "c81b3442-4e9b-4cfb-918a-648c95bf8807")
 		)
 		(pin ""
 			(uuid "9f936f47-e019-49e2-adea-66bc02f4a95c")
 		)
-		(pin "2"
+		(pin ""
 			(uuid "9dcafcff-1ff5-4a2a-8186-dcdc377b4fdb")
 		)
-		(pin "3"
+		(pin ""
 			(uuid "45634db3-06b4-4735-ad5e-b90d06b5ed94")
 		)
-		(pin "5"
+		(pin ""
 			(uuid "d6c4a5f2-89a6-4bec-9b28-866c23c93adf")
 		)
-		(pin "1"
+		(pin ""
 			(uuid "eaba10a0-aafd-40be-b678-f320624042d5")
 		)
-		(pin "3"
+		(pin ""
 			(uuid "26181016-5b28-4773-ae38-e10644604462")
 		)
-		(pin "4"
+		(pin ""
 			(uuid "243c3fa5-842f-46a1-b738-6918c7141298")
 		)
-		(pin "7"
+		(pin ""
 			(uuid "0c5d3142-de8c-43d7-a18b-fd30a4a1b81b")
 		)
 		(pin ""
@@ -9636,13 +9808,13 @@
 		(pin ""
 			(uuid "023607e2-9ad4-4657-872e-85f9066041a5")
 		)
-		(pin "14"
+		(pin ""
 			(uuid "ad1af269-dbe1-4677-b29e-d47e39abff07")
 		)
-		(pin "13"
+		(pin ""
 			(uuid "bb19c399-c07e-456c-be11-0e1afee8c896")
 		)
-		(pin "6"
+		(pin ""
 			(uuid "b4f90b2c-6560-4aa6-b2d1-994266edbc5b")
 		)
 		(instances
@@ -9822,21 +9994,19 @@
 		(dnp no)
 		(uuid "64f4f28f-5b3f-437b-ac19-6152cbdbc9f2")
 		(property "Reference" "UI4"
-			(at 67.31 125.7299 0)
+			(at 63.5 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4007"
-			(at 68.072 127.762 0)
+			(at 66.04 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
@@ -9866,52 +10036,52 @@
 				(hide yes)
 			)
 		)
-		(pin "5"
+		(pin ""
 			(uuid "f88971fd-02dd-4ffa-8f68-ed36dfcd0cc5")
 		)
-		(pin "2"
+		(pin ""
 			(uuid "0fc9abad-f55e-4161-b28b-ea1379e0fb1d")
 		)
-		(pin "7"
+		(pin ""
 			(uuid "2256cc71-da4f-48ee-a910-58b83454cf26")
 		)
-		(pin "9"
+		(pin ""
 			(uuid "5266bf0e-58ba-4f84-8bd5-bf73f3e98f49")
 		)
-		(pin "11"
+		(pin ""
 			(uuid "796f67ce-b04e-4c3a-8b93-0cf330082d5d")
 		)
-		(pin "1"
+		(pin ""
 			(uuid "d27ab05a-d6f6-45db-82b0-e4aa852be66f")
 		)
-		(pin "3"
+		(pin ""
 			(uuid "b51a3d03-a928-4f3e-b640-013e271761f1")
 		)
-		(pin "4"
+		(pin ""
 			(uuid "a872ef5b-aaa2-4e3c-9c88-93d73bb81657")
 		)
-		(pin "3"
+		(pin ""
 			(uuid "ac0b0550-d24a-4737-be88-0f8c1bc8c531")
 		)
-		(pin "8"
+		(pin ""
 			(uuid "5d7bc635-fd56-4a1b-9411-d1f286407388")
 		)
-		(pin "6"
+		(pin ""
 			(uuid "441d4dd9-f537-4a37-a442-0f48ef0e0dd0")
 		)
-		(pin "10"
+		(pin ""
 			(uuid "269330a2-5f87-4f14-bdf4-c2967e8d7108")
 		)
-		(pin "6"
+		(pin ""
 			(uuid "4eb64d9a-b6c8-4e4c-9da3-ed26251adb1b")
 		)
-		(pin "13"
+		(pin ""
 			(uuid "a85bf742-fe3b-4db5-b96b-4af254778c78")
 		)
-		(pin "12"
+		(pin ""
 			(uuid "677e15c2-3d8f-4c06-8315-418af962556c")
 		)
-		(pin "14"
+		(pin ""
 			(uuid "03472758-c8a9-45f1-9139-7a008c8c0304")
 		)
 		(instances
@@ -10071,7 +10241,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a26b2d2-aada-4eb4-b608-4a65e24c5ab6")
 		(property "Reference" "UI4"
-			(at 130.81 73.66 90)
+			(at 130.81 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10079,7 +10249,7 @@
 			)
 		)
 		(property "Value" "4007"
-			(at 130.81 76.2 90)
+			(at 130.81 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10113,52 +10283,52 @@
 				(hide yes)
 			)
 		)
-		(pin "9"
+		(pin ""
 			(uuid "004d7403-e784-4a64-80f0-fe915696dc62")
 		)
-		(pin "2"
+		(pin ""
 			(uuid "a016222c-b21b-4cc7-9d88-daf5237b926f")
 		)
-		(pin "5"
+		(pin ""
 			(uuid "c3c24418-9f84-47d1-88a5-25162070a694")
 		)
-		(pin "7"
+		(pin ""
 			(uuid "2e71ccfa-8958-4a29-8e4a-7fd76db479f2")
 		)
-		(pin "6"
+		(pin ""
 			(uuid "8d3a4faa-2357-4e48-b1c1-98fec9a8db60")
 		)
-		(pin "11"
+		(pin ""
 			(uuid "c27564fa-80d7-457d-8514-262499b6fdd8")
 		)
-		(pin "3"
+		(pin ""
 			(uuid "e48c84a9-6f7a-43c9-be6c-19a2ec9200ba")
 		)
-		(pin "3"
+		(pin ""
 			(uuid "9c3876b4-0e3e-417c-b846-9c0bff2254e1")
 		)
-		(pin "4"
+		(pin ""
 			(uuid "81bb58a5-87cd-4cc0-b888-3c86e7887cca")
 		)
-		(pin "10"
+		(pin ""
 			(uuid "eb8913a1-886e-4f22-aa4d-544f69baaca4")
 		)
-		(pin "8"
+		(pin ""
 			(uuid "11286a7a-ef33-4587-8cdb-034f4e37dfeb")
 		)
-		(pin "13"
+		(pin ""
 			(uuid "2d0c287f-e883-42e3-94fa-cb1a3b99df25")
 		)
-		(pin "1"
+		(pin ""
 			(uuid "ce1db191-ea87-43ca-b4ca-96de72392022")
 		)
-		(pin "12"
+		(pin ""
 			(uuid "530653c2-0493-4d04-a71b-99fbc93b5349")
 		)
-		(pin "14"
+		(pin ""
 			(uuid "484ea313-0b7b-47b7-a691-a1f5056e7eda")
 		)
-		(pin "6"
+		(pin ""
 			(uuid "af367c50-1205-4213-919b-2b0a0f439763")
 		)
 		(instances
@@ -10673,24 +10843,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "86de04fe-589b-4b17-a465-7b41d1348b7b")
 		(property "Reference" "UI4"
-			(at 87.63 116.8399 0)
+			(at 90.17 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4007"
-			(at 87.63 119.3799 0)
+			(at 90.17 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
@@ -10720,52 +10887,52 @@
 				(hide yes)
 			)
 		)
-		(pin "5"
+		(pin ""
 			(uuid "04dd9b57-2e7f-48db-a114-e5be86afeaca")
 		)
-		(pin "8"
+		(pin ""
 			(uuid "11b25a71-2cfa-4569-9c67-2742fb84c6ab")
 		)
-		(pin "3"
+		(pin ""
 			(uuid "ab0cb2ad-8fb4-4cd0-8012-9abafbd8153a")
 		)
-		(pin "3"
+		(pin ""
 			(uuid "2c07427c-bee7-4566-a8d2-f6441b926196")
 		)
-		(pin "6"
+		(pin ""
 			(uuid "2a90b931-3a66-4223-9bac-4c62212371f9")
 		)
-		(pin "9"
+		(pin ""
 			(uuid "7caa147d-12af-4ba6-a33f-381f8e82f4e9")
 		)
-		(pin "12"
+		(pin ""
 			(uuid "784c9310-693f-41dd-8800-e764e435e554")
 		)
-		(pin "1"
+		(pin ""
 			(uuid "f105f9e1-d90b-4057-b250-52df562eb3e5")
 		)
-		(pin "2"
+		(pin ""
 			(uuid "bf33a80b-d656-4067-afe8-7ca8635fbeae")
 		)
-		(pin "13"
+		(pin ""
 			(uuid "b6131207-d031-4f3e-8d6c-e0adbb59381e")
 		)
-		(pin "14"
+		(pin ""
 			(uuid "fbb7a9a9-2478-4786-be29-6f09052273ed")
 		)
-		(pin "4"
+		(pin ""
 			(uuid "faf40203-0391-48e7-b91c-3a6dabdf5f4e")
 		)
-		(pin "7"
+		(pin ""
 			(uuid "617832e9-e97d-40ab-a783-d2aad666bf15")
 		)
-		(pin "11"
+		(pin ""
 			(uuid "f84bbf4c-4aa0-4396-8ae3-e0f38060b700")
 		)
-		(pin "6"
+		(pin ""
 			(uuid "a35cd29b-2ca1-4dd9-b2b4-6e42e8ea0e2e")
 		)
-		(pin "10"
+		(pin ""
 			(uuid "9ac62dba-40eb-4790-b8a6-e59454015f9e")
 		)
 		(instances
@@ -11157,10 +11324,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9a60eb13-32a2-4e9b-9564-3bfe3074fd8d")
 		(property "Reference" "UI4"
-			(at 152.4 68.7068 0)
+			(at 152.4 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11168,7 +11334,7 @@
 			)
 		)
 		(property "Value" "4007"
-			(at 152.4 71.2468 0)
+			(at 152.4 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11202,52 +11368,52 @@
 				(hide yes)
 			)
 		)
-		(pin "12"
+		(pin ""
 			(uuid "3be28c8f-48bf-4ce1-8617-0d22328699ad")
 		)
-		(pin "10"
+		(pin ""
 			(uuid "f5113dea-916f-4d9a-a278-62e6e4a9a2b2")
 		)
-		(pin "2"
+		(pin ""
 			(uuid "db7c1e98-f758-4d2a-a84e-bb38826fe26d")
 		)
-		(pin "3"
+		(pin ""
 			(uuid "099cddfd-66fe-4605-9aab-f0bcbc10a18e")
 		)
-		(pin "6"
+		(pin ""
 			(uuid "d7fe4e0f-284b-4429-a7bb-21ab024ea26a")
 		)
-		(pin "11"
+		(pin ""
 			(uuid "7afff6d8-9ac6-4ca6-9552-648f6568ef93")
 		)
-		(pin "8"
+		(pin ""
 			(uuid "62583ae2-bdd8-4611-aace-ab4c078d189e")
 		)
-		(pin "3"
+		(pin ""
 			(uuid "62843bde-0253-40cf-8d3c-c2564deca0a2")
 		)
-		(pin "14"
+		(pin ""
 			(uuid "9f5b4e19-2771-4e09-88fe-bccee7f3a537")
 		)
-		(pin "7"
+		(pin ""
 			(uuid "5c5d98d1-4a08-4010-bfad-d7e597511f16")
 		)
-		(pin "13"
+		(pin ""
 			(uuid "a434b2e4-763a-42ca-8c35-df74c1ac4824")
 		)
-		(pin "1"
+		(pin ""
 			(uuid "bed784b1-ac7a-4b49-9f13-266ddc4cb0b6")
 		)
-		(pin "6"
+		(pin ""
 			(uuid "f94e01b2-2b44-4a17-b735-af9cbf8bc4c4")
 		)
-		(pin "4"
+		(pin ""
 			(uuid "98267c3b-98fd-40b3-8b01-bbafe1711146")
 		)
-		(pin "9"
+		(pin ""
 			(uuid "c2bb9633-9f28-43e6-8423-97a4476d94b3")
 		)
-		(pin "5"
+		(pin ""
 			(uuid "b0f39517-4c9f-43d1-ba7f-611ee6f51cc6")
 		)
 		(instances
@@ -12384,6 +12550,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 161.29 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cbb93a8a-ddbc-4a2a-b9ba-23bbf52874b9")
+		(property "Reference" "RV92"
+			(at 163.068 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 163.322 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical_HandSoldering"
+			(at 161.29 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trim-potentiometer"
+			(at 161.29 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd690311-892e-4071-a20c-4addadd8e016")
+		)
+		(pin "3"
+			(uuid "8bd5cf33-015a-4508-8bcb-5e160473064c")
+		)
+		(pin "2"
+			(uuid "0fabd42f-9a83-4055-8ca7-9223e9fe46a4")
+		)
+		(instances
+			(project "moog_prodigy_project"
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/e17106b4-4b3e-4539-a6cd-812d9801e405"
+					(reference "RV92")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
 		(at 39.37 71.12 0)
 		(unit 3)
@@ -12959,78 +13197,6 @@
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/e17106b4-4b3e-4539-a6cd-812d9801e405"
 					(reference "#PWR0111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 161.29 102.87 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d876db9c-9882-49f6-ab73-d4305fff9c73")
-		(property "Reference" "R92"
-			(at 163.322 102.108 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10K"
-			(at 162.56 103.886 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical"
-			(at 161.29 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 161.29 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c40149c-7661-4d9a-bf31-54ac228ee12e")
-		)
-		(pin "3"
-			(uuid "fe55d163-1954-4e82-8e03-8fecc45fdf56")
-		)
-		(pin "2"
-			(uuid "6b36eaf2-d750-4ebc-9740-72c8f0d0c55b")
-		)
-		(instances
-			(project "moog_prodigy_project"
-				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/e17106b4-4b3e-4539-a6cd-812d9801e405"
-					(reference "R92")
 					(unit 1)
 				)
 			)

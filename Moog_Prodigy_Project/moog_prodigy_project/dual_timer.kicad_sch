@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "b1302aa1-cd87-4dc2-8a82-5cddd8b68cc3")
 	(paper "A4")
+	(title_block
+		(rev "Marjan Urekar")
+		(comment 1 "Fakultet tehničkih nauka")
+		(comment 2 "Univerzitet u Novom Sadu")
+		(comment 3 "Merno-Informacioni sistemi")
+	)
 	(lib_symbols
 		(symbol "Device:R"
 			(pin_numbers
