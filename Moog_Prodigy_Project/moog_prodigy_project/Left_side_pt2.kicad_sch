@@ -3492,23 +3492,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -17.145 13.335 90)
+			(property "Reference" "SW5"
+				(at -8.382 8.636 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "Switch_4x4"
+				(at -4.318 6.604 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "SLW-1575662-5A-S-D_Switch_4x4:SW_SLW-1575662-5A-S-D"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3653,7 +3655,7 @@
 				(pin passive line
 					(at -7.62 3.81 270)
 					(length 2.54)
-					(name "H"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3671,7 +3673,7 @@
 				(pin passive line
 					(at -7.62 -6.35 90)
 					(length 2.54)
-					(name "A"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3689,7 +3691,7 @@
 				(pin passive line
 					(at -2.54 3.81 270)
 					(length 2.54)
-					(name "G"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3707,7 +3709,7 @@
 				(pin passive line
 					(at -2.54 -6.35 90)
 					(length 2.54)
-					(name "B"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3725,7 +3727,7 @@
 				(pin passive line
 					(at 2.54 3.81 270)
 					(length 2.54)
-					(name "F"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3743,7 +3745,7 @@
 				(pin passive line
 					(at 2.54 -6.35 90)
 					(length 2.54)
-					(name "C"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3761,7 +3763,7 @@
 				(pin passive line
 					(at 7.62 3.81 270)
 					(length 2.54)
-					(name "E"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3779,7 +3781,318 @@
 				(pin passive line
 					(at 7.62 -6.35 90)
 					(length 2.54)
-					(name "D"
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SW_Slide_DPDT_4x4_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW3"
+				(at -15.24 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "Switch_4x4"
+				(at -3.048 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "SLW-1575662-5A-S-D_Switch_4x4:SW_SLW-1575662-5A-S-D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Slide_DPDT_4x4_1_0_0"
+				(circle
+					(center -7.62 -3.302)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 0.762)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0.762)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -3.302)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 0.762)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 -3.302)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Slide_DPDT_4x4_1_0_1"
+				(circle
+					(center -7.62 0.762)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 -3.302)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Slide_DPDT_4x4_1_1_1"
+				(rectangle
+					(start -8.128 -0.508)
+					(end -2.032 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -8.128 -2.667)
+					(end -2.032 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -7.62 3.81 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -6.35 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 3.81 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -6.35 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 3.81 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -6.35 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 3.81 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -6.35 90)
+					(length 2.54)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5006,7 +5319,7 @@
 	)
 	(text "WAVEFORM\nSELECT"
 		(exclude_from_sim no)
-		(at 242.062 45.466 0)
+		(at 245.618 71.882 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5064,6 +5377,17 @@
 		)
 		(uuid "a3db72ee-cb8a-4b1d-86c7-ce5eeba2bc01")
 	)
+	(text "Talasni oblik po položaju preklopnika:\nRampa - krajnji levi položaj\nTrougao - srednji položaj\nČetvrtke - krajnji desni položaj\n"
+		(exclude_from_sim no)
+		(at 231.902 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b03ab9ea-7c37-4349-8cbe-686cd03ef5ce")
+	)
 	(text "INTERVAL"
 		(exclude_from_sim no)
 		(at 26.162 44.196 0)
@@ -5075,6 +5399,17 @@
 			)
 		)
 		(uuid "c153fbc9-2c32-48b4-ad14-e684f58e591c")
+	)
+	(text "Promena oktava po položaju preklopnika:\n16' - krajnji levi položaj \n8' - srednji položaj \n4' - krajnji desni položaj \n"
+		(exclude_from_sim no)
+		(at 55.88 26.924 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c23ae39b-dd89-4ce5-ab69-8a4bde94809c")
 	)
 	(text "HI END \nADJUST"
 		(exclude_from_sim no)
@@ -5590,7 +5925,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 72.39) (xy 190.5 34.29)
+			(xy 190.5 72.39) (xy 190.5 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5810,17 +6145,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 91.44) (xy 265.43 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38c6b995-bc03-4684-9dfc-aef6db6c3db9")
-	)
-	(wire
-		(pts
-			(xy 48.26 62.23) (xy 48.26 26.67)
+			(xy 48.26 62.23) (xy 48.26 20.32)
 		)
 		(stroke
 			(width 0)
@@ -6160,7 +6485,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 26.67) (xy 107.95 26.67)
+			(xy 48.26 20.32) (xy 107.95 20.32)
 		)
 		(stroke
 			(width 0)
@@ -6530,7 +6855,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 64.77) (xy 236.22 80.01)
+			(xy 232.41 68.58) (xy 232.41 80.01)
 		)
 		(stroke
 			(width 0)
@@ -6680,7 +7005,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 91.44) (xy 265.43 91.44)
+			(xy 262.89 91.44) (xy 266.7 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6870,7 +7195,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 34.29) (xy 205.74 34.29)
+			(xy 190.5 27.94) (xy 205.74 27.94)
 		)
 		(stroke
 			(width 0)
@@ -6880,7 +7205,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 26.67) (xy 107.95 92.71)
+			(xy 107.95 20.32) (xy 107.95 92.71)
 		)
 		(stroke
 			(width 0)
@@ -7320,6 +7645,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 68.58) (xy 236.22 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc5a3d60-85ba-40a0-844c-1fc243afff75")
+	)
+	(wire
+		(pts
 			(xy 208.28 52.07) (xy 213.36 52.07)
 		)
 		(stroke
@@ -7457,6 +7792,16 @@
 			(type default)
 		)
 		(uuid "d962952b-1380-4471-9de3-100568d33bca")
+	)
+	(wire
+		(pts
+			(xy 236.22 68.58) (xy 236.22 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9a4ccea-adf4-4638-91db-a9b9c2abe315")
 	)
 	(wire
 		(pts
@@ -7610,7 +7955,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 80.01) (xy 236.22 80.01)
+			(xy 213.36 80.01) (xy 232.41 80.01)
 		)
 		(stroke
 			(width 0)
@@ -7884,7 +8229,7 @@
 	)
 	(global_label "Ulaz_na_diodnu_zastitu"
 		(shape input)
-		(at 205.74 34.29 0)
+		(at 205.74 27.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7894,7 +8239,7 @@
 		)
 		(uuid "779c676e-d292-453e-8a82-eade7d9e2c74")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.859 34.29 0)
+			(at 230.859 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7928,7 +8273,7 @@
 	)
 	(global_label "Flag_ka_R94"
 		(shape input)
-		(at 265.43 82.55 90)
+		(at 266.7 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7938,7 +8283,7 @@
 		)
 		(uuid "efcdc657-68fc-47fa-a27b-cf9fb0a7e10a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.43 67.7117 90)
+			(at 281.5383 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9890,7 +10235,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 258.064 92.71 0)
+			(at 257.048 92.202 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10453,7 +10798,7 @@
 		(dnp no)
 		(uuid "45c07862-1df8-4089-868c-276b79d58d4e")
 		(property "Reference" "R64"
-			(at 240.538 83.82 90)
+			(at 236.728 78.232 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10461,7 +10806,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 240.538 85.598 90)
+			(at 236.474 80.264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12089,6 +12434,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SW_Slide_DPDT_4x4_1")
 		(lib_id "Power_supply:SW_Slide_DPDT_4x4")
 		(at 78.74 36.83 0)
 		(unit 1)
@@ -12096,10 +12442,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "982837d1-0391-4779-bf07-c59f0e311519")
 		(property "Reference" "SW3"
-			(at 69.85 36.8299 0)
+			(at 91.694 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12108,7 +12453,7 @@
 			)
 		)
 		(property "Value" "Switch_4x4"
-			(at 69.85 39.3699 0)
+			(at 88.138 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14864,7 +15209,7 @@
 		(dnp no)
 		(uuid "e148c639-9bc9-4769-a40b-4a97437c3c94")
 		(property "Reference" "SW5"
-			(at 235.458 49.784 0)
+			(at 240.284 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14873,12 +15218,13 @@
 			)
 		)
 		(property "Value" "Switch_4x4"
-			(at 239.522 51.816 0)
+			(at 252.73 50.292 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "SLW-1575662-5A-S-D_Switch_4x4:SW_SLW-1575662-5A-S-D"
@@ -15083,7 +15429,7 @@
 		(dnp no)
 		(uuid "e4ec0381-688b-4381-ba61-938368f43f72")
 		(property "Reference" "C19"
-			(at 221.488 104.14 0)
+			(at 222.25 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15091,7 +15437,7 @@
 			)
 		)
 		(property "Value" "500p"
-			(at 221.996 106.172 0)
+			(at 222.758 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)

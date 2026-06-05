@@ -687,8 +687,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "CP3"
-				(at 6.3754 1.4478 0)
+			(property "Reference" "CP5"
+				(at -2.794 0.508 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -732,7 +732,7 @@
 				)
 			)
 			(property "Rated Voltage" "16V"
-				(at 4.3688 -2.3622 0)
+				(at 4.572 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -766,17 +766,6 @@
 					(pts
 						(xy -2.032 0) (xy -2.032 -0.762) (xy 2.032 -0.762) (xy 2.032 0)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.651 0.127)
-					(end -1.651 0.127)
 					(stroke
 						(width 0)
 						(type default)
@@ -832,7 +821,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -850,7 +839,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1098,7 +1087,7 @@
 		(at 186.69 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f94f7ea4-c1aa-48a2-934c-a26ac28181d4")
+		(uuid "ebbd81a0-e2c2-454d-8570-1ac3738d8803")
 	)
 	(no_connect
 		(at 142.24 71.12)
@@ -1158,6 +1147,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 55.88) (xy 195.58 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "483df2bc-a901-49ab-91f5-503b9a771ede")
+	)
+	(wire
+		(pts
 			(xy 137.16 63.5) (xy 137.16 81.28)
 		)
 		(stroke
@@ -1168,17 +1167,17 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 62.23) (xy 195.58 63.5)
+			(xy 186.69 54.61) (xy 186.69 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6578d6e0-6d29-4eb8-837a-a9bb5427fea9")
+		(uuid "7562ffed-5e2d-431a-b933-f547d5d1bf44")
 	)
 	(wire
 		(pts
-			(xy 186.69 60.96) (xy 186.69 55.88)
+			(xy 186.69 55.88) (xy 186.69 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1235,16 +1234,6 @@
 			(type default)
 		)
 		(uuid "96fca16e-4c67-490f-95c2-b9f02e4be4f2")
-	)
-	(wire
-		(pts
-			(xy 186.69 54.61) (xy 186.69 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9b77b9c-3913-4b9d-b1c8-b796ffda4ae6")
 	)
 	(wire
 		(pts
@@ -1466,10 +1455,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0afebe76-6b0e-4c77-b486-e65aac802723")
 		(property "Reference" "R126"
-			(at 189.23 49.5299 0)
+			(at 188.468 49.7839 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1478,7 +1466,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 189.23 52.0699 0)
+			(at 188.976 51.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1531,7 +1519,7 @@
 	(symbol
 		(lib_name "elektrolit_3")
 		(lib_id "elektrolitski:elektrolit")
-		(at 195.58 58.42 0)
+		(at 195.58 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1539,7 +1527,7 @@
 		(dnp no)
 		(uuid "38c4f8de-3ad0-455a-9404-f7a713316389")
 		(property "Reference" "CP5"
-			(at 204.216 56.896 0)
+			(at 192.786 59.182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1548,7 +1536,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 202.0316 58.928 0)
+			(at 202.0316 60.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1557,7 +1545,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 195.58 69.85 0)
+			(at 195.58 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1566,7 +1554,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.326 58.42 0)
+			(at 195.326 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1575,7 +1563,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 58.42 0)
+			(at 195.58 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1583,17 +1571,17 @@
 			)
 		)
 		(property "Rated Voltage" "16V"
-			(at 199.9488 60.7822 0)
+			(at 200.152 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin "1"
+		(pin ""
 			(uuid "45b2f7d4-b5f4-473d-a750-965ccc8f729a")
 		)
-		(pin "2"
+		(pin ""
 			(uuid "9386baa5-48fc-4927-ac5a-4f68459b475d")
 		)
 		(instances
