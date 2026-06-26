@@ -8,7 +8,7 @@
 		(rev "Marjan Urekar")
 		(comment 1 "Fakultet tehničkih nauka")
 		(comment 2 "Univerzitet u Novom Sadu")
-		(comment 3 "Merno-Informacioni sistemi")
+		(comment 3 "Merno-Informacioni sistemi ")
 	)
 	(lib_symbols
 		(symbol "+12V_1"
@@ -8286,7 +8286,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100K"
 			(at 63.246 127.508 0)
 			(effects
 				(font

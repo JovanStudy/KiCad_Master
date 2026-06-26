@@ -8,7 +8,7 @@
 		(rev "Marjan Urekar")
 		(comment 1 "Fakultet tehničkih nauka")
 		(comment 2 "Univerzitet u Novom Sadu")
-		(comment 3 "Merno-Informacioni sistemi")
+		(comment 3 "Merno-Informacioni sistemi ")
 	)
 	(lib_symbols
 		(symbol "1N4001_1"
@@ -3781,7 +3781,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01831eac-8175-4908-9a6d-42520375e38b")
-		(property "Reference" "Dupli_preklopnik"
+		(property "Reference" "Dupli_preklopnik1"
 			(at 69.596 41.656 0)
 			(effects
 				(font
@@ -3977,7 +3977,7 @@
 		(instances
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/632a0a15-d2db-46b0-8553-670bc8b18225"
-					(reference "Dupli_preklopnik")
+					(reference "Dupli_preklopnik1")
 					(unit 1)
 				)
 			)
