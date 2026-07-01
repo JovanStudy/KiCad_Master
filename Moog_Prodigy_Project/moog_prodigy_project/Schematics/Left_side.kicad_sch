@@ -12654,7 +12654,7 @@
 			(uuid "14e83fc3-e851-4a64-a476-bf717b904dfa")
 		)
 		(instances
-			(project ""
+			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/6ca03b6b-5ad1-455d-b55d-f800979e8812"
 					(reference "CA3046")
 					(unit 1)

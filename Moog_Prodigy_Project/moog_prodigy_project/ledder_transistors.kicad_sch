@@ -5,10 +5,13 @@
 	(uuid "80cf6be9-e188-4378-9252-9e122d385830")
 	(paper "A4")
 	(title_block
+		(title "Ledder")
+		(date "27.05.2026")
 		(rev "Marjan Urekar")
 		(comment 1 "Fakultet tehničkih nauka")
 		(comment 2 "Univerzitet u Novom Sadu")
 		(comment 3 "Merno-Informacioni sistemi ")
+		(comment 4 "Miodrag Babić E1 87/2023")
 	)
 	(lib_symbols
 		(symbol "+12V_1"
@@ -3035,6 +3038,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "NAPOMENA\nPonteciometri:\nLinearni:RV22,RV23"
+		(exclude_from_sim no)
+		(at 181.356 158.242 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "01b3e07e-0037-4828-b25b-88acd2191d9a")
+	)
 	(text "FILTER\nCUTOFF FREQ"
 		(exclude_from_sim no)
 		(at 96.52 44.196 0)
@@ -3087,6 +3101,17 @@
 			(justify bottom)
 		)
 		(uuid "f65926fc-0006-4f32-a861-699601a0b688")
+	)
+	(text "FILTER SCALE\nTRIM"
+		(exclude_from_sim no)
+		(at 140.462 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify bottom)
+		)
+		(uuid "fc7b9ac2-e095-4192-a902-b03b4794a627")
 	)
 	(junction
 		(at 25.4 53.34)

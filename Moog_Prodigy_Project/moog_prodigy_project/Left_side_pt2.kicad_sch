@@ -16216,7 +16216,7 @@
 			(uuid "d59e8d2d-2c8d-4ee3-8b21-f8a7c8800df2")
 		)
 		(instances
-			(project ""
+			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/6469524d-0b29-4838-a829-8042159f097c"
 					(reference "CA3046_2")
 					(unit 1)

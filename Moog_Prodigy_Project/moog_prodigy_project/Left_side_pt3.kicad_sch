@@ -5388,9 +5388,9 @@
 		)
 		(uuid "5817c60e-e77f-4442-bed1-01e81f8d2415")
 	)
-	(text "NAPOMENA\nKondenzatori:\nC59,C60,C61,C62,C63,C64,\nC65,C66,C67,C68,C69,C70\nsu vrednosti 100n i oni su kvalitetniji"
+	(text "NAPOMENA\nKondenzatori:\nC59,C60,C61,C62,C63,C64,\nC65,C66,C67,C68,C69,C70\nsu vrednosti 100n i oni su kvalitetniji\n\nPotenciometari:\nLinearni:\nLogaritamski: RV11"
 		(exclude_from_sim no)
-		(at 177.038 158.496 0)
+		(at 193.548 155.956 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5471,6 +5471,18 @@
 			)
 		)
 		(uuid "c98ee56c-2070-4ce2-a83d-aa3208068ce6")
+	)
+	(text "TUNE"
+		(exclude_from_sim no)
+		(at 97.536 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "f153740b-fd86-4835-b28a-d436fdc3efe0")
 	)
 	(junction
 		(at 116.84 92.71)

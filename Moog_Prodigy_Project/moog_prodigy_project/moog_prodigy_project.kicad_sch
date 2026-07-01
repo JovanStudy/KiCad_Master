@@ -54,48 +54,6 @@
 		)
 	)
 	(sheet
-		(at 96.52 64.77)
-		(size 59.69 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "3db0e499-9ab2-4148-8bd3-6413362a052c")
-		(property "Sheetname" "dual_timer"
-			(at 96.52 64.0584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "dual_timer.kicad_sch"
-			(at 96.52 90.7546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "moog_prodigy_project"
-				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 96.52 29.21)
 		(size 59.69 25.4)
 		(exclude_from_sim no)
@@ -343,48 +301,6 @@
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8"
 					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 96.52 102.87)
-		(size 59.69 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "f72090f0-21a5-4951-9fe6-dcdfafa76d53")
-		(property "Sheetname" "vca_attack"
-			(at 96.52 102.1584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "vca_attack.kicad_sch"
-			(at 96.52 128.8546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "moog_prodigy_project"
-				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8"
-					(page "9")
 				)
 			)
 		)
