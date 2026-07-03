@@ -5199,6 +5199,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "NAPOMENA 2\nOtpornici cija je vrednost:\n63K4, 18K2, 4K75, 6K81, 51M, 2.4M\nsu otpornici iz E96 serije (1%)\nOstali orpotnici su iz serije E24 (5%)"
+		(exclude_from_sim no)
+		(at 215.9 153.416 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "0f258bf0-d711-4443-a259-ed7777ea67a9")
+	)
 	(text "VCA\nBALANCE"
 		(exclude_from_sim no)
 		(at 205.232 52.832 0)
@@ -5209,9 +5222,9 @@
 		)
 		(uuid "2aad30b0-057f-4574-a86d-0ef288fd7d1f")
 	)
-	(text "NAPOMENA\nKondenzatori:\nC71,C72,C73,C74,C75,C76,C77,C78\nsu vrednosti 100n i oni su kvalitetniji\n\nPonteciometri:\nLinearni:RV12,RV15\nLogaritamski: RV14,RV16"
+	(text "NAPOMENA 1\nKondenzatori:\nC71,C72,C73,C74,C75,C76,C77,C78\nsu vrednosti 100n i oni su kvalitetniji\n\nPonteciometri:\nLinearni:RV12,RV15\nLogaritamski: RV14,RV16"
 		(exclude_from_sim no)
-		(at 236.474 154.178 0)
+		(at 176.784 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5251,6 +5264,16 @@
 			)
 		)
 		(uuid "5446aa8e-3fe5-4015-a09b-385e012eb995")
+	)
+	(text "IC1"
+		(exclude_from_sim no)
+		(at 41.402 68.072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "78778c8a-d7ed-4d1a-8607-03e55eb33a0e")
 	)
 	(text "IC2_2"
 		(exclude_from_sim no)
@@ -5331,6 +5354,16 @@
 			)
 		)
 		(uuid "d401a0a4-0348-4c94-bbc8-7214c5999bb7")
+	)
+	(text "IC2"
+		(exclude_from_sim no)
+		(at 167.386 65.024 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e2661730-59d8-414e-8e7e-ce053bab0e30")
 	)
 	(text "EMPHASIS"
 		(exclude_from_sim no)
@@ -8795,7 +8828,7 @@
 			)
 		)
 		(property "Value" "CA3046"
-			(at 50.038 76.962 90)
+			(at 41.91 70.358 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9546,7 +9579,7 @@
 		(dnp no)
 		(uuid "5ee5621d-b7c6-475e-9c98-ae6afc7b9c49")
 		(property "Reference" "R104"
-			(at 136.144 111.252 0)
+			(at 135.382 112.268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9554,8 +9587,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6K81"
-			(at 136.144 113.792 0)
+		(property "Value" "6K81 1%"
+			(at 131.826 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11492,8 +11525,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6K81"
-			(at 151.384 120.142 90)
+		(property "Value" "6K81 1%"
+			(at 149.606 120.142 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -3038,12 +3038,14 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "NAPOMENA\nPonteciometri:\nLinearni:RV22,RV23"
+	(text "NAPOMENA 2\nPonteciometri:\nLinearni:RV22,RV23"
 		(exclude_from_sim no)
-		(at 181.356 158.242 0)
+		(at 215.9 157.988 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify left)
 		)
@@ -3090,6 +3092,19 @@
 			)
 		)
 		(uuid "5e2b5af6-93ef-4519-8c79-8c0dc011646f")
+	)
+	(text "NAPOMENA 1\nOtpornici cija je vrednost:\n63K4, 18K2, 4K75, 6K81, 51M, 2.4M\nsu otpornici iz E96 serije (1%)\nOstali orpotnici su iz serije E24 (5%)"
+		(exclude_from_sim no)
+		(at 176.784 159.766 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "6c18dbb6-6638-4984-83d7-cc460d66f6f0")
 	)
 	(text "FREQ\nTRIM"
 		(exclude_from_sim no)

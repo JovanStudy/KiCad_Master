@@ -7663,7 +7663,7 @@
 		)
 		(uuid "0ea24c08-db65-49cb-a825-8996187f4f5a")
 	)
-	(text "NAPOMENA\nKondenzatori:\nC79,C80,C81,C82,C83,C84,C85\nsu vrednosti 100n i oni su kvalitetniji\n\nPonteciometri:\nLinearni:RV29,RV30\nLogaritamski: RV25,RV26,RV27"
+	(text "NAPOMENA 1\nKondenzatori:\nC79,C80,C81,C82,C83,C84,C85\nsu vrednosti 100n i oni su kvalitetniji\n\nPonteciometri:\nLinearni:RV29,RV30\nLogaritamski: RV25,RV26,RV27"
 		(exclude_from_sim no)
 		(at 186.944 156.972 0)
 		(effects
@@ -7979,6 +7979,19 @@
 			)
 		)
 		(uuid "f3320ddd-cb02-4ca1-afb3-b8fa3a12638c")
+	)
+	(text "NAPOMENA 2\nOtpornici cija je vrednost:\n63K4, 18K2, 4K75, 6K81, 51M, 2.4M\nsu otpornici iz E96 serije (1%)\nOstali orpotnici su iz serije E24 (5%)"
+		(exclude_from_sim no)
+		(at 227.076 153.924 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "f6f3f3b6-aeb4-4e96-b882-d2e2f1e596f6")
 	)
 	(junction
 		(at 69.85 153.67)

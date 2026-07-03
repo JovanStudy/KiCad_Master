@@ -1271,8 +1271,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "UI4"
-				(at -3.81 0 90)
+			(property "Reference" "3_UI4"
+				(at -3.81 -1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1280,7 +1280,7 @@
 				)
 			)
 			(property "Value" "4007"
-				(at -1.27 0 90)
+				(at -3.048 1.016 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1325,7 +1325,7 @@
 			(symbol "4007_Novi_3_0_1"
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0 1.397) (xy 2.286 1.397)
+						(xy 1.27 2.54) (xy 1.27 0) (xy 3.048 0)
 					)
 					(stroke
 						(width 0)
@@ -1335,45 +1335,20 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -1.397) (xy 2.286 -1.397)
-					)
+				(circle
+					(center 1.27 1.778)
+					(radius 0.254)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy 2.286 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.905) (xy 2.286 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 3.556 -0.381) (xy 3.556 0.381) (xy 2.54 0)
+						(xy 1.524 0) (xy 2.54 0.381) (xy 2.54 -0.381) (xy 1.524 0)
 					)
 					(stroke
 						(width 0)
@@ -1381,6 +1356,90 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 2.286) (xy 3.048 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 1.778) (xy 1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 0.508) (xy 3.048 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -1.27) (xy 3.048 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -1.778) (xy 1.27 -1.778) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 1.905) (xy 3.556 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 0) (xy 6.35 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -1498,7 +1557,7 @@
 			)
 			(symbol "4007_Novi_3_3_1"
 				(pin passive line
-					(at 0 5.08 270)
+					(at 1.27 5.08 270)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1516,7 +1575,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
+					(at 1.27 -5.08 90)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1820,8 +1879,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "UI4"
-				(at -3.81 0 90)
+			(property "Reference" "5_UI4"
+				(at -3.048 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1829,7 +1888,7 @@
 				)
 			)
 			(property "Value" "4007"
-				(at -1.27 0 90)
+				(at -3.048 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1874,47 +1933,11 @@
 			(symbol "4007_Novi_4_0_1"
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0 1.397) (xy 2.286 1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -1.397) (xy 2.286 -1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.905) (xy 2.286 1.905)
+						(xy 1.524 0.635) (xy 1.524 -3.175)
 					)
 					(stroke
 						(width 0.254)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -1922,8 +1945,103 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 3.556 -0.381) (xy 3.556 0.381) (xy 2.54 0)
+						(xy 1.524 -1.27) (xy -1.27 -1.27)
 					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 1.016) (xy 2.032 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0.508) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -0.762) (xy 2.032 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -2.54) (xy 2.032 -3.556)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -3.048) (xy 3.81 -3.048) (xy 3.81 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 -1.27) (xy 2.54 -0.889) (xy 2.54 -1.651) (xy 3.556 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 3.81 -1.27) (xy 2.032 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 0.508)
+					(radius 0.254)
 					(stroke
 						(width 0)
 						(type default)
@@ -2309,7 +2427,7 @@
 			)
 			(symbol "4007_Novi_4_5_1"
 				(pin passive line
-					(at 0 5.08 270)
+					(at -2.54 -1.27 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -2327,7 +2445,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
+					(at 3.81 3.81 270)
 					(length 2.54)
 					(name ""
 						(effects
@@ -2345,7 +2463,7 @@
 					)
 				)
 				(pin passive line
-					(at 6.35 0 180)
+					(at 3.81 -6.35 90)
 					(length 2.54)
 					(name ""
 						(effects
@@ -4472,7 +4590,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "UI4"
+			(property "Reference" "2_UI4"
 				(at -3.81 0 90)
 				(effects
 					(font
@@ -4526,47 +4644,11 @@
 			(symbol "4007_Novi_0_1"
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0 1.397) (xy 2.286 1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -1.397) (xy 2.286 -1.397)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.905) (xy 2.286 1.905)
+						(xy 1.524 1.905) (xy 1.524 -1.905)
 					)
 					(stroke
 						(width 0.254)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -4574,8 +4656,103 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 3.556 -0.381) (xy 3.556 0.381) (xy 2.54 0)
+						(xy 1.524 0) (xy -1.27 0)
 					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 2.286) (xy 2.032 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 1.778) (xy 3.81 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0.508) (xy 2.032 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -1.27) (xy 2.032 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -1.778) (xy 3.81 -1.778) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 0) (xy 2.54 0.381) (xy 2.54 -0.381) (xy 3.556 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 3.81 0) (xy 2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 1.778)
+					(radius 0.254)
 					(stroke
 						(width 0)
 						(type default)
@@ -4643,7 +4820,7 @@
 			)
 			(symbol "4007_Novi_2_1"
 				(pin passive line
-					(at 0 5.08 270)
+					(at -2.54 0 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -4661,7 +4838,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
+					(at 3.81 5.08 270)
 					(length 2.54)
 					(name ""
 						(effects
@@ -4679,7 +4856,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at 3.81 -5.08 90)
 					(length 2.54)
 					(name ""
 						(effects
@@ -5342,12 +5519,27 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Neiskorisceni FET-ovi iz 4007:\n- 1_UI14A\n- 4_UI4D\n"
+		(exclude_from_sim no)
+		(at 253.492 142.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "2284c683-cace-42e4-b0d9-9faae5672787")
+	)
 	(text "Oblik signala po položaju preklopnika\n\nTrougao        Četvrtka "
 		(exclude_from_sim no)
 		(at 65.024 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 		)
 		(uuid "2e7cd0f8-399d-4a9c-8f8c-aa4f18879957")
@@ -5388,9 +5580,9 @@
 		)
 		(uuid "5817c60e-e77f-4442-bed1-01e81f8d2415")
 	)
-	(text "NAPOMENA\nKondenzatori:\nC59,C60,C61,C62,C63,C64,\nC65,C66,C67,C68,C69,C70\nsu vrednosti 100n i oni su kvalitetniji\n\nPotenciometari:\nLinearni:\nLogaritamski: RV11"
+	(text "NAPOMENA 1\nKondenzatori:\nC59,C60,C61,C62,C63,C64,\nC65,C66,C67,C68,C69,C70\nsu vrednosti 100n i oni su kvalitetniji\n\nPotenciometari:\nLinearni:\nLogaritamski: RV11"
 		(exclude_from_sim no)
-		(at 193.548 155.956 0)
+		(at 176.784 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5459,6 +5651,19 @@
 			)
 		)
 		(uuid "bbbc4ad6-dad2-4f8f-ab0f-61cac3962aa6")
+	)
+	(text "NAPOMENA 2\nOtpornici cija je vrednost:\n63K4, 18K2, 4K75, 6K81, 51M, 2.4M\nsu otpornici iz E96 serije (1%)\nOstali orpotnici su iz serije E24 (5%)"
+		(exclude_from_sim no)
+		(at 216.154 152.146 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "c54cf890-8996-4bad-994b-db3e7558e29a")
 	)
 	(text "MOD\nAMOUNT"
 		(exclude_from_sim no)
@@ -5757,15 +5962,15 @@
 		(uuid "27fbc458-55ba-4f70-8f06-4faa0ab25144")
 	)
 	(no_connect
-		(at 276.86 154.94)
+		(at 276.86 163.83)
 		(uuid "45058178-b9e7-4fd6-b10a-ed68bbdd4a55")
 	)
 	(no_connect
-		(at 264.16 143.51)
+		(at 265.43 154.94)
 		(uuid "4f4e361f-5253-478d-a275-d09695c42f71")
 	)
 	(no_connect
-		(at 276.86 137.16)
+		(at 276.86 146.05)
 		(uuid "6cc00b5c-95ba-4a9b-997a-79ca1de067bd")
 	)
 	(no_connect
@@ -5773,16 +5978,20 @@
 		(uuid "81a01bf9-4b93-49dc-8883-e6dd2cf3c8ed")
 	)
 	(no_connect
-		(at 69.85 121.92)
+		(at 71.12 121.92)
 		(uuid "8e169f48-622b-42c6-bcaf-590caabb16b4")
 	)
 	(no_connect
-		(at 254 143.51)
+		(at 255.27 154.94)
 		(uuid "d5d7ef2e-2abf-4e4f-a2d9-98d715416360")
 	)
 	(no_connect
 		(at 180.34 127)
 		(uuid "e76e1848-1e24-4b4b-971f-14bd681f31a6")
+	)
+	(no_connect
+		(at 260.35 147.32)
+		(uuid "ea3768d2-ebcf-4ad3-b26b-845206c2d745")
 	)
 	(wire
 		(pts
@@ -7456,7 +7665,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 63.5) (xy 104.14 59.69)
+			(xy 104.14 58.42) (xy 104.14 63.5)
 		)
 		(stroke
 			(width 0)
@@ -8802,7 +9011,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1M"
+		(property "Value" "5M1"
 			(at 110.49 117.094 90)
 			(effects
 				(font
@@ -9815,7 +10024,7 @@
 				)
 			)
 		)
-		(property "Value" "2.4M"
+		(property "Value" "2M4 1%"
 			(at 153.67 102.108 90)
 			(effects
 				(font
@@ -10462,7 +10671,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:4007_Novi")
-		(at 104.14 52.07 270)
+		(at 104.14 55.88 90)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10470,7 +10679,7 @@
 		(dnp no)
 		(uuid "5dc5e0ac-3507-4513-b4a2-3bd3c53f0815")
 		(property "Reference" "2_UI4"
-			(at 104.14 48.26 90)
+			(at 104.14 50.038 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10478,7 +10687,7 @@
 			)
 		)
 		(property "Value" "4007"
-			(at 104.14 50.8 90)
+			(at 104.14 47.752 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10486,7 +10695,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
-			(at 104.14 52.07 0)
+			(at 104.14 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10495,7 +10704,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 52.07 0)
+			(at 104.14 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10504,7 +10713,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 52.07 0)
+			(at 104.14 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10854,7 +11063,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7KΩ"
+		(property "Value" "4K7 1%"
 			(at 86.36 56.134 90)
 			(effects
 				(font
@@ -10976,7 +11185,7 @@
 	(symbol
 		(lib_name "4007_Novi_1")
 		(lib_id "Transistor_FET:4007_Novi")
-		(at 259.08 143.51 90)
+		(at 260.35 154.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10985,7 +11194,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a26b2d2-aada-4eb4-b608-4a65e24c5ab6")
 		(property "Reference" "1_UI4"
-			(at 259.08 147.32 90)
+			(at 260.35 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10993,7 +11202,7 @@
 			)
 		)
 		(property "Value" "4007"
-			(at 259.08 144.78 90)
+			(at 260.35 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11001,7 +11210,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
-			(at 259.08 143.51 0)
+			(at 260.35 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11010,7 +11219,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 143.51 0)
+			(at 260.35 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11019,7 +11228,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 259.08 143.51 0)
+			(at 260.35 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12109,7 +12318,7 @@
 	(symbol
 		(lib_name "4007_Novi_4")
 		(lib_id "Transistor_FET:4007_Novi")
-		(at 86.36 118.11 180)
+		(at 82.55 116.84 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12117,7 +12326,7 @@
 		(dnp no)
 		(uuid "86de04fe-589b-4b17-a465-7b41d1348b7b")
 		(property "Reference" "5_UI4"
-			(at 89.408 118.11 0)
+			(at 81.788 121.666 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12125,7 +12334,7 @@
 			)
 		)
 		(property "Value" "4007"
-			(at 89.408 120.65 0)
+			(at 82.296 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12133,7 +12342,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
-			(at 86.36 118.11 0)
+			(at 82.55 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12142,7 +12351,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 118.11 0)
+			(at 82.55 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12151,7 +12360,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 118.11 0)
+			(at 82.55 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12590,7 +12799,7 @@
 	(symbol
 		(lib_name "4007_Novi_2")
 		(lib_id "Transistor_FET:4007_Novi")
-		(at 276.86 149.86 180)
+		(at 276.86 158.75 180)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12598,7 +12807,7 @@
 		(dnp no)
 		(uuid "9a60eb13-32a2-4e9b-9564-3bfe3074fd8d")
 		(property "Reference" "4_UI4"
-			(at 280.67 149.352 0)
+			(at 280.67 158.242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12606,7 +12815,7 @@
 			)
 		)
 		(property "Value" "4007"
-			(at 280.67 151.892 0)
+			(at 280.67 160.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12614,7 +12823,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
-			(at 276.86 149.86 0)
+			(at 276.86 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12623,7 +12832,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 149.86 0)
+			(at 276.86 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12632,7 +12841,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 276.86 149.86 0)
+			(at 276.86 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15180,7 +15389,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.5M"
+		(property "Value" "2M5"
 			(at 37.084 101.092 90)
 			(effects
 				(font
@@ -15603,7 +15812,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 132.08 0)
+		(at 71.12 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15611,7 +15820,7 @@
 		(dnp no)
 		(uuid "f4883627-4fc2-4050-bc1e-fd51587f884b")
 		(property "Reference" "#PWR091"
-			(at 69.85 138.43 0)
+			(at 71.12 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15620,7 +15829,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 135.636 0)
+			(at 71.12 135.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15628,7 +15837,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 132.08 0)
+			(at 71.12 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15637,7 +15846,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 132.08 0)
+			(at 71.12 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15646,7 +15855,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 132.08 0)
+			(at 71.12 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
