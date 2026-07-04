@@ -3465,12 +3465,14 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Napajanje\niz mreže"
+	(text "AC main\nsupply"
 		(exclude_from_sim no)
-		(at 45.974 42.164 0)
+		(at 46.736 42.164 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 		)
 		(uuid "741c91a7-c98b-4de9-8d22-5dcc727fe147")
@@ -3811,7 +3813,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 31.75) (xy 166.37 41.91)
+			(xy 165.1 31.75) (xy 165.1 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4131,7 +4133,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 31.75) (xy 173.99 31.75)
+			(xy 165.1 31.75) (xy 173.99 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4161,7 +4163,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 41.91) (xy 163.83 41.91)
+			(xy 165.1 41.91) (xy 163.83 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4750,7 +4752,7 @@
 		(dnp no)
 		(uuid "0a914956-7a0f-4267-827a-77678bf6f37d")
 		(property "Reference" "CP10"
-			(at 256.54 73.66 0)
+			(at 254 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4759,7 +4761,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 262.9916 76.708 0)
+			(at 253.5428 75.8698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4794,7 +4796,7 @@
 			)
 		)
 		(property "Rated Voltage" "25V"
-			(at 260.9088 78.5622 0)
+			(at 251.46 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5071,7 +5073,7 @@
 		(dnp no)
 		(uuid "2a63070a-6012-4012-845b-60675599149b")
 		(property "Reference" "CP7"
-			(at 172.974 37.846 0)
+			(at 170.942 39.878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5080,7 +5082,7 @@
 			)
 		)
 		(property "Value" "2200u"
-			(at 182.372 40.132 0)
+			(at 172.72 42.418 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5115,7 +5117,7 @@
 			)
 		)
 		(property "Rated Voltage" "25V"
-			(at 178.562 42.418 0)
+			(at 168.91 44.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5447,7 +5449,7 @@
 		(dnp no)
 		(uuid "45a0de2d-e362-436b-af86-44660a1af4df")
 		(property "Reference" "D7"
-			(at 243.078 69.85 90)
+			(at 241.808 73.152 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5455,8 +5457,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RED LED"
-			(at 244.602 72.136 90)
+		(property "Value" "RED"
+			(at 242.57 75.438 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5523,10 +5525,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "47e8b9ae-3d54-4227-95c5-c35861d588d7")
 		(property "Reference" "R115"
-			(at 247.65 48.2599 0)
+			(at 238.252 48.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5535,7 +5536,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 247.65 50.7999 0)
+			(at 238.252 51.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5596,7 +5597,7 @@
 		(dnp no)
 		(uuid "4d575916-b50a-4a2d-8374-7ad653a706f3")
 		(property "Reference" "D4"
-			(at 234.696 41.148 90)
+			(at 226.06 41.148 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5605,7 +5606,7 @@
 			)
 		)
 		(property "Value" "1N4001"
-			(at 232.664 43.434 90)
+			(at 224.028 43.434 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5686,10 +5687,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4da727bb-2a70-431f-8177-e1540b47b98d")
 		(property "Reference" "C33"
-			(at 193.04 39.3762 0)
+			(at 184.404 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5698,7 +5698,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 193.04 41.9162 0)
+			(at 184.404 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5761,10 +5761,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7be4fe9d-9e83-4817-9ec7-7a32303b5dc3")
 		(property "Reference" "C34"
-			(at 193.04 74.9362 0)
+			(at 183.896 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5773,7 +5772,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 193.04 77.4762 0)
+			(at 183.896 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5845,7 +5844,7 @@
 				)
 			)
 		)
-		(property "Value" "T125mA (spori)"
+		(property "Value" "T125mA (slow)"
 			(at 79.502 36.83 90)
 			(effects
 				(font
@@ -5908,10 +5907,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "86ec7733-69d3-4077-952d-69e9366452eb")
 		(property "Reference" "C36"
-			(at 222.25 73.6662 0)
+			(at 212.598 73.914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5920,7 +5918,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 222.25 76.2062 0)
+			(at 212.598 76.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5983,10 +5981,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9fa7f21d-0163-4b63-ad2e-ffc2f0966b2a")
 		(property "Reference" "C35"
-			(at 222.25 39.3762 0)
+			(at 211.836 39.878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5995,7 +5992,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 222.25 41.9162 0)
+			(at 211.836 42.418 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6068,7 +6065,7 @@
 				)
 			)
 		)
-		(property "Value" "T 1A (brzi)"
+		(property "Value" "T 1A (fast)"
 			(at 125.73 53.34 90)
 			(effects
 				(font
@@ -6298,7 +6295,7 @@
 		(dnp no)
 		(uuid "ae178b02-b679-493e-ab3f-daa630ee302a")
 		(property "Reference" "D5"
-			(at 234.95 75.438 90)
+			(at 226.568 75.184 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6307,7 +6304,7 @@
 			)
 		)
 		(property "Value" "1N4001"
-			(at 232.664 77.724 90)
+			(at 224.282 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6391,7 +6388,7 @@
 		(dnp no)
 		(uuid "b3533ebd-0d37-401d-bb55-539252e6507e")
 		(property "Reference" "CP8"
-			(at 172.974 73.152 0)
+			(at 168.91 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6400,7 +6397,7 @@
 			)
 		)
 		(property "Value" "2200u"
-			(at 182.626 73.914 0)
+			(at 171.45 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6435,7 +6432,7 @@
 			)
 		)
 		(property "Rated Voltage" "25V"
-			(at 178.054 76.2 0)
+			(at 166.878 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6481,7 +6478,7 @@
 				)
 			)
 		)
-		(property "Value" "T 1A (brzi)"
+		(property "Value" "T 1A (fast)"
 			(at 124.46 30.48 90)
 			(effects
 				(font
@@ -6544,10 +6541,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cd988388-5fd8-4e5d-a93f-e79b5261919b")
 		(property "Reference" "R116"
-			(at 247.65 63.4999 0)
+			(at 238.76 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6556,7 +6552,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 247.65 66.0399 0)
+			(at 238.76 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6617,7 +6613,7 @@
 		(dnp no)
 		(uuid "eb490e2f-b2cb-4bd9-9295-936e02d66d14")
 		(property "Reference" "CP9"
-			(at 256.032 38.862 0)
+			(at 254 40.132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6626,7 +6622,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 262.9916 41.148 0)
+			(at 255.0668 43.1038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6661,7 +6657,7 @@
 			)
 		)
 		(property "Rated Voltage" "25V"
-			(at 260.9088 43.0022 0)
+			(at 252.984 44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6700,7 +6696,7 @@
 		(dnp no)
 		(uuid "f2078b2e-814b-46b5-a76d-931d6caa0674")
 		(property "Reference" "D6"
-			(at 241.554 36.068 90)
+			(at 241.3 39.624 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6708,8 +6704,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RED LED"
-			(at 244.348 37.846 90)
+		(property "Value" "RED"
+			(at 242.316 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
