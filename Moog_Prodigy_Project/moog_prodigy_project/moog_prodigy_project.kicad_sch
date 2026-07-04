@@ -180,48 +180,6 @@
 		)
 	)
 	(sheet
-		(at 163.195 64.77)
-		(size 59.055 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "7779039f-2550-4574-83e1-53c9a906a73d")
-		(property "Sheetname" "ledder"
-			(at 163.195 64.0584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "ledder_transistors.kicad_sch"
-			(at 163.195 90.7546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "moog_prodigy_project"
-				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8"
-					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 30.48 102.87)
 		(size 59.69 25.4)
 		(exclude_from_sim no)

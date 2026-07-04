@@ -753,7 +753,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "../../../",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -788,10 +788,6 @@
     [
       "e87f9916-2112-448f-9f59-6551b8229296",
       "4007"
-    ],
-    [
-      "7779039f-2550-4574-83e1-53c9a906a73d",
-      "ledder"
     ],
     [
       "632a0a15-d2db-46b0-8553-670bc8b18225",
