@@ -4832,7 +4832,7 @@
 		(dnp no)
 		(uuid "1a5a1e82-fb2c-49fd-b725-5cb6e3f04fc8")
 		(property "Reference" "U24"
-			(at 205.74 24.8412 0)
+			(at 205.486 25.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4840,7 +4840,7 @@
 			)
 		)
 		(property "Value" "LM78L12"
-			(at 205.74 27.3812 0)
+			(at 205.486 28.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5351,7 +5351,7 @@
 			(uuid "7fc6b208-ba35-416c-b5f0-55db1b39b1d6")
 		)
 		(instances
-			(project ""
+			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/632a0a15-d2db-46b0-8553-670bc8b18225"
 					(reference "#PWR0142")
 					(unit 1)
@@ -5370,7 +5370,7 @@
 		(dnp no)
 		(uuid "45119bee-3e26-4649-9d89-f1416457fe97")
 		(property "Reference" "U25"
-			(at 205.74 90.7288 0)
+			(at 205.74 90.9828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5378,7 +5378,7 @@
 			)
 		)
 		(property "Value" "LM79L12"
-			(at 205.74 88.1888 0)
+			(at 205.74 88.4428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5447,7 +5447,7 @@
 		(dnp no)
 		(uuid "45a0de2d-e362-436b-af86-44660a1af4df")
 		(property "Reference" "D7"
-			(at 249.682 75.438 90)
+			(at 243.078 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5456,7 +5456,7 @@
 			)
 		)
 		(property "Value" "RED LED"
-			(at 253.492 80.772 90)
+			(at 244.602 72.136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5577,7 +5577,7 @@
 			(uuid "2d550a84-bcca-4298-8691-ba0a8f510d1e")
 		)
 		(instances
-			(project ""
+			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/632a0a15-d2db-46b0-8553-670bc8b18225"
 					(reference "R115")
 					(unit 1)
@@ -6279,7 +6279,7 @@
 			(uuid "d02a97b4-1cd1-4dd6-99ac-461511672d27")
 		)
 		(instances
-			(project ""
+			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/632a0a15-d2db-46b0-8553-670bc8b18225"
 					(reference "T2")
 					(unit 1)
@@ -6692,7 +6692,7 @@
 	(symbol
 		(lib_name "LED_1")
 		(lib_id "Device:LED")
-		(at 245.11 40.64 270)
+		(at 245.11 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6700,7 +6700,7 @@
 		(dnp no)
 		(uuid "f2078b2e-814b-46b5-a76d-931d6caa0674")
 		(property "Reference" "D6"
-			(at 247.142 39.116 90)
+			(at 241.554 36.068 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6709,7 +6709,7 @@
 			)
 		)
 		(property "Value" "RED LED"
-			(at 245.872 43.434 90)
+			(at 244.348 37.846 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6760,7 +6760,7 @@
 			(uuid "95d5180e-160f-4bad-877c-d486bf67853e")
 		)
 		(instances
-			(project ""
+			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/632a0a15-d2db-46b0-8553-670bc8b18225"
 					(reference "D6")
 					(unit 1)

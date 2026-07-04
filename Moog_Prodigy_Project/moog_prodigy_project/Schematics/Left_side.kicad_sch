@@ -5175,7 +5175,7 @@
 	)
 	(text "OSC 1\nSCALE TRIM"
 		(exclude_from_sim no)
-		(at 86.868 80.772 0)
+		(at 84.328 80.264 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5187,7 +5187,7 @@
 	)
 	(text "OSC 1 \nHIGH END\nTRIM"
 		(exclude_from_sim no)
-		(at 182.88 78.486 0)
+		(at 181.864 80.518 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9283,7 +9283,7 @@
 			)
 		)
 		(property "Value" "BC549"
-			(at 102.87 138.684 0)
+			(at 103.632 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12106,7 +12106,7 @@
 		(dnp no)
 		(uuid "7559ae27-15a8-4bbf-b184-a401a0b5876e")
 		(property "Reference" "U4"
-			(at 197.104 109.22 0)
+			(at 183.896 103.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12114,7 +12114,7 @@
 			)
 		)
 		(property "Value" "NE5532"
-			(at 183.642 111.76 0)
+			(at 183.642 106.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13256,7 +13256,7 @@
 			)
 		)
 		(property "Value" "BC549"
-			(at 203.454 113.792 0)
+			(at 206.502 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15446,7 +15446,7 @@
 			)
 		)
 		(property "Value" "LT1011CN8"
-			(at 247.396 146.304 0)
+			(at 262.636 150.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
