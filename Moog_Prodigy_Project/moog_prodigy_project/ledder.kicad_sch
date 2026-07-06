@@ -7546,19 +7546,6 @@
 		)
 		(uuid "0a99907e-b710-4540-b440-1e6c4b0293f2")
 	)
-	(text "NAPOMENA 2\nOtpornici cija je vrednost:\n63K4, 18K2, 4K75, 6K81, 51M, 2.4M\nsu otpornici iz E96 serije (1%)\nOstali orpotnici su iz serije E24 (5%)"
-		(exclude_from_sim no)
-		(at 342.138 241.554 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "0f258bf0-d711-4443-a259-ed7777ea67a9")
-	)
 	(text "VCA\nBALANCE"
 		(exclude_from_sim no)
 		(at 250.952 54.102 0)
@@ -7634,7 +7621,7 @@
 	)
 	(text "OFF"
 		(exclude_from_sim no)
-		(at 256.286 197.866 0)
+		(at 266.446 197.866 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7675,7 +7662,7 @@
 	)
 	(text "ON"
 		(exclude_from_sim no)
-		(at 256.032 203.2 0)
+		(at 266.192 203.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8139,7 +8126,7 @@
 		(uuid "c7abfa1e-9a27-40a8-924b-8df474025733")
 	)
 	(no_connect
-		(at 257.81 195.58)
+		(at 267.97 195.58)
 		(uuid "f38e7f66-48c5-4450-bae7-d26c5648926a")
 	)
 	(wire
@@ -8424,7 +8411,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 198.12) (xy 228.6 198.12)
+			(xy 218.44 198.12) (xy 222.25 198.12)
 		)
 		(stroke
 			(width 0)
@@ -8824,7 +8811,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 200.66) (xy 257.81 200.66)
+			(xy 271.78 200.66) (xy 267.97 200.66)
 		)
 		(stroke
 			(width 0)
@@ -8881,6 +8868,16 @@
 			(type default)
 		)
 		(uuid "51870929-2a40-4b1c-ab49-101144d85083")
+	)
+	(wire
+		(pts
+			(xy 208.28 215.9) (xy 207.01 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "518a93f5-f9e1-4862-bbed-0145b3e86b61")
 	)
 	(wire
 		(pts
@@ -9474,7 +9471,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 198.12) (xy 247.65 198.12)
+			(xy 229.87 198.12) (xy 234.95 198.12)
 		)
 		(stroke
 			(width 0)
@@ -9734,6 +9731,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 198.12) (xy 254 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d7cd956-a56e-426c-b259-88a8fa813f44")
+	)
+	(wire
+		(pts
 			(xy 55.88 77.47) (xy 55.88 69.85)
 		)
 		(stroke
@@ -9914,7 +9921,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 215.9) (xy 209.55 215.9)
+			(xy 218.44 215.9) (xy 215.9 215.9)
 		)
 		(stroke
 			(width 0)
@@ -10604,7 +10611,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 215.9) (xy 201.93 215.9)
+			(xy 196.85 215.9) (xy 199.39 215.9)
 		)
 		(stroke
 			(width 0)
@@ -10731,6 +10738,16 @@
 			(type default)
 		)
 		(uuid "fcfe566f-0317-49cd-82db-37ae248ff25a")
+	)
+	(wire
+		(pts
+			(xy 242.57 198.12) (xy 246.38 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feb5fc5a-8143-4a76-9d0f-e03740d90535")
 	)
 	(wire
 		(pts
@@ -11094,7 +11111,7 @@
 	)
 	(global_label "OSC_MOD_SWITCH"
 		(shape input)
-		(at 261.62 200.66 0)
+		(at 271.78 200.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11104,7 +11121,7 @@
 		)
 		(uuid "e0cb7e09-b92b-4c41-9051-a87003ddc219")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 281.2361 200.66 0)
+			(at 291.3961 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11720,7 +11737,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 232.41 198.12 90)
+		(at 226.06 198.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11728,7 +11745,7 @@
 		(dnp no)
 		(uuid "129dc540-735c-4e7b-bd83-536168ebd351")
 		(property "Reference" "R128_1"
-			(at 228.6 193.802 90)
+			(at 222.25 193.802 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11736,8 +11753,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "36K"
-			(at 230.378 195.834 90)
+		(property "Value" "34K8"
+			(at 224.028 195.834 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11746,7 +11763,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 232.41 199.898 90)
+			(at 226.06 199.898 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11755,7 +11772,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 232.41 198.12 0)
+			(at 226.06 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11764,7 +11781,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 232.41 198.12 0)
+			(at 226.06 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13183,7 +13200,7 @@
 		(dnp no)
 		(uuid "426ec50a-c750-4491-9026-d6e728997028")
 		(property "Reference" "R103"
-			(at 158.242 140.716 90)
+			(at 158.75 140.716 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13192,7 +13209,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 156.972 142.494 90)
+			(at 157.48 142.494 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13306,6 +13323,75 @@
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/0831e821-0b52-4263-8fa0-a60bfb135571"
 					(reference "R108_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 212.09 215.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43cdb9e6-a341-4ae3-a432-7c4450fefcc7")
+		(property "Reference" "R126_2"
+			(at 208.788 211.582 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2K"
+			(at 210.312 213.614 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 212.09 217.678 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 212.09 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "039a35b1-7a9b-4954-8095-7b97c49233de")
+		)
+		(pin "2"
+			(uuid "7071a6d5-f2a4-4afa-9f66-d707605119df")
+		)
+		(instances
+			(project "moog_prodigy_project"
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/0831e821-0b52-4263-8fa0-a60bfb135571"
+					(reference "R126_2")
 					(unit 1)
 				)
 			)
@@ -13997,7 +14083,7 @@
 		(dnp no)
 		(uuid "5808038e-14c5-41cb-89ab-2c73c50a15bb")
 		(property "Reference" "C72"
-			(at 156.972 129.032 90)
+			(at 153.67 126.746 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14005,7 +14091,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 157.48 130.81 90)
+			(at 154.178 128.524 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14203,7 +14289,7 @@
 		(dnp no)
 		(uuid "5ee5621d-b7c6-475e-9c98-ae6afc7b9c49")
 		(property "Reference" "R104"
-			(at 161.29 121.158 0)
+			(at 161.036 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14212,7 +14298,7 @@
 			)
 		)
 		(property "Value" "6K81"
-			(at 161.036 123.444 0)
+			(at 160.782 126.492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14239,7 +14325,7 @@
 			)
 		)
 		(property "Description" "1%"
-			(at 164.084 125.476 0)
+			(at 163.83 128.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14357,7 +14443,7 @@
 				)
 			)
 		)
-		(property "Value" "50K"
+		(property "Value" "51K1"
 			(at 132.08 102.87 90)
 			(effects
 				(font
@@ -14731,6 +14817,75 @@
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/0831e821-0b52-4263-8fa0-a60bfb135571"
 					(reference "#PWR0154")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 250.19 198.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b2911b6-6118-43de-bf66-217cfa034645")
+		(property "Reference" "R128_3"
+			(at 246.38 193.802 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2K"
+			(at 248.158 195.834 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 250.19 199.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 250.19 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8068a61c-9f04-4759-8fff-adf304b6de63")
+		)
+		(pin "2"
+			(uuid "e48965c8-4aa7-45df-b4a5-ba0722681f4c")
+		)
+		(instances
+			(project "moog_prodigy_project"
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/0831e821-0b52-4263-8fa0-a60bfb135571"
+					(reference "R128_3")
 					(unit 1)
 				)
 			)
@@ -15636,7 +15791,7 @@
 		(dnp no)
 		(uuid "92b86f5f-868c-40f1-9b65-008f1b9a57ad")
 		(property "Reference" "CP1"
-			(at 54.864 124.206 0)
+			(at 55.118 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15644,8 +15799,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2u2"
-			(at 54.864 126.238 0)
+		(property "Value" "2u2/16V"
+			(at 57.658 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15685,6 +15840,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin ""
@@ -16133,15 +16289,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 205.74 215.9 90)
+		(at 238.76 198.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a3beb2e3-6d6d-40e1-9407-c1d876daafd4")
-		(property "Reference" "R126_1"
-			(at 202.438 211.582 90)
+		(uuid "a33b5c9c-0589-4b85-af6a-77cc0975a046")
+		(property "Reference" "R128_2"
+			(at 234.95 193.802 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16149,8 +16305,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "51K"
-			(at 203.962 213.614 90)
+		(property "Value" "10K"
+			(at 236.728 195.834 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16159,7 +16315,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 205.74 217.678 90)
+			(at 238.76 199.898 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16168,7 +16324,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 205.74 215.9 0)
+			(at 238.76 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16177,7 +16333,76 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 205.74 215.9 0)
+			(at 238.76 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa386991-1798-49eb-bf1f-6feeaa5b5060")
+		)
+		(pin "2"
+			(uuid "b3c55f17-afd6-4224-ac18-c1bdd95e266d")
+		)
+		(instances
+			(project "moog_prodigy_project"
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/0831e821-0b52-4263-8fa0-a60bfb135571"
+					(reference "R128_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 203.2 215.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3beb2e3-6d6d-40e1-9407-c1d876daafd4")
+		(property "Reference" "R126_1"
+			(at 199.898 211.582 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "49K"
+			(at 201.422 213.614 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 203.2 217.678 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 203.2 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16711,7 +16936,7 @@
 		(dnp no)
 		(uuid "b75afd90-932d-4580-adac-53312a7858e1")
 		(property "Reference" "R105"
-			(at 178.308 120.65 90)
+			(at 177.8 121.666 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16720,7 +16945,7 @@
 			)
 		)
 		(property "Value" "6K81"
-			(at 178.308 122.682 90)
+			(at 177.8 123.698 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16746,7 +16971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1%"
+		(property "Description" ""
 			(at 180.34 124.714 90)
 			(effects
 				(font
@@ -17993,7 +18218,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 252.73 198.12 0)
+		(at 262.89 198.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18002,7 +18227,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5754193-1983-43f6-8a11-37fd4ab6e7b6")
 		(property "Reference" "SW11"
-			(at 252.73 190.5 0)
+			(at 262.89 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18010,7 +18235,7 @@
 			)
 		)
 		(property "Value" "FILTER MODE"
-			(at 252.73 193.04 0)
+			(at 262.89 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18018,7 +18243,7 @@
 			)
 		)
 		(property "Footprint" "ATE1D-2M3-10-Z_1x2:SW_ATE1D-2M3-10-Z"
-			(at 252.73 198.12 0)
+			(at 262.89 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18027,7 +18252,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 205.74 0)
+			(at 262.89 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18036,7 +18261,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 252.73 198.12 0)
+			(at 262.89 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18922,7 +19147,7 @@
 		(dnp no)
 		(uuid "ffcb5a0b-2d41-4168-b462-dfbb71e2872d")
 		(property "Reference" "CP2"
-			(at 125.73 109.474 90)
+			(at 124.206 109.474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
