@@ -3363,6 +3363,19 @@
 		)
 		(uuid "24b253c7-c951-411d-8c6b-e86f3fb8979a")
 	)
+	(text "NAPOMENA 1\nKondenzatori koji moraju biti kvalitetni:\nC7,C8,C9,C10,C33,C34,C35,C36"
+		(exclude_from_sim no)
+		(at 181.356 159.512 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "5047a08d-0ada-410e-8ac4-364141070dea")
+	)
 	(text "AC main\nsupply"
 		(exclude_from_sim no)
 		(at 65.786 42.164 0)
@@ -3847,6 +3860,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 86.36) (xy 237.49 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d37488b-d884-4006-8401-ec560bd35873")
+	)
+	(wire
+		(pts
 			(xy 250.19 72.39) (xy 250.19 76.2)
 		)
 		(stroke
@@ -3927,16 +3950,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 76.2) (xy 237.49 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c4be414-577f-4aa1-9f10-ee97f3889b52")
-	)
-	(wire
-		(pts
 			(xy 123.19 34.29) (xy 129.54 34.29)
 		)
 		(stroke
@@ -3954,16 +3967,6 @@
 			(type default)
 		)
 		(uuid "8f3929e8-a6ba-4c89-9db6-7a79ad701dc9")
-	)
-	(wire
-		(pts
-			(xy 237.49 86.36) (xy 237.49 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92f6f9d6-c5ea-4a52-9b04-9ee0e2af67d1")
 	)
 	(wire
 		(pts
@@ -4154,6 +4157,16 @@
 			(type default)
 		)
 		(uuid "d194a280-364d-4231-89c3-90177d7b02ff")
+	)
+	(wire
+		(pts
+			(xy 237.49 76.2) (xy 237.49 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db09f4ec-7149-4f3a-84c2-5ac86e7866bc")
 	)
 	(wire
 		(pts
@@ -4893,7 +4906,7 @@
 	(symbol
 		(lib_name "LED_1")
 		(lib_id "Device:LED")
-		(at 237.49 82.55 90)
+		(at 237.49 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4901,7 +4914,7 @@
 		(dnp no)
 		(uuid "1d1c7514-bde2-4606-b6c3-ded194ec14d5")
 		(property "Reference" "D6"
-			(at 234.442 81.534 90)
+			(at 240.538 83.566 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4910,7 +4923,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 234.696 83.82 90)
+			(at 240.284 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -8064,7 +8064,7 @@
 		)
 		(uuid "59c85494-5aa2-4a66-9f76-b645d1cdc077")
 	)
-	(text "NAPOMENA 1\nKondenzatori:\nC59,C60,C61,C62,C63,C64,\nC65,C66,C67,C68,C69,C70\nsu vrednosti 100n i oni su kvalitetniji"
+	(text "NAPOMENA 1\nKondenzatori:\nC21,C24,C59,C60,C61,C62,C63,C64,\nC65,C66,C67,C68,C69,C70\nsu vrednosti 100n i oni su kvalitetniji"
 		(exclude_from_sim no)
 		(at 176.784 156.21 0)
 		(effects

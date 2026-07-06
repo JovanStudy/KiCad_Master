@@ -7889,7 +7889,7 @@
 		)
 		(uuid "0ea24c08-db65-49cb-a825-8996187f4f5a")
 	)
-	(text "NAPOMENA 1\nKondenzatori:\nC79,C80,C81,C82,C83,C84,C85\nsu vrednosti 100n i oni su kvalitetniji"
+	(text "NAPOMENA 1\nKondenzatori koji moraju biti kvalitetni:\nC31,C32,C79,C80,C81,C82,C83,C84,C85\nCP5,CP11,CP12\n"
 		(exclude_from_sim no)
 		(at 300.228 242.062 0)
 		(effects
@@ -8192,7 +8192,7 @@
 	)
 	(text "VCA\nATTACK"
 		(exclude_from_sim no)
-		(at 154.178 33.02 0)
+		(at 154.686 34.036 0)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -6075,7 +6075,7 @@
 		)
 		(uuid "e303b536-3ccb-45af-bacb-cda264f7f3d4")
 	)
-	(text "NAPOMENA 1\nKondenzatori:\nC37,C38,C39,C49,C41,C42,\nC43,C44,C45,C46,C47,C48\nsu vrednosti 100n i oni su kvalitetniji"
+	(text "NAPOMENA 1\nKondenzatori:\nC2,C3,C37,C38,C39,C49,C41,C42,\nC43,C44,C45,C46,C47,C48\nsu vrednosti 100n i oni su kvalitetniji"
 		(exclude_from_sim no)
 		(at 177.038 160.274 0)
 		(effects
@@ -13187,7 +13187,7 @@
 			(uuid "bbfbaf0a-f966-43c1-bd0e-8a3c7587f551")
 		)
 		(instances
-			(project ""
+			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/6ca03b6b-5ad1-455d-b55d-f800979e8812"
 					(reference "U18")
 					(unit 3)
