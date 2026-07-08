@@ -7889,19 +7889,6 @@
 		)
 		(uuid "0ea24c08-db65-49cb-a825-8996187f4f5a")
 	)
-	(text "NAPOMENA 1\nKondenzatori koji moraju biti kvalitetni:\nC31,C32,C79,C80,C81,C82,C83,C84,C85\nCP5,CP11,CP12\n"
-		(exclude_from_sim no)
-		(at 300.228 242.062 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "13875046-f259-4d15-b30d-24388be18341")
-	)
 	(text "IC3_2"
 		(exclude_from_sim no)
 		(at 112.776 233.172 0)
@@ -7947,7 +7934,7 @@
 	)
 	(text "VCF\nATTACK"
 		(exclude_from_sim no)
-		(at 113.284 108.204 0)
+		(at 113.284 107.442 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7979,7 +7966,7 @@
 	)
 	(text "IC3_5"
 		(exclude_from_sim no)
-		(at 164.592 221.234 0)
+		(at 165.354 220.218 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8018,6 +8005,18 @@
 			)
 		)
 		(uuid "551d0dfe-faf4-49c9-b24e-62c02e470942")
+	)
+	(text "PP"
+		(exclude_from_sim no)
+		(at 211.074 52.324 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "5bfeb1d1-10ac-40f0-a80c-f2d6028470fa")
 	)
 	(text "IC4_6"
 		(exclude_from_sim no)
@@ -8061,7 +8060,7 @@
 	)
 	(text "VCF\nDECAY/RELEASE"
 		(exclude_from_sim no)
-		(at 161.29 130.81 0)
+		(at 161.29 129.286 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8092,6 +8091,18 @@
 		)
 		(uuid "74cfdae1-a833-4eb5-bbd6-ddc1d974e012")
 	)
+	(text "PP"
+		(exclude_from_sim no)
+		(at 94.742 239.014 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "8a6dac0a-3e14-47b3-920f-ce3d414a36bd")
+	)
 	(text "IC3"
 		(exclude_from_sim no)
 		(at 149.606 213.868 0)
@@ -8114,6 +8125,18 @@
 			(justify bottom)
 		)
 		(uuid "9e20cada-e64b-4eac-b83b-b66060fd7d21")
+	)
+	(text "PP"
+		(exclude_from_sim no)
+		(at 168.91 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "aaea1d31-8721-4850-8b84-c5e0e852ef76")
 	)
 	(text "VCA\nDECAY/RELEASE"
 		(exclude_from_sim no)
@@ -8170,6 +8193,18 @@
 		)
 		(uuid "ca7fcd6b-fbd0-4182-a788-9ddaf20598e1")
 	)
+	(text "PP"
+		(exclude_from_sim no)
+		(at 159.766 222.758 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "d8c4468f-bc86-4ad4-9773-7059cbab2040")
+	)
 	(text "IC3_3"
 		(exclude_from_sim no)
 		(at 135.382 219.456 0)
@@ -8192,7 +8227,7 @@
 	)
 	(text "VCA\nATTACK"
 		(exclude_from_sim no)
-		(at 154.686 34.036 0)
+		(at 154.686 33.528 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11910,7 +11945,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2acf30fe-1a5d-407f-b01a-e5b60fd3353f")
-		(property "Reference" "CP11"
+		(property "Reference" "C42"
 			(at 213.106 46.99 0)
 			(effects
 				(font
@@ -11919,7 +11954,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "6u8/20V"
+		(property "Value" "6u8/25V"
 			(at 215.138 49.53 0)
 			(effects
 				(font
@@ -11972,7 +12007,7 @@
 		(instances
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/e87f9916-2112-448f-9f59-6551b8229296"
-					(reference "CP11")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -12119,7 +12154,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38c4f8de-3ad0-455a-9404-f7a713316389")
-		(property "Reference" "CP5"
+		(property "Reference" "C43"
 			(at 328.168 100.33 0)
 			(effects
 				(font
@@ -12181,7 +12216,7 @@
 		(instances
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/e87f9916-2112-448f-9f59-6551b8229296"
-					(reference "CP5")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -13303,16 +13338,16 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60b16704-5226-4348-a240-8e8859dbcaf7")
-		(property "Reference" "RV26_LOG"
-			(at 112.776 111.506 90)
+		(property "Reference" "RV26"
+			(at 112.776 110.744 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1M"
-			(at 112.776 113.538 90)
+		(property "Value" "1M LOG"
+			(at 112.776 112.776 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13358,7 +13393,7 @@
 		(instances
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/e87f9916-2112-448f-9f59-6551b8229296"
-					(reference "RV26_LOG")
+					(reference "RV26")
 					(unit 1)
 				)
 			)
@@ -13373,8 +13408,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6598db97-94f6-4eb7-ac7e-a6f5ca2b16ae")
-		(property "Reference" "RV27_LOG"
-			(at 189.738 48.514 0)
+		(property "Reference" "RV27"
+			(at 190.754 48.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13382,8 +13417,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1M"
-			(at 193.04 50.546 0)
+		(property "Value" "1M LOG"
+			(at 189.738 50.546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13430,7 +13465,7 @@
 		(instances
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/e87f9916-2112-448f-9f59-6551b8229296"
-					(reference "RV27_LOG")
+					(reference "RV27")
 					(unit 1)
 				)
 			)
@@ -13446,7 +13481,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6610cc44-f2c3-47db-a3df-9255c41a66c7")
-		(property "Reference" "CP12"
+		(property "Reference" "C41"
 			(at 170.942 117.602 0)
 			(effects
 				(font
@@ -13455,7 +13490,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "6u8/20V"
+		(property "Value" "6u8/25V"
 			(at 172.72 120.396 0)
 			(effects
 				(font
@@ -13508,7 +13543,7 @@
 		(instances
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/e87f9916-2112-448f-9f59-6551b8229296"
-					(reference "CP12")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -14159,8 +14194,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77c72c9e-5747-4ecf-8ee2-3b866d83a1fb")
-		(property "Reference" "RV30_LIN"
-			(at 135.128 86.868 0)
+		(property "Reference" "RV30"
+			(at 135.636 86.868 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14168,8 +14203,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10K"
-			(at 137.414 88.9 0)
+		(property "Value" "10K LIN"
+			(at 135.128 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14216,7 +14251,7 @@
 		(instances
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/e87f9916-2112-448f-9f59-6551b8229296"
-					(reference "RV30_LIN")
+					(reference "RV30")
 					(unit 1)
 				)
 			)
@@ -14777,7 +14812,7 @@
 		(dnp no)
 		(uuid "8f9e3879-1389-4ba8-8aca-2867b399910e")
 		(property "Reference" "C32"
-			(at 158.75 217.932 0)
+			(at 159.258 217.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14785,7 +14820,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 159.004 220.218 0)
+			(at 159.512 220.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14919,16 +14954,16 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "94034946-92a4-4595-83f1-b6f9d109582d")
-		(property "Reference" "RV25_LOG"
-			(at 154.94 37.592 90)
+		(property "Reference" "RV25"
+			(at 154.94 37.084 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1M"
-			(at 154.94 39.37 90)
+		(property "Value" "1M LOG"
+			(at 154.94 38.862 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14974,7 +15009,7 @@
 		(instances
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/e87f9916-2112-448f-9f59-6551b8229296"
-					(reference "RV25_LOG")
+					(reference "RV25")
 					(unit 1)
 				)
 			)
@@ -15829,8 +15864,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cea28e0b-f5a5-4f8c-a429-550576c7db59")
-		(property "Reference" "RV29_LIN"
-			(at 107.188 163.322 0)
+		(property "Reference" "RV29"
+			(at 107.95 162.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15838,8 +15873,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10K"
-			(at 109.474 165.354 0)
+		(property "Value" "10K LIN"
+			(at 107.696 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15886,7 +15921,7 @@
 		(instances
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/e87f9916-2112-448f-9f59-6551b8229296"
-					(reference "RV29_LIN")
+					(reference "RV29")
 					(unit 1)
 				)
 			)
