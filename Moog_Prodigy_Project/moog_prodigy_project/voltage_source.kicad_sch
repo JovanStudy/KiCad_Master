@@ -3385,6 +3385,19 @@
 		)
 		(uuid "cf6ed813-98de-4dd9-b12a-204359ae3bdb")
 	)
+	(text "*GENERAL NOTE*\nResistor values that are not explicitly specified\nare selected from the E96 value series with a \ntolerance of ±1%."
+		(exclude_from_sim no)
+		(at 177.038 159.512 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "e71978ad-17bc-4854-a882-65cf4addf6f1")
+	)
 	(junction
 		(at 124.46 44.45)
 		(diameter 0)
@@ -4513,7 +4526,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "08a295c2-6fdc-4c7e-87df-4aea2e5fcae8")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0117"
 			(at 270.51 69.85 0)
 			(effects
 				(font
@@ -4562,7 +4575,7 @@
 		(instances
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/632a0a15-d2db-46b0-8553-670bc8b18225"
-					(reference "#PWR?")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -4649,7 +4662,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a914956-7a0f-4267-827a-77678bf6f37d")
-		(property "Reference" "C47"
+		(property "Reference" "C97"
 			(at 247.142 67.056 0)
 			(effects
 				(font
@@ -4711,7 +4724,7 @@
 		(instances
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/632a0a15-d2db-46b0-8553-670bc8b18225"
-					(reference "C47")
+					(reference "C97")
 					(unit 1)
 				)
 			)
@@ -4979,7 +4992,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a63070a-6012-4012-845b-60675599149b")
-		(property "Reference" "C44"
+		(property "Reference" "C94"
 			(at 174.498 50.8 0)
 			(effects
 				(font
@@ -5041,7 +5054,7 @@
 		(instances
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/632a0a15-d2db-46b0-8553-670bc8b18225"
-					(reference "C44")
+					(reference "C94")
 					(unit 1)
 				)
 			)
@@ -5889,7 +5902,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b260927-4b66-4d93-97f9-4aedcc7edc01")
-		(property "Reference" "R32"
+		(property "Reference" "R153"
 			(at 263.398 58.928 0)
 			(effects
 				(font
@@ -5943,7 +5956,7 @@
 		(instances
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/632a0a15-d2db-46b0-8553-670bc8b18225"
-					(reference "R32")
+					(reference "R153")
 					(unit 1)
 				)
 			)
@@ -6198,7 +6211,7 @@
 				)
 			)
 		)
-		(property "Value" "230 VAC/ 15VAC 1A5 22W"
+		(property "Value" "230VAC / 2x15VAC 0A53 16VA"
 			(at 112.776 31.242 0)
 			(effects
 				(font
@@ -6206,7 +6219,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Transformer_THT:Transformer_Myrra_EI30-5_44000_Horizontal"
+		(property "Footprint" "Transformer_THT:Transformer_CHK_EI54-16VA_2xSec"
 			(at 113.03 44.45 0)
 			(effects
 				(font
@@ -6363,7 +6376,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b3533ebd-0d37-401d-bb55-539252e6507e")
-		(property "Reference" "C45"
+		(property "Reference" "C95"
 			(at 174.244 66.802 0)
 			(effects
 				(font
@@ -6425,7 +6438,7 @@
 		(instances
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/632a0a15-d2db-46b0-8553-670bc8b18225"
-					(reference "C45")
+					(reference "C95")
 					(unit 1)
 				)
 			)
@@ -6584,7 +6597,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb490e2f-b2cb-4bd9-9295-936e02d66d14")
-		(property "Reference" "C46"
+		(property "Reference" "C96"
 			(at 246.888 50.8 0)
 			(effects
 				(font
@@ -6646,7 +6659,7 @@
 		(instances
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/632a0a15-d2db-46b0-8553-670bc8b18225"
-					(reference "C46")
+					(reference "C96")
 					(unit 1)
 				)
 			)

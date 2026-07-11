@@ -8183,6 +8183,19 @@
 		)
 		(uuid "b8d4fa8c-8405-4fbe-9ab2-c4cb6d078eda")
 	)
+	(text "*GENERAL NOTE*\nResistor values that are not explicitly specified\nare selected from the E96 value series with a \ntolerance of ±1%."
+		(exclude_from_sim no)
+		(at 299.974 247.142 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "c7b0c6b0-d995-45aa-8a06-f629c2593db5")
+	)
 	(text "IC5_3"
 		(exclude_from_sim no)
 		(at 130.048 55.88 0)
@@ -11945,7 +11958,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2acf30fe-1a5d-407f-b01a-e5b60fd3353f")
-		(property "Reference" "C42"
+		(property "Reference" "C92"
 			(at 213.106 46.99 0)
 			(effects
 				(font
@@ -12007,7 +12020,7 @@
 		(instances
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/e87f9916-2112-448f-9f59-6551b8229296"
-					(reference "C42")
+					(reference "C92")
 					(unit 1)
 				)
 			)
@@ -12154,7 +12167,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38c4f8de-3ad0-455a-9404-f7a713316389")
-		(property "Reference" "C43"
+		(property "Reference" "C93"
 			(at 328.168 100.33 0)
 			(effects
 				(font
@@ -12216,7 +12229,7 @@
 		(instances
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/e87f9916-2112-448f-9f59-6551b8229296"
-					(reference "C43")
+					(reference "C93")
 					(unit 1)
 				)
 			)
@@ -13481,7 +13494,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6610cc44-f2c3-47db-a3df-9255c41a66c7")
-		(property "Reference" "C41"
+		(property "Reference" "C91"
 			(at 170.942 117.602 0)
 			(effects
 				(font
@@ -13543,7 +13556,7 @@
 		(instances
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/e87f9916-2112-448f-9f59-6551b8229296"
-					(reference "C41")
+					(reference "C91")
 					(unit 1)
 				)
 			)
@@ -14130,7 +14143,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75d7a9be-28ba-403c-a5dc-7844240fdee3")
-		(property "Reference" "+12V"
+		(property "Reference" "#+12V0101"
 			(at 196.85 104.14 0)
 			(effects
 				(font
@@ -14179,7 +14192,7 @@
 		(instances
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/e87f9916-2112-448f-9f59-6551b8229296"
-					(reference "+12V")
+					(reference "#+12V0101")
 					(unit 1)
 				)
 			)

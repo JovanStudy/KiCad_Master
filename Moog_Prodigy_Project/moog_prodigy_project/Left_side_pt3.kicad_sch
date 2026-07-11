@@ -8303,6 +8303,19 @@
 		)
 		(uuid "998ac988-3a2e-4050-90bf-66766652ff87")
 	)
+	(text "*GENERAL NOTE*\nResistor values that are not explicitly specified\nare selected from the E96 value series with a \ntolerance of ±1%."
+		(exclude_from_sim no)
+		(at 176.784 161.036 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "9f532682-2e69-46d8-8761-ef019c623024")
+	)
 	(text "ON  OFF "
 		(exclude_from_sim no)
 		(at 181.61 125.222 0)
@@ -16973,6 +16986,84 @@
 		)
 	)
 	(symbol
+		(lib_name "elektrolit_1")
+		(lib_id "elektrolitski:elektrolit")
+		(at 132.08 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c96b0fc2-5c18-40ff-a4e2-d64111f9587e")
+		(property "Reference" "C24"
+			(at 128.778 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1u/25V"
+			(at 131.826 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 132.08 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 131.826 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rated Voltage" "25V"
+			(at 128.524 51.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "c75fe810-a619-43d0-82db-3ff0ec8129ef")
+		)
+		(pin ""
+			(uuid "7453f50d-9104-45d0-9e49-da0479b8b1e1")
+		)
+		(instances
+			(project "moog_prodigy_project"
+				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/e17106b4-4b3e-4539-a6cd-812d9801e405"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 165.1 132.08 270)
 		(unit 1)
@@ -18422,84 +18513,6 @@
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/e17106b4-4b3e-4539-a6cd-812d9801e405"
 					(reference "U9")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "elektrolit_1")
-		(lib_id "elektrolitski:elektrolit")
-		(at 132.08 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eb490e2f-b2cb-4bd9-9295-936e02d66d14")
-		(property "Reference" "C24"
-			(at 128.778 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1u/25V"
-			(at 131.826 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 132.08 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 131.826 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 132.08 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Rated Voltage" "25V"
-			(at 128.524 51.308 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "c75fe810-a619-43d0-82db-3ff0ec8129ef")
-		)
-		(pin ""
-			(uuid "7453f50d-9104-45d0-9e49-da0479b8b1e1")
-		)
-		(instances
-			(project "moog_prodigy_project"
-				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/e17106b4-4b3e-4539-a6cd-812d9801e405"
-					(reference "C24")
-					(unit 1)
 				)
 			)
 		)

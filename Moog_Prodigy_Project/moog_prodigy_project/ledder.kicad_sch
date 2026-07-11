@@ -7238,6 +7238,19 @@
 		)
 		(uuid "f423b639-68a0-4300-96b8-722c3f3dcf28")
 	)
+	(text "*GENERAL NOTE*\nResistor values that are not explicitly specified\nare selected from the E96 value series with a \ntolerance of ±1%."
+		(exclude_from_sim no)
+		(at 299.974 247.396 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "f6436b87-d3bc-40fd-a900-aa08416c9fc3")
+	)
 	(junction
 		(at 270.51 128.27)
 		(diameter 0)
@@ -15081,7 +15094,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92b86f5f-868c-40f1-9b65-008f1b9a57ad")
-		(property "Reference" "C39"
+		(property "Reference" "C104"
 			(at 78.994 180.086 0)
 			(effects
 				(font
@@ -15143,7 +15156,7 @@
 		(instances
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/0831e821-0b52-4263-8fa0-a60bfb135571"
-					(reference "C39")
+					(reference "C104")
 					(unit 1)
 				)
 			)
@@ -16675,7 +16688,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca7f63e4-4fb4-4726-9e23-5c2602952399")
-		(property "Reference" "C38"
+		(property "Reference" "C103"
 			(at 74.168 146.304 0)
 			(effects
 				(font
@@ -16737,7 +16750,7 @@
 		(instances
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/0831e821-0b52-4263-8fa0-a60bfb135571"
-					(reference "C38")
+					(reference "C103")
 					(unit 1)
 				)
 			)
@@ -18607,7 +18620,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ffcb5a0b-2d41-4168-b462-dfbb71e2872d")
-		(property "Reference" "C40"
+		(property "Reference" "C90"
 			(at 159.766 142.494 90)
 			(effects
 				(font
@@ -18668,7 +18681,7 @@
 		(instances
 			(project "moog_prodigy_project"
 				(path "/db469bdb-b6c3-4a16-9199-d4e6b8d556e8/0831e821-0b52-4263-8fa0-a60bfb135571"
-					(reference "C40")
+					(reference "C90")
 					(unit 1)
 				)
 			)
