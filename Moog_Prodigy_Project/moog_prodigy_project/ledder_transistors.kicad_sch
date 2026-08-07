@@ -1,0 +1,17 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "80cf6be9-e188-4378-9252-9e122d385830")
+	(paper "A4")
+	(title_block
+		(title "Ledder")
+		(date "27.05.2026")
+		(rev "Marjan Urekar")
+		(comment 1 "Fakultet tehničkih nauka")
+		(comment 2 "Univerzitet u Novom Sadu")
+		(comment 3 "Merno-Informacioni sistemi ")
+		(comment 4 "Miodrag Babić E1 87/2023")
+	)
+	(lib_symbols)
+)
